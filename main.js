@@ -1,4 +1,5 @@
 import { posts } from "./lib/posts.js";
+import { feedbacks } from "./lib/feedbacks.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     // Slider Clients - About Home Page
@@ -262,79 +263,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Section Feedback Home Page
     const feedbackContainer = document.querySelector(".feedbacks-home section .content .container");
     const feedbackWrapper = document.querySelector(".feedbacks-home section .content .container .feedbacks-wrapper");
-    const feedbacks = [
-        {
-            id: 1,
-            img: "/images/feedback-noPhoto.webp",
-            name: "Isaac Dimas",
-            text: `“Fabinho” ou Fábio né… rs <br>Um profissional exemplar… não  há problemas que não se transformem em soluções e possibilidades quando você tem um contador de confiança ao seu lado. Eu e minha família só temos agradecer e celebrar a sua presença na nossa empresa e vida pessoal, não só hoje, mas todos os dias. Muito obrigado pela sua responsabilidade, parceria e dedicação, a qual é essencial para nós! Tmj sempre meu amigo !!!`,
-        },
-        {
-            id: 2,
-            img: "/images/Higienizacao-De-Estofados-Redonda.webp",
-            name: "Higieniza +",
-            alt: "Logo empresa Higieniza +",
-            title: "Empresa Higieniza +",
-            text: "Olá, sou Rodrigo Malaquias proprietário da Higieniza + , empresa especializada em higienização de estofados desde 2014. É com enorme satisfação que tenho a Fábio Silva Contabilidade como parceiro desde o início da minha jornada empreendedora, sempre me atendendo com cordialidade, agilidade, ética e respeito. Obrigado Fábio Silva, nossa parceria é vitalícia.",
-        },
-        
-        {
-            id: 3,
-            img: "/images/Mania-De-Folia-Redonda.webp",
-            name: "Mania de Folia",
-            alt: "Logo empresa Mania de Folia",
-            title: "Empresa Mania de Folia",
-            text: "A ajuda e o suporte do Fábio foram essenciais para a minha empresa. A dedicação e a atenção que ele oferece me deixam segura e confiante para seguir em frente!",
-        },
-        {
-            id: 4,
-            img: "/images/LOGO-LGA-ORIGINAL-FEEDBACK.webp",
-            name: "LG Engenharia",
-            alt: "Logo empresa LG Engenharia & Terraplanagem",
-            title: "Empresa LG Engenharia & Terraplanagem",
-            text: "A Fábio Contabilidade é uma empresa que mudou o dia a dia da empresa LG Terraplanagem, uma empresa que tem a expertise em contabilidade ajuda muito, pois temos todos os suportes necessário,  a Fábio Contabilidade conta com melhores profissionais qualificados, isso ajuda a organização da empresa e sabemos que estamos respaldado em nossa parte contábil.",
-        },
-        {
-            id: 5,
-            img: "/images/LeMontt.webp",
-            name: "LE MONTT",
-            alt: "Logo empresa LE MONTT",
-            title: "Empresa LE MONTT",
-            text: "Com a Fábio Silva Contabilidade, encontramos muito mais do que serviços contábeis: encontramos uma parceria. Eles estão sempre presentes, oferecendo suporte, orientação clara e comprometimento em cada etapa. É esse apoio constante que nos dá tranquilidade para focar no crescimento da nossa empresa.",
-        },
-        {
-            id: 6,
-            img: "/images/Gota-Web-Fundo-Azul.webp",
-            name: "Gota Web",
-            alt: "Logo empresa Gota Web fundo azul",
-            title: "Empresa Gota Web",
-            text: "Recomendo muito a Contabilidade Fábio Silva! Profissionais extremamente competentes, atenciosos e sempre dispostos a nos atender com excelência. Nos auxiliam em todas as questões fiscais, contábeis e tributárias com muita eficiência e clareza. Sem dúvida, um parceiro essencial para o nosso negócio. Nota 10!",
-        },
-        {
-            id: 7,
-            img: "/images/UP-Service.webp",
-            name: "LP Service",
-            alt: "Logo empresa LP Service",
-            title: "Empresa LP Service",
-            text: "Minha empresa teve a honra de ser uma das primeiras a contar com os serviços da Fábio Silva Contabilidade. Sempre com excelência, pontualidade e total compromisso. A equipe é atualizada, ética e profissional, transmitindo segurança nas decisões. Um parceiro essencial, que recomendamos com total confiança.",
-        },
-        {
-            id: 8,
-            img: "/images/tech_imports.webp",
-            name: "Tech Imports",
-            alt: "Logo empresa Tech Imports",
-            title: "Empresa Tech Imports",
-            text: "Gostaríamos de elogiar o excelente trabalho prestado por Fábio Silva Contabilidade. A qualidade, responsabilidade e pontualidade nos serviços contábeis têm sido exemplares. Agradecemos pela parceria e profissionalismo.",
-        },   
-        {
-            id: 9,
-            img: "/images/MP-Eventos.webp",
-            name: "MP Eventos",
-            alt: "Logo empresa MP Eventos",
-            title: "Empresa MP Eventos",
-            text: "É uma grande honra poder contar com os serviços da Fábio Silva Contabilidade. Uma parceria pautada pela excelência, pontualidade e compromisso irrepreensível, sempre conduzida com ética, transparência e elevado padrão profissional. A confiança transmitida e o comprometimento demonstrado fazem desta empresa um parceiro indispensável, cuja contribuição é decisiva para o contínuo sucesso e desenvolvimento de nossos negócios.",
-        },   
-    ];
+    
 
     feedbackContainer.innerHTML = "";
     [...feedbacks, ...feedbacks, ...feedbacks].forEach((item) => {

@@ -234,6 +234,10 @@ header nav .menu-desktop .nav-list .list .nav-link .nav-dropdown{
     visibility: hidden;
     transition: min-height 0.5s ease-in-out, opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
+header nav .menu-desktop .nav-list .list .nav-link:nth-child(3) .nav-dropdown{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 header nav .menu-desktop .nav-list .list .nav-link .nav-dropdown.active{
     min-height: 100px;
     opacity: 1;
@@ -320,7 +324,7 @@ header nav .menu-desktop .toggle-mobile:hover .line{
         position: absolute;
         top: calc(100%);
         left: 0;
-        width: 40vw;
+        min-width: 40vw;
         min-height: 100vh;
         justify-content: start;
         align-items: start;
@@ -358,10 +362,19 @@ header nav .menu-desktop .toggle-mobile:hover .line{
         transition: max-height 0.5s ease-in-out, padding-top 0.5s ease-in-out;
         padding-left: 20px;
     }
-    header nav .menu-desktop .nav-list .list .nav-link .nav-dropdown.active{
+    header nav .menu-desktop .nav-list .list .nav-link:nth-child(2) .nav-dropdown.active{
         max-height: 400px;
         overflow-y: auto;
-        padding-top: 50px;
+        padding-top: 20px;
+    }
+    header nav .menu-desktop .nav-list .list .nav-link:nth-child(3) .nav-dropdown.active{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(120px, 1fr)); /* duas colunas responsivas */
+        gap: 16px;
+        max-height: 400px;
+        overflow-y: auto;
+        padding-top: 20px;
+        padding-left: 20px;
     }
 }
 /* HEADER */
@@ -3145,32 +3158,34 @@ main{
 }
 /* PAGE POST BLOG */
 
-/* SERVICES PAGE */
-.article-mei{
+/* SERVICES MEI PAGE */
+/* SERVICE TITLE */
+.article-service{
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.article-mei section{
+.article-service section{
     width: 100%;
     min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: start;
 }
-.article-mei section .title-mei{
+.article-service section .title-service{
     width: 100%;
     min-height: 48vh;
     display: flex;
     justify-content: end;
-    align-items: center;
+    align-items: start;
     position: relative;
     background: #E1E1E1;
     background: linear-gradient(180deg, rgba(225, 225, 225, 1) 41%, rgba(84, 116, 145, 0) 100%);
 }
-.article-mei section .title-mei .container{
+
+.article-service section .title-service .container{
     width: 90%;
     min-height: 350px;
     display: flex;
@@ -3179,7 +3194,7 @@ main{
     overflow: hidden;
     
 }
-.article-mei section .title-mei .container .text{
+.article-service section .title-service .container .text{
     width: 50%;
     height: auto;
     display: flex;
@@ -3188,13 +3203,13 @@ main{
     align-items: start;
     gap: 40px;
 }
-.article-mei section .title-mei .container .text h1{
+.article-service section .title-service .container .text h1{
     font-size: 2.5rem;
     color: #1b303f; 
     position: relative;
     width: 100%;
 }
-.article-mei section .title-mei .container .text h1::after{
+.article-service section .title-service .container .text h1::after{
     position: absolute;
     content: '';
     bottom: -10px;
@@ -3204,19 +3219,19 @@ main{
     background: #8BC045;
     background: linear-gradient(90deg, rgba(139, 192, 69, 1) 41%, rgba(84, 116, 145, 0) 100%);
 }
-.article-mei section .title-mei .container .text h2{
+.article-service section .title-service .container .text h2{
     font-size: 1.05rem;
     font-weight: normal;
     width: 100%;
     color: #000;
     
 }
-.article-mei section .title-mei .container .text div{
+.article-service section .title-service .container .text div{
     display: flex;
     justify-content: start;
     align-items: center;
 }
-.article-mei section .title-mei .container .text div a{
+.article-service section .title-service .container .text div a{
     padding: 10px 20px;
     background: #1b303f;
     color: #fff;
@@ -3227,12 +3242,12 @@ main{
     border: 1px solid #8BC045;
     transition: box-shadow 0.6s ease-in-out, border 0.6s ease-in-out, color 0.6s ease-in-out;
 }
-.article-mei section .title-mei .container .text div a:hover{
+.article-service section .title-service .container .text div a:hover{
     box-shadow: inset 0 -100px 5px #8BC045;
     border: 1px solid #1b303f;
     color: #1b303f;
 }
-.article-mei section .title-mei .container .image{
+.article-service section .title-service .container .image{
     width: 50%;
     height: 350px;
     display: flex;
@@ -3240,9 +3255,9 @@ main{
     align-items: center;
     position: relative;
     z-index: 0;
-    
 }
-.article-mei section .title-mei .container .image img{
+
+.article-service section .title-service .container .image img{
     width: 500px;
     height: 500px;
     display: flex;
@@ -3256,7 +3271,9 @@ main{
     top: -50px;
     z-index: -1;
 }
-.article-mei section .title-mei .banner{
+
+
+.article-service section .title-service .banner{
     width: 80%;
     min-height: 100px;
     position: absolute;
@@ -3272,7 +3289,7 @@ main{
     background: #fff;
     box-shadow: 1px 1px 3px #000;
 }
-.article-mei section .title-mei .banner .item{
+.article-service section .title-service .banner .item{
     width: 30%;
     height: auto;
     display: flex;
@@ -3282,11 +3299,11 @@ main{
     padding: 0px 10px;
 }
 
-.article-mei section .title-mei .banner .item i{
+.article-service section .title-service .banner .item i{
     font-size: 2rem;
     color: #1b303f;
 }
-.article-mei section .title-mei .banner .item span{
+.article-service section .title-service .banner .item span{
     width: 100%;
     height: auto;
     display: flex;
@@ -3295,16 +3312,16 @@ main{
     align-items: start;
     gap: 5px;
 }
-.article-mei section .title-mei .banner .item span h3{
+.article-service section .title-service .banner .item span h3{
     color: #1b303f;
     font-size: 1.2rem;
     text-decoration: underline #8BC045;
 }
-.article-mei section .title-mei .banner .item span p{
+.article-service section .title-service .banner .item span p{
     color: #1b303f;
     font-size: 1rem;
 }
-
+/* SERVICE TITLE */
 
 .section-mei{
     width: 100%;
@@ -3405,8 +3422,8 @@ main{
     font-size: 1.5rem;
     padding-bottom: 2px;
     padding-right: 2px;
-
-
+    
+    
 }
 .section-mei section .mei-container .content .item h4{
     color: #1b303f;
@@ -3501,7 +3518,7 @@ main{
 }
 
 
-.FAQ-mei{
+.FAQ-service{
     width: 100%;
     height: auto;
     padding: 100px 0px;
@@ -3509,7 +3526,7 @@ main{
     justify-content: center;
     align-items: center;
 }
-.FAQ-mei section{
+.FAQ-service section{
     width: 100%;
     min-height: 60vh;
     display: flex;
@@ -3518,7 +3535,7 @@ main{
     flex-direction: column;
     gap: 80px;
 }
-.FAQ-mei section .title-FAQ{
+.FAQ-service section .title-FAQ{
     width: 100%;
     height: auto;
     display: flex;
@@ -3527,16 +3544,16 @@ main{
     align-items: center;
     gap: 20px;
 }
-.FAQ-mei section .title-FAQ h2{
+.FAQ-service section .title-FAQ h2{
     font-size: 2rem;
     color: #1b303f;
     text-decoration: underline #8BC045;
 }
-.FAQ-mei section .title-FAQ span{
+.FAQ-service section .title-FAQ span{
     font-size: 1.2rem;
     color: #1b303f;
 }
-.FAQ-mei section .content{
+.FAQ-service section .content{
     width: 100%;
     height: auto;
     display: flex;
@@ -3547,7 +3564,7 @@ main{
     padding: 0px 50px;
 }
 
-.FAQ-mei section .content .FAQ{
+.FAQ-service section .content .FAQ{
     width: 70%;
     height: auto;
     display: flex;
@@ -3556,7 +3573,7 @@ main{
     align-items: center;
     gap: 20px;
 }
-.FAQ-mei section .content .FAQ .question{
+.FAQ-service section .content .FAQ .question{
     width: 90%;
     min-height: auto;
     border-radius: 10px;
@@ -3568,7 +3585,7 @@ main{
     border-bottom: 1px solid #1b303f;
     cursor: pointer;
 }
-.FAQ-mei section .content .FAQ .question .title{
+.FAQ-service section .content .FAQ .question .title{
     width: 100%;
     height: auto;
     display: flex;
@@ -3578,20 +3595,20 @@ main{
     border-radius: 10px;
     transition: box-shadow 0.6s ease-in-out;    
 }
-.FAQ-mei section .content .FAQ .question:hover .title{
+.FAQ-service section .content .FAQ .question:hover .title{
     box-shadow: inset 0 -100px 5px #9c9c9c;
 }
-.FAQ-mei section .content .FAQ .question .title h3{
+.FAQ-service section .content .FAQ .question .title h3{
     width: 85%;
     font-size: 1.2rem;
     color: #1b303f;
 }
-.FAQ-mei section .content .FAQ .question .title .mdi-minus{
+.FAQ-service section .content .FAQ .question .title .mdi-minus{
     opacity: 0;
     position: absolute;
 }
-.FAQ-mei section .content .FAQ .question .title .mdi-plus,
-.FAQ-mei section .content .FAQ .question .title .mdi-minus.active{
+.FAQ-service section .content .FAQ .question .title .mdi-plus,
+.FAQ-service section .content .FAQ .question .title .mdi-minus.active{
     width: 15%;
     display: flex;
     justify-content: end;
@@ -3602,12 +3619,12 @@ main{
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
 }
-.FAQ-mei section .content .FAQ .question .title .mdi-plus.active{
+.FAQ-service section .content .FAQ .question .title .mdi-plus.active{
     opacity: 0;
     position: absolute;
 }
 
-.FAQ-mei section .content .FAQ .question .text{
+.FAQ-service section .content .FAQ .question .text{
     width: 100%;
     overflow: hidden;
     max-height: 0px;
@@ -3621,12 +3638,12 @@ main{
     font-size: 0.95rem;
     gap: 15px;
 }
-.FAQ-mei section .content .FAQ .question .text.active{
+.FAQ-service section .content .FAQ .question .text.active{
     max-height: 400px;
     padding: 20px 0px;
-
+    
 }
-.FAQ-mei section .content .FAQ .question .text ul{
+.FAQ-service section .content .FAQ .question .text ul{
     padding-left: 20px;
     display: flex;
     flex-direction: column;
@@ -3634,7 +3651,7 @@ main{
     align-items: start;
     gap: 10px;
 }
-.FAQ-mei section .content .FAQ .question .text ul li::marker{
+.FAQ-service section .content .FAQ .question .text ul li::marker{
     color: #1b303f;
 }
 
@@ -3791,7 +3808,376 @@ main{
     color: #1b303f;
     border-color: #1b303f;
 }
-/* SERVICES PAGE */
+/* SERVICES MEI PAGE */
+
+
+
+/* SERVICE ABERTURA DE EMPRESA PAGE */
+.article-service section .title-service.abertura{
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh;
+}
+.article-service section .title-service.abertura .container{
+    min-height: 500px;
+}
+.article-service section .title-service .container .image::after{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: #1b303f;
+    content: '';
+    top: 0px;
+    right: 0px;
+    z-index: -2;
+    border: 3px solid #8BC045;
+}
+.article-service section .title-service.abertura .container .image img{
+    width: 440px;
+    height: 440px;
+    top: 10px;
+    right: -20px;
+}
+
+
+.section-abertura{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-abertura section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.section-abertura section .abertura-subtitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section-abertura section .abertura-subtitle h2{
+    font-size: 2rem;
+    color: #12202b;
+    text-decoration: underline #8BC045;
+    text-align: center;
+}
+.section-abertura section .abertura-subtitle h3{
+    font-size: 1.2rem;
+    color: #12202b;
+    text-align: center;
+}
+.section-abertura section .abertura-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.section-abertura section .abertura-container .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.section-abertura section .abertura-container .content .item{
+    width: 250px;
+    min-height: 400px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px #ccc;
+}
+.section-abertura section .abertura-container .content .item h4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #12202b;
+    padding: 0px 10px;
+    padding-top: 10px;
+}
+.section-abertura section .abertura-container .content .item p{
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0px 10px;
+    color: #12202b;
+    font-size: 1rem;
+}
+.section-abertura section .abertura-container .content .item div{
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    border-top: 1px solid rgba(139, 192, 69, 0.502);
+}
+.section-abertura section .abertura-container .content .item div img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transform: translateX(30px) translateY(30px);
+    object-fit: cover;
+    border: 2px solid #12202b;
+    box-shadow: 0px 0px 5px #252525;
+    
+}
+.section-abertura section .abertura-container .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-abertura section .abertura-container .links a{
+    background: #1b303f;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid #8BC045;
+    cursor: pointer;
+    transition: box-shadow 0.6s ease-in-out, border 0.6s ease-in-out, color 0.6s ease-in-out;
+}
+.section-abertura section .abertura-container .links a:hover{
+    box-shadow: inset 0 -100px 5px #8bc045;
+    border-color: #1b303f;
+    color: #1b303f;
+}
+
+
+.section-abertura section .abertura-container .tips{
+    width: 600px;
+    height: 400px;
+    padding: 20px 0px 0px 20px;
+    box-shadow: -2px 4px 10px #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.section-abertura section .abertura-container .tips .text{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+.section-abertura section .abertura-container .tips .text h3{
+    font-size: 1.8rem;
+    color: #12202b;
+}
+.section-abertura section .abertura-container .tips .text ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 15px;
+}
+.section-abertura section .abertura-container .tips .text ul li{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    font-size: 1rem;
+    color: #353535;
+}
+.section-abertura section .abertura-container .tips .text ul li i{
+    font-size: 1.2rem;
+    color: #8BC045;
+}
+.section-abertura section .abertura-container .tips:nth-child(2) .text ul li i{
+    color: red;    
+}
+
+.section-abertura section .abertura-container .tips .image{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.section-abertura section .abertura-container .tips .image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: translateX(20%) translateY(10%);
+}
+
+.section-abertura section .abertura-container .slider-abertura{
+    width: calc(550px * 9 * 3 + gaps);
+    animation: scroll-left 40s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    transition: transform 0.3s ease;
+}
+.section-abertura section .abertura-container .slider-abertura .feedback{
+    min-width: 550px;
+    min-height: 250px;
+    background: #F4F1EC;
+    background: linear-gradient(90deg, rgba(244, 241, 236, 1) 0%, rgba(209, 209, 209, 1) 73%);
+    border-radius: 20px;
+    box-shadow: 0 0 5px #00000096;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 10px;
+}
+.section-abertura section .abertura-container .slider-abertura .feedback .text{
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+.section-abertura section .abertura-container .slider-abertura .feedback .text i{
+    font-size: 2.5rem;
+    color: #1b303f;
+}
+.section-abertura section .abertura-container .slider-abertura .feedback .text p{
+    font-size: 1.1rem;
+    color: #000;
+}
+.section-abertura section .abertura-container .slider-abertura .feedback .client{
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: -120px;
+    gap: 10px;
+}
+.section-abertura section .abertura-container .slider-abertura .feedback .client img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.section-abertura section .abertura-container .slider-abertura .feedback .client p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.section-abertura section .abertura-container .slider-abertura .feedback .client span{
+    display: flex;
+    background: linear-gradient(90deg, #FFD700, #FFA500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contact-service{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-service section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 1000px;
+}
+.contact-service section .title-contact{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    
+}
+.contact-service section .title-contact h2{
+    font-size: 2rem;
+    color: #12202b;
+    text-decoration: underline #8bc045;
+}
+.contact-service section .title-contact h3{
+    font-size: 1.1rem;
+    color: #454545;
+    font-weight: normal;
+}
+.contact-service section .title-contact a{
+    background: #1b303f;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid #8BC045;
+    cursor: pointer;
+    transition: box-shadow 0.6s ease-in-out, border 0.6s ease-in-out, color 0.6s ease-in-out;
+}
+.contact-service section .title-contact a:hover{
+    box-shadow: inset 0 -100px 5px #8bc045;
+    border-color: #1b303f;
+    color: #1b303f;
+}
+.contact-service section .img-contact{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+.contact-service section .img-contact::after{
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 50%;
+    background: #12202b;
+    z-index: -1;
+    box-shadow: 0px 0px 5px #000;
+}
+.contact-service section .img-contact img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #8bc045;
+}
+/* SERVICE ABERTURA DE EMPRESA PAGE */
+
+
 
 /* PAGE CONTACT */
 .article-contact{
