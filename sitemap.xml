@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Páginas institucionais principais -->
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/explorar/sobre-nos</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/contato/</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Página de blog principal -->
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/explorar/blog</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Posts de blog individuais -->
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/blog/mei-simples-ou-lucro-presumido-saiba-qual-escolher.html</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/blog/planejamento-tributario-como-pagar-menos-imposto-legalmente.html</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/blog/erros-financeiros-que-podem-quebrar-sua-empresa.html</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/blog/declarar-imposto-de-renda-pela-primeira-vez-como-fazer-passo-a-passo.html</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/blog/o-que-e-razao-social-e-qual-a-sua-importancia.html</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/blog/como-abrir-um-cnpj-passo-a-passo-para-formalizar-seu-negocio.html</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/blog/posso-trocar-de-contador-entenda-seus-direitos.html</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/blog/quem-nao-pode-ser-mei-entenda-e-saiba-o-que-fazer.html</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Categorias do blog -->
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/blog/categorias/mei</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/blog/categorias/tributario</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/blog/categorias/empresarial</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/blog/categorias/imposto</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/blog/categorias/contabil</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Páginas de serviços principais -->
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/servicos/mei</loc>
+        <lastmod>2025-04-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+
+</urlset>
