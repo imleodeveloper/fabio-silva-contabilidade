@@ -26,6 +26,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/politica-de-privacidade/</loc>
+        <lastmod>2025-12-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
     
     <!-- Página de blog principal -->
     <url>
@@ -151,6 +157,24 @@
     <url>
         <loc>https://www.fabiosilvacontabilidade.com.br/servicos/contabilidade-e-area-fiscal</loc>
         <lastmod>2025-11-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/servicos/carne-leao-de-profissionais-liberais</loc>
+        <lastmod>2025-12-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/servicos/area-de-departamento-pessoal</loc>
+        <lastmod>2025-12-06T03:14:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.fabiosilvacontabilidade.com.br/servicos/contabilidade-consultiva</loc>
+        <lastmod>2025-12-06T03:14:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
