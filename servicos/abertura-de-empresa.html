@@ -1,367 +1,520 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description="Fábio Silva Contabilidade em Minas Gerais">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta description="Fábio Silva Contabilidade em Minas Gerais" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <title>Fábio Silva Contabilidade</title>
 
-    <link rel="stylesheet" href="/style.css?v=1">
-    <link rel="stylesheet" href="/media.css?v=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="/style.css?v=1" />
+    <link rel="stylesheet" href="/media.css?v=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header id="scrollToTop">
-        <nav>
-            <div class="menu-desktop">
-                <div class="logo-header">
-                    <img src="/images/logo-header-.webp" alt="Logo Fábio Silva Contabilidade - Branco e Verde" title="Logo Fábio Silva Contabilidade" loading="lazy">
-                </div>
-                <div class="nav-list">
-                    <ul class="list">
-                        <li class="nav-link">
-                            <a href="/">Home</a>
-                        </li>
-                        <li class="nav-link dropdown">
-                            <a href="#">Explorar <i class="mdi mdi-menu-down"></i></a>
-                            <ul class="nav-dropdown">
-                                <li class="link-dropdown">
-                                    <a href="/explorar/sobre-nos.html">Sobre nós</a>
-                                </li>
-                                <li class="link-dropdown">
-                                    <a href="/explorar/blog.html">Nosso blog</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-link dropdown">
-                            <a href="#">Serviços <i class="mdi mdi-menu-down"></i></a>
-                            <ul class="nav-dropdown">
-                                <li class="link-dropdown">
-                                    <a href="/servicos/mei.html">MEI</a>
-                                </li>
-                                <li class="link-dropdown">
-                                    <a href="/servicos/imposto-de-renda.html">IRPF</a>
-                                </li>
-                                <li class="link-dropdown">
-                                    <a href="/servicos/abertura-de-empresa.html">Abertura de Empresa</a>
-                                </li>
-                                <li class="link-dropdown">
-                                    <a href="/servicos/encerramento-de-empresa.html">Encerramento de Empresa</a>
-                                </li>
-                                <li class="link-dropdown">
-                                    <a href="/servicos/contabilidade-e-area-fiscal.html">Contabilidade e Área Fiscal</a>
-                                </li>
-                                <li class="link-dropdown">
-                                    <a href="/servicos/domestica.html">Doméstica</a>
-                                </li>
-                                <li class="link-dropdown">
-                                    <a href="/servicos/carne-leao-de-profissionais-liberais.html">Carnê Leão de Profissionais Liberais</a>
-                                </li>
-                                <li class="link-dropdown">
-                                    <a href="/servicos/area-de-departamento-pessoal.html">Área de Departamento Pessoal</a>
-                                </li>
-                                <li class="link-dropdown">
-                                    <a href="/servicos/contabilidade-consultiva.html">Contabilidade Consultiva</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-link">
-                            <a href="/contato/index.html">Contato</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="search-header">
-                    <input class="search" placeholder="Digite sua busca...">
-                    <button>
-                        <i class="mdi mdi-search-web"></i>
-                    </button>
-                </div>
-                <div class="toggle-mobile">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
-            </div>
-        </nav>
+      <nav>
+        <div class="menu-desktop">
+          <div class="logo-header">
+            <img
+              src="/images/logo-header-.webp"
+              alt="Logo Fábio Silva Contabilidade - Branco e Verde"
+              title="Logo Fábio Silva Contabilidade"
+              loading="lazy"
+            />
+          </div>
+          <div class="nav-list">
+            <ul class="list">
+              <li class="nav-link">
+                <a href="/">Home</a>
+              </li>
+              <li class="nav-link dropdown">
+                <a href="#">Explorar <i class="mdi mdi-menu-down"></i></a>
+                <ul class="nav-dropdown">
+                  <li class="link-dropdown">
+                    <a href="/explorar/sobre-nos.html">Sobre nós</a>
+                  </li>
+                  <li class="link-dropdown">
+                    <a href="/explorar/blog.html">Nosso blog</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-link dropdown">
+                <a href="#">Serviços <i class="mdi mdi-menu-down"></i></a>
+                <ul class="nav-dropdown">
+                  <li class="link-dropdown">
+                    <a href="/servicos/mei.html">MEI</a>
+                  </li>
+                  <li class="link-dropdown">
+                    <a href="/servicos/imposto-de-renda.html">IRPF</a>
+                  </li>
+                  <li class="link-dropdown">
+                    <a href="/servicos/abertura-de-empresa.html"
+                      >Abertura de Empresa</a
+                    >
+                  </li>
+                  <li class="link-dropdown">
+                    <a href="/servicos/encerramento-de-empresa.html"
+                      >Encerramento de Empresa</a
+                    >
+                  </li>
+                  <li class="link-dropdown">
+                    <a href="/servicos/contabilidade-e-area-fiscal.html"
+                      >Contabilidade e Área Fiscal</a
+                    >
+                  </li>
+                  <li class="link-dropdown">
+                    <a href="/servicos/domestica.html">Doméstica</a>
+                  </li>
+                  <li class="link-dropdown">
+                    <a
+                      href="/servicos/carne-leao-de-profissionais-liberais.html"
+                      >Carnê Leão de Profissionais Liberais</a
+                    >
+                  </li>
+                  <li class="link-dropdown">
+                    <a href="/servicos/area-de-departamento-pessoal.html"
+                      >Área de Departamento Pessoal</a
+                    >
+                  </li>
+                  <li class="link-dropdown">
+                    <a href="/servicos/contabilidade-consultiva.html"
+                      >Contabilidade Consultiva</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-link">
+                <a href="/contato/index.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+          <div class="search-header">
+            <input class="search" placeholder="Digite sua busca..." />
+            <button>
+              <i class="mdi mdi-search-web"></i>
+            </button>
+          </div>
+          <div class="toggle-mobile">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-        <article class="article-service">
-            <section>
-                <div class="title-service abertura">
-                    <div class="container">
-                        <div class="text">
-                            <h1>Abra sua empresa com segurança e agilidade</h1>
-                            <h2>Mais de 10 anos de experiência ajudando empreendedores a formalizarem seus negócios. Conte com a Fábio Silva Contabilidade para transformar sua ideia em uma empresa de verdade — sem complicações.</h2>
-                            <div>
-                                <a href="https://wa.me/5532999511666" target="_blank" rel="noopener noreferrer">Abra sua empresa</a>
-                            </div>
-                        </div>
-                        <div class="image">
-                            <img src="/images/abertura-de-empresa-service-.webp" alt="" title="" loading="lazy">
-                        </div>
-                    </div>                    
+      <article class="article-service">
+        <section>
+          <div class="title-service abertura">
+            <div class="container">
+              <div class="text">
+                <h1>Abra sua empresa com segurança e agilidade</h1>
+                <h2>
+                  Mais de 10 anos de experiência ajudando empreendedores a
+                  formalizarem seus negócios. Conte com a Fábio Silva
+                  Contabilidade para transformar sua ideia em uma empresa de
+                  verdade — sem complicações.
+                </h2>
+                <div>
+                  <a
+                    href="https://wa.me/5532999511666"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Abra sua empresa</a
+                  >
                 </div>
-            </section>
-        </article>
-        <article class="section-abertura">
-            <section>
-                <div class="abertura-subtitle">
-                    <h2>Por que abrir sua empresa com a Fábio Silva Contabilidade?</h2>
-                    <h3>Formalizar seu negócio como MEI garante várias vantagens. Veja algumas delas:</h3>
+              </div>
+              <div class="image">
+                <img
+                  src="/images/abertura-de-empresa-service-.webp"
+                  alt=""
+                  title=""
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+      <article class="section-abertura">
+        <section>
+          <div class="abertura-subtitle">
+            <h2>Por que abrir sua empresa com a Fábio Silva Contabilidade?</h2>
+            <h3>
+              Formalizar seu negócio como MEI garante várias vantagens. Veja
+              algumas delas:
+            </h3>
+          </div>
+          <div class="abertura-container">
+            <div class="content">
+              <div class="item">
+                <h4>Abertura 100% Assistida</h4>
+                <p>
+                  Cuidamos de todo o processo burocrático: da escolha do tipo de
+                  empresa ao registro nos órgãos competentes.
+                </p>
+                <div>
+                  <img
+                    src="/images/abertura-assistida.webp"
+                    alt=""
+                    title=""
+                    loading="lazy"
+                  />
                 </div>
-                <div class="abertura-container">
-                    <div class="content">
-                        <div class="item">
-                            <h4>Abertura 100% Assistida</h4>
-                            <p>
-                                Cuidamos de todo o processo burocrático: da escolha do tipo de empresa ao registro nos órgãos competentes.
-                            </p>
-                            <div>
-                                <img src="/images/abertura-assistida.webp" alt="" title="" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <h4>Enquadramento Correto</h4>
-                            <p>
-                                Analisamos seu caso e indicamos o regime tributário ideal para o seu negócio pagar menos imposto e se manter regularizado.
-                            </p>
-                            <div>
-                                <img src="/images/enquadramento-correto.webp" alt="" title="" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <h4>Atendimento Direto</h4>
-                            <p>
-                                Fale com o nosso time pelo WhatsApp e tenha suporte humano e consultivo sempre que precisar.
-                            </p>
-                            <div>
-                                <img src="/images/atendimento-direto.webp" alt="" title="" loading="lazy">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="links">
-                        <a href="https://wa.me/5532988481275" target="_blank" rel="noopener noreferrer">
-                            Fale com um contador
-                        </a>
-                    </div>
+              </div>
+              <div class="item">
+                <h4>Enquadramento Correto</h4>
+                <p>
+                  Analisamos seu caso e indicamos o regime tributário ideal para
+                  o seu negócio pagar menos imposto e se manter regularizado.
+                </p>
+                <div>
+                  <img
+                    src="/images/enquadramento-correto.webp"
+                    alt=""
+                    title=""
+                    loading="lazy"
+                  />
                 </div>
-            </section>
-        </article>
-        <article class="section-abertura">
-            <section>
-                <div class="abertura-subtitle">
-                    <h2>Para quem é ideal abrir uma empresa?</h2>
+              </div>
+              <div class="item">
+                <h4>Atendimento Direto</h4>
+                <p>
+                  Fale com o nosso time pelo WhatsApp e tenha suporte humano e
+                  consultivo sempre que precisar.
+                </p>
+                <div>
+                  <img
+                    src="/images/atendimento-direto.webp"
+                    alt=""
+                    title=""
+                    loading="lazy"
+                  />
                 </div>
-                <div class="abertura-container">
-                    <div class="content">
-                        <div class="tips">
-                            <div class="text">
-                                <h3>Se você é:</h3>
-                                <ul>
-                                    <li>
-                                        <i class="mdi mdi-check-bold"></i>Um MEI que vai ultrapassar os R$ 81 mil por ano
-                                    </li>
-                                    <li>
-                                        <i class="mdi mdi-check-bold"></i>Um prestador de serviço PJ
-                                    </li>
-                                    <li>
-                                        <i class="mdi mdi-check-bold"></i>Alguém que quer emitir nota fiscal com segurança
-                                    </li>
-                                    <li>
-                                        <i class="mdi mdi-check-bold"></i>Um comerciante que quer formalizar o negócio
-                                    </li>
-                                    <li>
-                                        <i class="mdi mdi-check-bold"></i>Um profissional que deseja ter sócios ou contratar funcionários
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="image">
-                                <img src="/images/ideal-abrir-empresa.webp" alt="" title="" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="tips">
-                            <div class="text">
-                                <h3>Não é ideal para:</h3>
-                                <ul>
-                                    <li>
-                                        <i class="mdi mdi-close-thick"></i>Quem ainda não tem uma atividade econômica definida
-                                    </li>
-                                    <li>
-                                        <i class="mdi mdi-close-thick"></i>Quem não vai faturar regularmente ou abaixo do limite do MEI (R$ 81 mil/ano)
-                                    </li>
-                                    <li>
-                                        <i class="mdi mdi-close-thick"></i>Quem não precisa emitir nota fiscal ou assinar contratos formais
-                                    </li>
-                                    <li>
-                                        <i class="mdi mdi-close-thick"></i>Quem não quer arcar com obrigações mensais como impostos e contabilidade
-                                    </li>
-                                    <li>
-                                        <i class="mdi mdi-close-thick"></i>Quem não está pronto para a responsabilidade jurídica e fiscal
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="image">
-                                <img src="/images/nao-ideal.webp" alt="" title="" loading="lazy">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="links">
-                        <a href="https://wa.me/5532999511666" target="_blank" rel="noopener noreferrer">
-                            Quero abrir minha empresa
-                        </a>
-                    </div>
+              </div>
+            </div>
+            <div class="links">
+              <a
+                href="https://wa.me/5532988481275"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Fale com um contador
+              </a>
+            </div>
+          </div>
+        </section>
+      </article>
+      <article class="section-abertura">
+        <section>
+          <div class="abertura-subtitle">
+            <h2>Para quem é ideal abrir uma empresa?</h2>
+          </div>
+          <div class="abertura-container">
+            <div class="content">
+              <div class="tips">
+                <div class="text">
+                  <h3>Se você é:</h3>
+                  <ul>
+                    <li>
+                      <i class="mdi mdi-check-bold"></i>Um MEI que vai
+                      ultrapassar os R$ 81 mil por ano
+                    </li>
+                    <li>
+                      <i class="mdi mdi-check-bold"></i>Um prestador de serviço
+                      PJ
+                    </li>
+                    <li>
+                      <i class="mdi mdi-check-bold"></i>Alguém que quer emitir
+                      nota fiscal com segurança
+                    </li>
+                    <li>
+                      <i class="mdi mdi-check-bold"></i>Um comerciante que quer
+                      formalizar o negócio
+                    </li>
+                    <li>
+                      <i class="mdi mdi-check-bold"></i>Um profissional que
+                      deseja ter sócios ou contratar funcionários
+                    </li>
+                  </ul>
                 </div>
-            </section>
-        </article>
-        <article class="section-abertura">
-            <section>
-                <div class="abertura-subtitle">
-                    <h2>O que dizem nossos clientes?</h2>
+                <div class="image">
+                  <img
+                    src="/images/ideal-abrir-empresa.webp"
+                    alt=""
+                    title=""
+                    loading="lazy"
+                  />
                 </div>
-                <div class="abertura-container" id="container-abertura">
-                    <!--IN JS-->
+              </div>
+              <div class="tips">
+                <div class="text">
+                  <h3>Não é ideal para:</h3>
+                  <ul>
+                    <li>
+                      <i class="mdi mdi-close-thick"></i>Quem ainda não tem uma
+                      atividade econômica definida
+                    </li>
+                    <li>
+                      <i class="mdi mdi-close-thick"></i>Quem não vai faturar
+                      regularmente ou abaixo do limite do MEI (R$ 81 mil/ano)
+                    </li>
+                    <li>
+                      <i class="mdi mdi-close-thick"></i>Quem não precisa emitir
+                      nota fiscal ou assinar contratos formais
+                    </li>
+                    <li>
+                      <i class="mdi mdi-close-thick"></i>Quem não quer arcar com
+                      obrigações mensais como impostos e contabilidade
+                    </li>
+                    <li>
+                      <i class="mdi mdi-close-thick"></i>Quem não está pronto
+                      para a responsabilidade jurídica e fiscal
+                    </li>
+                  </ul>
                 </div>
-            </section>
-        </article>
-        <article class="FAQ-service">
-            <section>
-                <div class="title-FAQ">
-                    <h2>Perguntas frequentes</h2>
-                    <span>FAQ</span>
+                <div class="image">
+                  <img
+                    src="/images/nao-ideal.webp"
+                    alt=""
+                    title=""
+                    loading="lazy"
+                  />
                 </div>
-                <div class="content">                    
-                    <div class="FAQ">
-                        <!--IN JS -->
-                    </div>
-                </div>
-            </section>
-        </article>        
-        <article class="contact-service">
-            <section>
-                <div class="title-contact">
-                    <h2>Ainda tem dúvidas?</h2>
-                    <h3>
-                        Na Fábio Silva Contabilidade te ajudamos a decidir qual é o melhor caminho:<br>
-                        Desenquadrar, dar baixa no MEI ou abrir uma nova empresa do zero?
-                    </h3>
-                    <a href="https://wa.me/5532988481275" target="_blank" rel="noopener noreferrer">
-                        Fale com um especialista
-                    </a>
-                </div>
-                <div class="img-contact">
-                    <img src="/images/contact-service.webp" alt="" loading="lazy">
-                </div>
-            </section>
-        </article>
+              </div>
+            </div>
+            <div class="links">
+              <a
+                href="https://wa.me/5532999511666"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Quero abrir minha empresa
+              </a>
+            </div>
+          </div>
+        </section>
+      </article>
+      <article class="section-abertura">
+        <section>
+          <div class="abertura-subtitle">
+            <h2>O que dizem nossos clientes?</h2>
+          </div>
+          <div class="abertura-container" id="container-abertura">
+            <!--IN JS-->
+          </div>
+        </section>
+      </article>
+      <article class="FAQ-service">
+        <section>
+          <div class="title-FAQ">
+            <h2>Perguntas frequentes</h2>
+            <span>FAQ</span>
+          </div>
+          <div class="content">
+            <div class="FAQ">
+              <!--IN JS -->
+            </div>
+          </div>
+        </section>
+      </article>
+      <article class="contact-service">
+        <section>
+          <div class="title-contact">
+            <h2>Ainda tem dúvidas?</h2>
+            <h3>
+              Na Fábio Silva Contabilidade te ajudamos a decidir qual é o melhor
+              caminho:<br />
+              Desenquadrar, dar baixa no MEI ou abrir uma nova empresa do zero?
+            </h3>
+            <a
+              href="https://wa.me/5532988481275"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Fale com um especialista
+            </a>
+          </div>
+          <div class="img-contact">
+            <img src="/images/contact-service.webp" alt="" loading="lazy" />
+          </div>
+        </section>
+      </article>
     </main>
     <footer>
-        <div class="columns">
-            <div class="footer-column">
-                <div class="logo-footer">
-                    <img src="/images/logo-header-.webp" alt="Logo Fábio Silva Contabilidade - Branco e Verde" title="Logo Fábio Silva Contabilidade" loading="lazy">
-                </div>
-                <div class="text">
-                    <p>
-                        Mais de 10 anos transformando desafios contábeis em decisões estratégicas para nossos clientes.
-                    </p>
-                </div>
-            </div>
-            <div class="footer-column">
-                <h2>Links rápidos</h2>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/explorar/sobre-nos.html">Sobre nós</a></li>
-                    <li><a href="/explorar/blog.html">Nosso blog</a></li>
-                    <li><a href="/contato/index.html">Contato</a></li>
-                    <li><a href="#">Política de privacidade</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h2>Áreas de serviços</h2>
-                <ul>
-                    <li><a href="/servicos/mei.html">MEI</a></li>
-                    <li><a href="/servicos/imposto-de-renda.html">IRPF</a></li>
-                    <li><a href="/servicos/abertura-de-empresa.html">Abertura de Empresa</a></li>
-                    <li><a href="/servicos/encerramento-de-empresa.html">Encerramento de Empresa</a></li>
-                    <li><a href="/servicos/contabilidade-e-area-fiscal.html">Contabilidade e Área Fiscal</a></li>
-                    <li><a href="/servicos/domestica.html">Doméstica</a></li>
-                    <li><a href="/servicos/carne-leao-de-profissionais-liberais.html">Carnê Leão de Profissionais Liberais</a></li>
-                    <li><a href="/servicos/area-de-departamento-pessoal.html">Área de Departamento Pessoal</a></li>
-                    <li><a href="/servicos/contabilidade-consultiva.html">Contabilidade Consultiva</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h2>Contate-nos</h2>
-                <ul class="contact-footer">
-                    <li>
-                        <a 
-                            href="https://wa.me/5532999511666" 
-                            target="_blank" 
-                            rel="noopener noreferrer" 
-                            aria-label="Link para WhatsApp"
-                        >
-                            <i class="mdi mdi-whatsapp"></i> 
-                            +55 32 99951-1666
-                        </a>
-                    </li>
-                    <li>
-                        <a                             
-                            href="https://wa.me/5532988481275" 
-                            target="_blank" 
-                            rel="noopener noreferrer" 
-                            aria-label="Link para WhatsApp"
-                        >
-                            <i class="mdi mdi-phone"></i> 
-                            +55 32 98848-1275
-                        </a>
-                    </li>
-                    <li>
-                        <a 
-                            href="mailto:fabiosilvacontador@gmail.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            aria-label="Link para Email"
-                        >
-                            <i class="mdi mdi-email"></i> 
-                            fabiosilvacontador@gmail.com
-                        </a>
-                    </li>
-                </ul>
-                <div>
-                    <h3>Redes sociais</h3>
-                    <span>
-                        <a href="https://www.instagram.com/fabio.contabilidade" target="_blank" rel="noopener noreferrer" aria-label="Link para Instagram"><i class="mdi mdi-instagram"></i></a>
-                        <a href="https://www.facebook.com/fabiosilvacontador" target="_blank" rel="noopener noreferrer" aria-label="Link para Facebook"><i class="mdi mdi-facebook"></i></a>
-                    </span>
-                </div>
-            </div>
+      <div class="columns">
+        <div class="footer-column">
+          <div class="logo-footer">
+            <img
+              src="/images/logo-header-.webp"
+              alt="Logo Fábio Silva Contabilidade - Branco e Verde"
+              title="Logo Fábio Silva Contabilidade"
+              loading="lazy"
+            />
+          </div>
+          <div class="text">
+            <p>
+              Mais de 10 anos transformando desafios contábeis em decisões
+              estratégicas para nossos clientes.
+            </p>
+          </div>
         </div>
-        <div class="rights">
-            <div>
-                <small>© 2025 Fábio Silva Contabilidade. Todos os direitos reservados</small>
-            </div>
-            <div>
-                <small>Developed by <a href="https://www.viercatech.com.br" target="_blank" rel="noopener noreferrer">VierCa Tech <img src="/images/VierCaTech-SemNome-Fundo.webp" alt="Empresa desenvolvimento de sites e sistemas VierCa Tech" title="Developed By VierCa Tech" loading="lazy"></a></small>
-            </div>
+        <div class="footer-column">
+          <h2>Links rápidos</h2>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/explorar/sobre-nos.html">Sobre nós</a></li>
+            <li><a href="/explorar/blog.html">Nosso blog</a></li>
+            <li><a href="/contato/index.html">Contato</a></li>
+            <li>
+              <a href="/politica-de-privacidade/index.html"
+                >Política de privacidade</a
+              >
+            </li>
+          </ul>
         </div>
+        <div class="footer-column">
+          <h2>Áreas de serviços</h2>
+          <ul>
+            <li><a href="/servicos/mei.html">MEI</a></li>
+            <li><a href="/servicos/imposto-de-renda.html">IRPF</a></li>
+            <li>
+              <a href="/servicos/abertura-de-empresa.html"
+                >Abertura de Empresa</a
+              >
+            </li>
+            <li>
+              <a href="/servicos/encerramento-de-empresa.html"
+                >Encerramento de Empresa</a
+              >
+            </li>
+            <li>
+              <a href="/servicos/contabilidade-e-area-fiscal.html"
+                >Contabilidade e Área Fiscal</a
+              >
+            </li>
+            <li><a href="/servicos/domestica.html">Doméstica</a></li>
+            <li>
+              <a href="/servicos/carne-leao-de-profissionais-liberais.html"
+                >Carnê Leão de Profissionais Liberais</a
+              >
+            </li>
+            <li>
+              <a href="/servicos/area-de-departamento-pessoal.html"
+                >Área de Departamento Pessoal</a
+              >
+            </li>
+            <li>
+              <a href="/servicos/contabilidade-consultiva.html"
+                >Contabilidade Consultiva</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h2>Contate-nos</h2>
+          <ul class="contact-footer">
+            <li>
+              <a
+                href="https://wa.me/5532999511666"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Link para WhatsApp"
+              >
+                <i class="mdi mdi-whatsapp"></i>
+                +55 32 99951-1666
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://wa.me/5532988481275"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Link para WhatsApp"
+              >
+                <i class="mdi mdi-phone"></i>
+                +55 32 98848-1275
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:fabiosilvacontador@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Link para Email"
+              >
+                <i class="mdi mdi-email"></i>
+                fabiosilvacontador@gmail.com
+              </a>
+            </li>
+          </ul>
+          <div>
+            <h3>Redes sociais</h3>
+            <span>
+              <a
+                href="https://www.instagram.com/fabio.contabilidade"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Link para Instagram"
+                ><i class="mdi mdi-instagram"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/fabiosilvacontador"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Link para Facebook"
+                ><i class="mdi mdi-facebook"></i
+              ></a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="rights">
+        <div>
+          <small
+            >© 2025 Fábio Silva Contabilidade. Todos os direitos
+            reservados</small
+          >
+        </div>
+        <div>
+          <small
+            >Developed by
+            <a
+              href="https://www.viercatech.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              >VierCa Tech
+              <img
+                src="/images/VierCaTech-SemNome-Fundo.webp"
+                alt="Empresa desenvolvimento de sites e sistemas VierCa Tech"
+                title="Developed By VierCa Tech"
+                loading="lazy" /></a
+          ></small>
+        </div>
+      </div>
     </footer>
 
     <script type="module">
-        import { feedbacks } from '/lib/feedbacks.js';
+      import { feedbacks } from "/lib/feedbacks.js";
 
-        //Slider
-        const containerSlider = document.querySelector("#container-abertura");
-        const sliderAbertura = document.createElement("div");
-        sliderAbertura.classList.add("slider-abertura");
-        feedbacks.forEach(feedback => {
-
-            const itemFeedback = document.createElement("div");
-            itemFeedback.classList.add("feedback");
-            itemFeedback.innerHTML += `
+      //Slider
+      const containerSlider = document.querySelector("#container-abertura");
+      const sliderAbertura = document.createElement("div");
+      sliderAbertura.classList.add("slider-abertura");
+      feedbacks.forEach((feedback) => {
+        const itemFeedback = document.createElement("div");
+        itemFeedback.classList.add("feedback");
+        itemFeedback.innerHTML += `
                 <div class="text">
                     <i class="mdi mdi-format-quote-close"></i>
                     <p>
@@ -382,52 +535,51 @@
 
             `;
 
-            sliderAbertura.appendChild(itemFeedback);
-        })
-        containerSlider.appendChild(sliderAbertura);
+        sliderAbertura.appendChild(itemFeedback);
+      });
+      containerSlider.appendChild(sliderAbertura);
 
-
-        // Perguntas FAQ
-        const FAQuestions = [
-            {
-                id: 1,
-                title: "Quais documentos são necessários para abrir uma empresa?",
-                text: `<p>Você vai precisar de RG, CPF, comprovante de residência, dados dos sócios (se houver), endereço comercial e informações sobre a atividade da empresa (CNAE).</p>`
-            },
-            {
-                id: 2,
-                title: "Quanto tempo leva para abrir uma empresa?",
-                text: `<p>O prazo varia de 5 a 15 dias úteis, dependendo da cidade, atividade da empresa e rapidez no envio dos documentos.</p>`
-            },
-            {
-                id: 3,
-                title: "Posso abrir empresa mesmo com o nome sujo?",
-                text: `<p>Sim, o nome negativado não impede a abertura do CNPJ. No entanto, pode haver dificuldades para abrir conta bancária PJ ou obter crédito.</p>`
-            },
-            {
-                id: 4,
-                title: "É possível abrir empresa sem um contador?",
-                text: `<p>No caso de MEI, é possível. Para outros tipos de empresa, o contador é exigido por lei. Ele garante que o processo seja feito corretamente, evita erros fiscais e assegura a conformidade legal da empresa.</p>`
-            },
-            {
-                id: 5,
-                title: "Qual o melhor tipo de empresa para começar?",
-                text: `<p>Vai depender do seu faturamento, número de sócios e da atividade. MEI, ME e LTDA são os formatos mais comuns. A Fábio Silva Contabilidade faz essa análise para indicar a melhor opção para você.</p>`
-            },
-            {
-                id: 6,
-                title: "Abrir empresa tem custo?",
-                text: `<p>Sim, existem taxas da Junta Comercial e, em alguns casos, custo com certificado digital. A boa notícia é que o serviço da Fábio Silva Contabilidade é 100% assistido, garantindo segurança no processo.</p>`
-            }
-        ];
-        //Ao clicar no botão Questions + será adicionado a classe active
-        //Para o div text
-        const divFAQ = document.querySelector(".FAQ");
-        divFAQ.innerHTML = "";
-        FAQuestions.forEach((FAQ) => {
-            const divQuestion = document.createElement("div");
-            divQuestion.classList.add("question");
-            divQuestion.innerHTML = `
+      // Perguntas FAQ
+      const FAQuestions = [
+        {
+          id: 1,
+          title: "Quais documentos são necessários para abrir uma empresa?",
+          text: `<p>Você vai precisar de RG, CPF, comprovante de residência, dados dos sócios (se houver), endereço comercial e informações sobre a atividade da empresa (CNAE).</p>`,
+        },
+        {
+          id: 2,
+          title: "Quanto tempo leva para abrir uma empresa?",
+          text: `<p>O prazo varia de 03 a 05 dias úteis, dependendo da cidade, atividade da empresa e rapidez no envio dos documentos.</p>`,
+        },
+        {
+          id: 3,
+          title: "Posso abrir empresa mesmo com o nome sujo?",
+          text: `<p>Sim, o nome negativado não impede a abertura do CNPJ. No entanto, pode haver dificuldades para abrir conta bancária PJ ou obter crédito.</p>`,
+        },
+        {
+          id: 4,
+          title: "É possível abrir empresa sem um contador?",
+          text: `<p>No caso de MEI, é possível. Para outros tipos de empresa, o contador é exigido por lei. Ele garante que o processo seja feito corretamente, evita erros fiscais e assegura a conformidade legal da empresa.</p>`,
+        },
+        {
+          id: 5,
+          title: "Qual o melhor tipo de empresa para começar?",
+          text: `<p>Vai depender do seu faturamento, número de sócios e da atividade. MEI (Microempreendedor Individual), Empresário Individual, Sociedade Limitada e Sociedade Limitada Unipessoal, essas são as mais comuns. A Fábio Silva Contabilidade faz essa análise para indicar a melhor opção para você.</p>`,
+        },
+        {
+          id: 6,
+          title: "Abrir empresa tem custo?",
+          text: `<p>Sim, existe custo com certificado digital. A boa notícia é que o serviço da Fábio Silva Contabilidade é 100% assistido, garantindo segurança no processo.</p>`,
+        },
+      ];
+      //Ao clicar no botão Questions + será adicionado a classe active
+      //Para o div text
+      const divFAQ = document.querySelector(".FAQ");
+      divFAQ.innerHTML = "";
+      FAQuestions.forEach((FAQ) => {
+        const divQuestion = document.createElement("div");
+        divQuestion.classList.add("question");
+        divQuestion.innerHTML = `
                 <div class="title">
                     <h3>${FAQ.title}</h3>
                     <i class="mdi mdi-plus"></i>
@@ -437,44 +589,45 @@
                     ${FAQ.text}
                 </div>  
             `;
-            
-            divFAQ.appendChild(divQuestion);
 
-            divQuestion.addEventListener("click", () => {
-                const allTexts = document.querySelectorAll(".FAQ .question .text");
-                const mdiPlus = document.querySelectorAll(".mdi-plus");
-                const mdiMinus = document.querySelectorAll(".mdi-minus");
+        divFAQ.appendChild(divQuestion);
 
-                allTexts.forEach(text => {
-                    if( text !== divQuestion.querySelector(".text")){
-                        text.classList.remove("active");
-                    }
-                });
+        divQuestion.addEventListener("click", () => {
+          const allTexts = document.querySelectorAll(".FAQ .question .text");
+          const mdiPlus = document.querySelectorAll(".mdi-plus");
+          const mdiMinus = document.querySelectorAll(".mdi-minus");
 
-                mdiPlus.forEach(plus => {
-                    if(plus !== divQuestion.querySelector(".mdi-plus")){
-                        plus.classList.remove("active");
-                    }
-                })
-                mdiMinus.forEach(plus => {
-                    if(plus !== divQuestion.querySelector(".mdi-minus")){
-                        plus.classList.remove("active");
-                    }
-                })
-                
-                
-                const iconPlus = divQuestion.querySelector(".mdi-plus");
-                iconPlus.classList.toggle("active");
-                const iconMinus = divQuestion.querySelector(".mdi-minus");
-                iconMinus.classList.toggle("active");
+          allTexts.forEach((text) => {
+            if (text !== divQuestion.querySelector(".text")) {
+              text.classList.remove("active");
+            }
+          });
 
-                const currentText = divQuestion.querySelector(".text");
-                currentText.classList.toggle("active");
-            });
+          mdiPlus.forEach((plus) => {
+            if (plus !== divQuestion.querySelector(".mdi-plus")) {
+              plus.classList.remove("active");
+            }
+          });
+          mdiMinus.forEach((plus) => {
+            if (plus !== divQuestion.querySelector(".mdi-minus")) {
+              plus.classList.remove("active");
+            }
+          });
+
+          const iconPlus = divQuestion.querySelector(".mdi-plus");
+          iconPlus.classList.toggle("active");
+          const iconMinus = divQuestion.querySelector(".mdi-minus");
+          iconMinus.classList.toggle("active");
+
+          const currentText = divQuestion.querySelector(".text");
+          currentText.classList.toggle("active");
         });
+      });
     </script>
+
+    <script src="/bannerPrivacy.js"></script>
     <script src="/header.js?v=1"></script>
     <script src="/whatsapp.js?v=1"></script>
     <script src="/scrollToTop.js?v=1"></script>
-</body>
+  </body>
 </html>
