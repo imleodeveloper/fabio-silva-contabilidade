@@ -1862,7 +1862,7 @@ main {
 /* PAGE ABOUT */
 .article-about {
   width: 100%;
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2012,7 +2012,7 @@ main {
 
 .need-us-about {
   width: 100%;
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2123,7 +2123,7 @@ main {
 
 .missions-about {
   width: 100%;
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2306,7 +2306,7 @@ main {
 
 .howHelp-about {
   width: 100%;
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2433,7 +2433,7 @@ main {
 
 .contact-about {
   width: 100%;
-  min-height: 40vh;
+  min-height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2505,7 +2505,7 @@ main {
 /* PAGE BLOG */
 .article-blog {
   width: 100%;
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2593,7 +2593,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: start;
-  padding: 0px 0px 100px 0px;
+  padding: 100px 0px;
   gap: 50px;
   max-width: 1000px;
 }
@@ -2949,7 +2949,7 @@ main {
 /* PAGE BLOG */
 .article-post {
   width: 100%;
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3519,8 +3519,9 @@ main {
 .section-mei section .mei-subtitle {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 20px;
 }
 .section-mei section .mei-subtitle h2 {
@@ -3599,12 +3600,20 @@ main {
   padding-bottom: 2px;
   padding-right: 2px;
 }
-.section-mei section .mei-container .content .item h4 {
+.section-mei section .mei-container .content .item div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.section-mei section .mei-container .content .item div h4 {
   color: #1b303f;
   font-size: 1.2rem;
   text-align: center;
 }
-.section-mei section .mei-container .content .item p {
+.section-mei section .mei-container .content .item div p {
   font-size: 1rem;
   text-align: center;
   color: #000;
@@ -3692,6 +3701,7 @@ main {
   flex-direction: column;
   justify-content: start;
   align-items: start;
+  gap: 5px;
 }
 .section-mei section .mei-container .three-steps .item div h4 {
   color: #1b303f;
@@ -3860,6 +3870,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 20px;
 }
 .blog-services section .title-blog h2 {
@@ -5082,7 +5093,7 @@ main {
 /* PAGE CONTACT */
 .article-contact {
   width: 100%;
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   justify-content: center;
   align-items: center;

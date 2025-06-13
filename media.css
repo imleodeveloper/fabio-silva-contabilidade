@@ -1,1025 +1,1223 @@
-@media (orientation: portrait){
-
-    @media(max-width: 767px){
-        /* HOME PAGE */
-        .article-home section{
-            min-height: 1000px;
-        }
-        .article-home section::before{
-            width: 600px;
-            height: 600px;
-        }
-        .article-home section::after{
-            width: 500px;
-            height: 500px;
-        }
-        .article-home section img{
-            right: -5%;
-            width: 400px;
-            height: 350px;
-        }
-
-        .article-home section .content-home{
-            width: 100%;
-        }
-
-        /** ABOUT HOME **/
-        .about-home section .content{
-            flex-direction: column-reverse;
-            align-items: center;
-        }
-        .about-home section .content .img,
-        .about-home section .content .text{
-            width: 90%;
-        }
-
-        /** CEO WHO'S? **/
-        .know-directors section .content{
-            flex-direction: column;
-        }
-
-        /** SERVICES HOME **/
-        .services-home section .content .service,
-        .services-home section .service-expanded .expanded{
-            width: 90%;
-        }
-        
-        /** FEEDBACKS HOME **/
-        .feedbacks-home section{
-            background-attachment: unset;
-            background: url('/images/section-feedback-9-16.webp');
-            background-position: 10% 10%;
-        }
-        .feedbacks-home section .content .container .feedbacks-wrapper .feedback{
-            min-width: 400px;
-            min-height: 350px;
-        }
-
-        /** FAQ HOME **/
-        .FAQ-home section .content .FAQ,
-        .FAQ-home section .content .FAQ .question{
-            width: 100%;
-        }
-
-        /** BLOG HOME **/
-        .blog-home section .content .container{
-            flex-direction: column;
-        }
-        .blog-home section .content .container .item{
-            width: 90%;
-        }
-
-        /** CONTACT PAGE **/
-        .contact-home section{
-            background-attachment: unset;
-            background: url('/images/contact-home-9-16.webp');
-            background-position: 0% 0%;
-        }
-
-        .contact-home section .container{
-            flex-direction: column;
-            align-items: center;
-            justify-content: start;
-        }
-        .contact-home section .container .forms{
-            width: 100%;
-            justify-content: center;
-        }
-        .contact-home section .container .content{
-            width: 100%;
-            justify-content: center;
-            align-items: center;
-        }
-        .contact-home section .container .content div{
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .contact-home section .container .content div .icons-contact,
-        .contact-home section .container .content div .social-contact{
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-        }
-        .contact-home section .container .content h3{
-            max-width: 350px;
-            text-align: center;
-        }
-        /* HOME PAGE */
-
-        /* ABOUT PAGE */
-        .article-about section .title-about::after,
-        .howHelp-about section::after{
-            background-attachment: unset;
-        }
-        .howHelp-about section::after{
-            background: url('/images/section-about-services-9-16.webp');
-            background-size: cover;
-            background-position: 50% 50%;
-        }
-        .article-about section .title-about .text{
-            width: 80%;
-        }
-        .article-about section .others-options{
-            flex-direction: column;
-            padding-top: 40px;
-        }
-        .article-about section .others-options .item{
-            width: 90%;
-            min-height: 100px;
-        }
-
-        .need-us-about section{
-            flex-direction: column;
-            align-items: center;
-        }
-        .need-us-about section .content{
-            width: 90%;
-            padding: 0px;
-        }
-        .need-us-about section .image{
-            width: 90%;
-            justify-content: start;
-        }
-        .need-us-about section .image .container-img{
-            width: 90%;
-        }
-
-        .missions-about section .container{
-            flex-direction: column;
-        }
-        .missions-about section .container .item{
-            width: 85%;
-        }
-
-
-        .contact-about section .contact-title span{
-            width: 80%;
-        }
-        /* ABOUT PAGE */
-
-        /* BLOG PAGE */
-        .article-blog section .title-blog::after{
-            background-attachment: unset;
-        }
-        .article-blog section .title-blog .text{
-            width: 80%;
-        }
-        .content-blog section{
-            flex-direction: column;
-            align-items: center;
-        }
-        .content-blog section .posts,
-        .content-blog section aside{
-            width: 90%;
-        }
-
-        /** POST BLOG **/
-        .article-post section .title-post .text{
-            width: 90%;
-        }
-        .content-post{
-            flex-direction: column;
-            align-items: center;
-        }
-        .content-post .see-its-post{
-            width: 90%;
-            max-width: unset;
-
-        }
-        .content-post .see-its-post .container-fixed{
-            max-width: unset;
-        }
-        .content-post .text-post,
-        .content-post .buttons-post{
-            width: 90%;
-        }
-        .content-post .text-post .contact-post a{
-            width: 100%;
-            
-        }
-        .content-post .text-post .contact-post a img{
-            object-position: unset;
-        }
-
-        /** CATEGORIAS PAGE **/
-        .article-category h1{
-            text-align: center;
-        }
-        .article-category section{
-            flex-direction: column;
-            align-items: center;
-        }
-        .article-category section .posts{
-            width: 90%;
-        }
-        .article-category section .posts .post{
-            width: 100%;
-        }
-        .article-category section aside{
-            justify-content: center;
-            align-items: center;
-            width: 90%;
-        }
-        /* BLOG PAGE */
-
-        /* CONTACT PAGE */
-        .article-contact section .title-contact::after{
-            background-attachment: unset;
-            background-position: 60% 50%;
-        }
-        .form-contact section{
-            flex-direction: column;
-            align-items: center;
-            padding: 100px 0px;
-        }
-        .form-contact section .text{
-            width: 90%;
-        }
-        .form-contact section .text div{
-            width: 100%;
-        }
-
-        .form-contact section .form{
-            width: 90%;
-        }
-        .form-contact section .form form .input-group .input-label .buttons-submit{
-            justify-content: center;    
-        }
-        /* CONTACT PAGE */
-
-        /* FOOTER */
-        footer .columns{
-            flex-direction: column;
-        }
-        footer .columns .footer-column{
-            width: 100%;
-        }
-        /* FOOTER */
+@media (orientation: portrait) {
+  @media (max-width: 767px) {
+    /* HOME PAGE */
+    .article-home section {
+      min-height: 1000px;
     }
-    @media(max-width: 520px){
-        /* HOME PAGE */
-        .article-home section{
-            min-height: 1000px;
-        }
-        /* HOME PAGE */
+    .article-home section::before {
+      width: 600px;
+      height: 600px;
     }
-    @media(min-width: 768px){
-        /* HEADER */
-        header .nav-contact{
-            justify-content: space-between;
-        }
-        header nav .menu-desktop .search-header{
-            display: flex;
-        }
-        /* HEADER */
-
-        /* HOME PAGE */
-        .article-home section{
-            min-height: 1000px;
-        }
-        .article-home section::before{
-            width: 600px;
-            height: 600px;
-        }
-        .article-home section::after{
-            width: 500px;
-            height: 500px;
-        }
-        .article-home section img{
-            right: -5%;
-            width: 400px;
-            height: 350px;
-        }
-
-        .article-home section .content-home{
-            width: 100%;
-        }
-
-        /** ABOUT HOME **/
-        .about-home section .content{
-            flex-direction: row;
-            align-items: center;
-        }
-        .about-home section .content .img,
-        .about-home section .content .text{
-            width: 40%;
-        }
-
-        /** CEO WHO'S? **/
-        .know-directors section .content{
-            flex-direction: row;
-        }
-        .know-directors section .content .director{
-            width: 300px;
-        }
-
-        /** SERVICES HOME **/
-        .services-home section .content .service{
-            width: 45%;
-        }
-        .services-home section .service-expanded .expanded{
-            width: 90%;
-        }
-        
-        /** FEEDBACKS HOME **/
-        .feedbacks-home section .content .container .feedbacks-wrapper .feedback{
-            min-width: 400px;
-            min-height: 350px;
-        }
-
-        /** FAQ HOME **/
-        .FAQ-home section .content .FAQ,
-        .FAQ-home section .content .FAQ .question{
-            width: 90%;
-        }
-
-        /** BLOG HOME **/
-        .blog-home section .content .container{
-            flex-direction: column;
-        }
-        .blog-home section .content .container .item{
-            width: 70%;
-        }
-
-        /** CONTACT HOME **/
-        .contact-home section .container{
-            flex-direction: column;
-            align-items: center;
-            justify-content: start;
-        }
-        .contact-home section .container .forms{
-            width: 100%;
-            justify-content: center;
-        }
-        .contact-home section .container .content{
-            width: 100%;
-            justify-content: center;
-            align-items: center;
-        }
-        .contact-home section .container .content div .icons-contact,
-        .contact-home section .container .content div .social-contact{
-            justify-content: center;
-            align-items: center;
-        }
-        .contact-home section .container .content h3{
-            max-width: 350px;
-        }
-        /* HOME PAGE */
-
-        /* ABOUT PAGE */
-        .article-about section .title-about::after,
-        .howHelp-about section::after{
-            background-attachment: unset;
-        }
-        .howHelp-about section::after{
-            background: url('/images/section-about-services-9-16.webp');
-            background-size: cover;
-            background-position: 50% 50%;
-        }
-        .article-about section .title-about .text{
-            width: 80%;
-        }
-        .article-about section .others-options{
-            flex-direction: row;
-            padding-top: 40px;
-        }
-        .article-about section .others-options .item{
-            width: 33%;
-            min-height: 100px;
-        }
-
-        .need-us-about section{
-            flex-direction: column;
-            align-items: center;
-            padding-top: 0px;
-        }
-        .need-us-about section .content{
-            width: 90%;
-            padding: 0px;
-        }
-        .need-us-about section .image{
-            width: 90%;
-            justify-content: start;
-            
-        }
-        .need-us-about section .image .container-img{
-            width: 90%;
-            
-        }
-
-        .missions-about section .container{
-            flex-direction: column;
-        }
-        .missions-about section .container .item{
-            width: 60%;
-            max-height: 220px;
-        }
-
-        .contact-about section .contact-title span{
-            width: 80%;
-        }
-        /* ABOUT PAGE */
-
-        /* BLOG PAGE */
-        .article-blog section .title-blog::after{
-            background-attachment: unset;
-        }
-        .article-blog section .title-blog .text{
-            width: 80%;
-        }
-        .content-blog section{
-            flex-direction: column;
-            align-items: center;
-        }
-        .content-blog section .posts,
-        .content-blog section aside{
-            width: 70%;
-        }
-
-        /** POST BLOG **/
-        .article-post section .title-post .text{
-            width: 90%;
-        }
-        .content-post{
-            flex-direction: column;
-            align-items: center;
-        }
-        .content-post .see-its-post{
-            width: 80%;
-            max-width: unset;
-
-        }
-        .content-post .see-its-post .container-fixed{
-            max-width: unset;
-        }
-        .content-post .text-post,
-        .content-post .buttons-post{
-            width: 80%;
-        }
-        .content-post .text-post .contact-post a{
-            width: 100%;
-            
-        }
-        .content-post .text-post .contact-post a img{
-            object-position: unset;
-        }
-
-        /** CATEGORIAS PAGE **/
-        .article-category h1{
-            text-align: center;
-        }
-        .article-category section{
-            flex-direction: column;
-            align-items: center;
-        }
-        .article-category section .posts{
-            width: 80%;
-        }
-        .article-category section .posts .post{
-            width: 100%;
-        }
-        .article-category section aside{
-            justify-content: center;
-            align-items: center;
-            width: 80%;
-        }
-        /* BLOG PAGE */
-
-        /* CONTACT PAGE */
-        .article-contact section .title-contact::after{
-            background-attachment: unset;
-            background-position: 60% 50%;
-        }
-        .form-contact section{
-            flex-direction: column;
-            align-items: center;
-            padding: 100px 0px;
-        }
-        .form-contact section .text{
-            width: 90%;
-            align-items: center;
-        }
-        .form-contact section .text h2,
-        .form-contact section .text p{
-            text-align: center;
-        }
-        .form-contact section .text div{
-            width: 100%;
-            max-width: 400px;
-        }
-
-        .form-contact section .form{
-            width: 90%;
-        }
-        .form-contact section .form form .input-group .input-label .buttons-submit{
-            justify-content: center;    
-        }
-        /* CONTACT PAGE */
-
-        /* FOOTER */
-        footer .columns{
-            flex-direction: column;
-        }
-        footer .columns .footer-column{
-            width: 100%;
-        }
-        /* FOOTER */
+    .article-home section::after {
+      width: 500px;
+      height: 500px;
     }
-    @media(min-width: 912px){
-        /* HOME PAGE */
-        .article-home section{
-            min-height: 600px;
-
-        }
-
-        .about-home,
-        .know-directors{
-            padding: 0px;
-        }
-        .about-home section,
-        .know-directors section,
-        .services-home section,
-        .feedbacks-home section,
-        .FAQ-home section,
-        .blog-home section,
-        .contact-home section{
-            min-height: auto;
-        }
-        /* HOME PAGE */
+    .article-home section img {
+      right: -5%;
+      width: 400px;
+      height: 350px;
     }
+
+    .article-home section .content-home {
+      width: 100%;
+    }
+
+    /** ABOUT HOME **/
+    .about-home section .content {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .about-home section .content .img,
+    .about-home section .content .text {
+      width: 90%;
+    }
+
+    /** CEO WHO'S? **/
+    .know-directors section .content {
+      flex-direction: column;
+    }
+
+    /** SERVICES HOME **/
+    .services-home section .content .service,
+    .services-home section .service-expanded .expanded {
+      width: 90%;
+    }
+
+    /** FEEDBACKS HOME **/
+    .feedbacks-home section {
+      background-attachment: unset;
+      background: url("/images/section-feedback-9-16.webp");
+      background-position: 10% 10%;
+    }
+    .feedbacks-home section .content .container .feedbacks-wrapper .feedback {
+      min-width: 400px;
+      min-height: 350px;
+    }
+
+    /** FAQ HOME **/
+    .FAQ-home section .content .FAQ,
+    .FAQ-home section .content .FAQ .question {
+      width: 100%;
+    }
+
+    /** BLOG HOME **/
+    .blog-home section .content .container {
+      flex-direction: column;
+    }
+    .blog-home section .content .container .item {
+      width: 90%;
+    }
+
+    /** CONTACT PAGE **/
+    .contact-home section {
+      background-attachment: unset;
+      background: url("/images/contact-home-9-16.webp");
+      background-position: 0% 0%;
+    }
+
+    .contact-home section .container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+    }
+    .contact-home section .container .forms {
+      width: 100%;
+      justify-content: center;
+    }
+    .contact-home section .container .content {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .contact-home section .container .content div {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .contact-home section .container .content div .icons-contact,
+    .contact-home section .container .content div .social-contact {
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .contact-home section .container .content h3 {
+      max-width: 350px;
+      text-align: center;
+    }
+    /* HOME PAGE */
+
+    /* ABOUT PAGE */
+    .article-about section .title-about::after,
+    .howHelp-about section::after {
+      background-attachment: unset;
+    }
+    .howHelp-about section::after {
+      background: url("/images/section-about-services-9-16.webp");
+      background-size: cover;
+      background-position: 50% 50%;
+    }
+    .article-about section .title-about .text {
+      width: 80%;
+    }
+    .article-about section .others-options {
+      flex-direction: column;
+      padding-top: 40px;
+    }
+    .article-about section .others-options .item {
+      width: 90%;
+      min-height: 100px;
+    }
+
+    .need-us-about section {
+      flex-direction: column;
+      align-items: center;
+    }
+    .need-us-about section .content {
+      width: 90%;
+      padding: 0px;
+    }
+    .need-us-about section .image {
+      width: 90%;
+      justify-content: start;
+    }
+    .need-us-about section .image .container-img {
+      width: 90%;
+    }
+
+    .missions-about section .container {
+      flex-direction: column;
+    }
+    .missions-about section .container .item {
+      width: 85%;
+    }
+
+    .contact-about section .contact-title span {
+      width: 80%;
+    }
+    /* ABOUT PAGE */
+
+    /* BLOG PAGE */
+    .article-blog section .title-blog::after {
+      background-attachment: unset;
+    }
+    .article-blog section .title-blog .text {
+      width: 80%;
+    }
+    .content-blog section {
+      flex-direction: column;
+      align-items: center;
+    }
+    .content-blog section .posts,
+    .content-blog section aside {
+      width: 90%;
+    }
+
+    /** POST BLOG **/
+    .article-post section .title-post .text {
+      width: 90%;
+    }
+    .content-post {
+      flex-direction: column;
+      align-items: center;
+    }
+    .content-post .see-its-post {
+      width: 90%;
+      max-width: unset;
+    }
+    .content-post .see-its-post .container-fixed {
+      max-width: unset;
+    }
+    .content-post .text-post,
+    .content-post .buttons-post {
+      width: 90%;
+    }
+    .content-post .text-post .contact-post a {
+      width: 100%;
+    }
+    .content-post .text-post .contact-post a img {
+      object-position: unset;
+    }
+
+    /** CATEGORIAS PAGE **/
+    .article-category h1 {
+      text-align: center;
+    }
+    .article-category section {
+      flex-direction: column;
+      align-items: center;
+    }
+    .article-category section .posts {
+      width: 90%;
+    }
+    .article-category section .posts .post {
+      width: 100%;
+    }
+    .article-category section aside {
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+    }
+    /* BLOG PAGE */
+
+    /* SERVICES PAGE */
+
+    /* MEI E DP */
+    .article-service section {
+      min-height: 1000px;
+    }
+    .article-service section .title-service {
+      min-height: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .article-service section .title-service .container {
+      flex-direction: column;
+      min-height: auto;
+      gap: 50px;
+      overflow: visible;
+    }
+    .article-service section .title-service .container .text {
+      width: 90%;
+      align-items: center;
+      justify-content: center;
+      padding-top: 20px;
+    }
+    .article-service section .title-service .container .image {
+      width: 90%;
+    }
+    .article-service section .title-service .container .image::after {
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      right: 0px;
+      margin: 0 auto;
+      z-index: -3;
+    }
+    .article-service section .title-service .container .image img {
+      width: 350px;
+      height: 350px;
+      position: unset;
+      box-shadow: 3px 3px 5px #000;
+    }
+    .article-service section .title-service .banner {
+      z-index: 0;
+      width: 95%;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .article-service section .title-service .banner .item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: auto;
+    }
+    .article-service section .title-service .banner .item i {
+      font-size: 2.5rem;
+    }
+    .article-service section .title-service .banner .item span h3 {
+      font-size: 0.9rem;
+    }
+    .article-service section .title-service .banner .item span p {
+      display: none;
+    }
+
+    .section-mei section .mei-subtitle {
+      width: 90%;
+    }
+    .section-mei section .mei-container .content {
+      flex-direction: column;
+    }
+    .section-mei section .mei-container .content .item {
+      flex-direction: row;
+      width: 95%;
+      align-items: start;
+      justify-content: center;
+    }
+    .section-mei section .mei-container .content .item span {
+      min-width: 30px;
+      min-height: 30px;
+    }
+
+    .section-mei section .mei-container .content .hr-item-1,
+    .section-mei section .mei-container .content .hr-item-1.dp {
+      width: 2px;
+      height: 75px;
+      left: 6.5%;
+      top: 12%;
+    }
+    .section-mei section .mei-container .content .hr-item-2,
+    .section-mei section .mei-container .content .hr-item-2.dp {
+      height: 75px;
+      width: 2px;
+      left: 6.5%;
+      top: 50%;
+    }
+
+    .section-mei section .mei-container .three-steps .hr-item-1 {
+      left: 4.5%;
+      top: 10%;
+      height: 100px;
+    }
+    .section-mei section .mei-container .three-steps .hr-item-1.dp {
+      height: 75px;
+      top: 11%;
+    }
+    .section-mei section .mei-container .three-steps .hr-item-2 {
+      height: 100px;
+      left: 4.5%;
+      bottom: 35%;
+    }
+    .section-mei section .mei-container .three-steps .hr-item-2.dp {
+      bottom: 30%;
+      height: 75px;
+    }
+
+    .FAQ-service section {
+      min-height: auto;
+    }
+    .FAQ-service section .content .FAQ {
+      width: 100%;
+    }
+
+    .blog-services section {
+      min-height: auto;
+    }
+    .blog-services section .title-blog {
+      width: 90%;
+    }
+
+    .blog-services section .content .blog-wrapper {
+      flex-direction: column;
+      width: 90%;
+    }
+    .blog-services section .content .blog-wrapper .item {
+      width: 90%;
+    }
+    /* MEI */
+
+    /* SERVICES PAGE */
+
+    /* CONTACT PAGE */
+    .article-contact section .title-contact::after {
+      background-attachment: unset;
+      background-position: 60% 50%;
+    }
+    .form-contact section {
+      flex-direction: column;
+      align-items: center;
+      padding: 100px 0px;
+    }
+    .form-contact section .text {
+      width: 90%;
+    }
+    .form-contact section .text div {
+      width: 100%;
+    }
+
+    .form-contact section .form {
+      width: 90%;
+    }
+    .form-contact section .form form .input-group .input-label .buttons-submit {
+      justify-content: center;
+    }
+    /* CONTACT PAGE */
+
+    /* FOOTER */
+    footer .columns {
+      flex-direction: column;
+    }
+    footer .columns .footer-column {
+      width: 100%;
+    }
+    /* FOOTER */
+  }
+  @media (min-width: 640px) {
+    /* HEADER */
+    header .nav-contact {
+      justify-content: space-between;
+    }
+    header nav .menu-desktop .search-header {
+      display: flex;
+    }
+    /* HEADER */
+
+    /* HOME PAGE */
+    .article-home section {
+      min-height: 1000px;
+    }
+    .article-home section::before {
+      width: 600px;
+      height: 600px;
+    }
+    .article-home section::after {
+      width: 500px;
+      height: 500px;
+    }
+    .article-home section img {
+      right: -5%;
+      width: 400px;
+      height: 350px;
+    }
+
+    .article-home section .content-home {
+      width: 100%;
+    }
+
+    /** ABOUT HOME **/
+    .about-home {
+      min-height: auto;
+      padding: 100px 0px;
+    }
+    .about-home section .content {
+      flex-direction: row;
+      align-items: center;
+    }
+    .about-home section .content .img,
+    .about-home section .content .text {
+      width: 40%;
+    }
+
+    /** CEO WHO'S? **/
+    .know-directors section {
+      min-height: auto;
+    }
+    .know-directors section .content {
+      flex-direction: row;
+      width: 95%;
+    }
+    .know-directors section .content .director {
+      width: 300px;
+    }
+
+    /** SERVICES HOME **/
+    .services-home section {
+      min-height: auto;
+    }
+    .services-home section .content .service {
+      width: 45%;
+    }
+    .services-home section .service-expanded .expanded {
+      width: 90%;
+    }
+
+    /** FEEDBACKS HOME **/
+    .feedbacks-home section {
+      min-height: auto;
+    }
+    .feedbacks-home section .content .container .feedbacks-wrapper .feedback {
+      min-width: 400px;
+      min-height: 350px;
+    }
+
+    /** FAQ HOME **/
+    .FAQ-home section {
+      min-height: auto;
+    }
+    .FAQ-home section .content .FAQ,
+    .FAQ-home section .content .FAQ .question {
+      width: 90%;
+    }
+
+    /** BLOG HOME **/
+    .blog-home section {
+      min-height: auto;
+    }
+    .blog-home section .content .container {
+      flex-direction: column;
+    }
+    .blog-home section .content .container .item {
+      width: 70%;
+    }
+
+    /** CONTACT HOME **/
+    .contact-home section {
+      min-height: auto;
+    }
+    .contact-home section .container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+    }
+    .contact-home section .container .forms {
+      width: 100%;
+      justify-content: center;
+    }
+    .contact-home section .container .content {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .contact-home section .container .content div .icons-contact,
+    .contact-home section .container .content div .social-contact {
+      justify-content: center;
+      align-items: center;
+    }
+    .contact-home section .container .content h3 {
+      max-width: 350px;
+    }
+    /* HOME PAGE */
+
+    /* ABOUT PAGE */
+    .article-about {
+      padding-bottom: 100px;
+    }
+    .article-about section {
+      min-height: auto;
+    }
+    .article-about section .title-about {
+      min-height: 600px;
+    }
+
+    .article-about section .title-about::after,
+    .howHelp-about section::after {
+      background-attachment: unset;
+    }
+    .howHelp-about section::after {
+      background: url("/images/section-about-services-9-16.webp");
+      background-size: cover;
+      background-position: 50% 50%;
+    }
+    .article-about section .title-about .text {
+      width: 80%;
+    }
+    .article-about section .others-options {
+      flex-direction: row;
+      padding-top: 40px;
+      width: 95%;
+    }
+    .article-about section .others-options .item {
+      width: 33%;
+      min-height: 100px;
+    }
+
+    .need-us-about section {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 0px;
+      min-height: auto;
+    }
+    .need-us-about section .content {
+      width: 90%;
+      padding: 0px;
+    }
+    .need-us-about section .image {
+      width: 90%;
+      justify-content: start;
+    }
+    .need-us-about section .image .container-img {
+      width: 90%;
+    }
+
+    .missions-about section {
+      min-height: auto;
+    }
+    .missions-about section .container {
+      flex-direction: column;
+    }
+    .missions-about section .container .item {
+      width: 60%;
+      max-height: 220px;
+      max-width: 400px;
+    }
+
+    .howHelp-about section {
+      min-height: auto;
+    }
+
+    .contact-about section {
+      min-height: auto;
+    }
+    .contact-about section .contact-title span {
+      width: 80%;
+    }
+    /* ABOUT PAGE */
+
+    /* BLOG PAGE */
+    .article-blog section {
+      min-height: auto;
+    }
+    .article-blog section .title-blog {
+      min-height: 600px;
+    }
+
+    .article-blog section .title-blog::after {
+      background-attachment: unset;
+    }
+    .article-blog section .title-blog .text {
+      width: 80%;
+    }
+    .content-blog section {
+      flex-direction: column;
+      align-items: center;
+    }
+    .content-blog section .posts,
+    .content-blog section aside {
+      width: 70%;
+    }
+
+    /** POST BLOG **/
+    .article-post section {
+      min-height: auto;
+    }
+    .article-post section .title-post {
+      min-height: 600px;
+    }
+
+    .article-post section .title-post .text {
+      width: 90%;
+    }
+    .content-post {
+      min-height: auto;
+      flex-direction: column;
+      align-items: center;
+      padding: 100px 0px;
+    }
+    .content-post .see-its-post {
+      width: 80%;
+      max-width: unset;
+    }
+    .content-post .see-its-post .container-fixed {
+      max-width: unset;
+    }
+    .content-post .text-post {
+      width: 80%;
+    }
+
+    .content-post .text-post .contact-post a {
+      width: 100%;
+    }
+    .content-post .text-post .contact-post a img {
+      object-position: unset;
+    }
+
+    /** CATEGORIAS PAGE **/
+    .article-category h1 {
+      text-align: center;
+    }
+    .article-category section {
+      flex-direction: column;
+      align-items: center;
+    }
+    .article-category section .posts {
+      width: 80%;
+    }
+    .article-category section .posts .post {
+      width: 100%;
+      max-width: 768px;
+    }
+    .article-category section aside {
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+    }
+    /* BLOG PAGE */
+
+    /* CONTACT PAGE */
+    .article-contact section {
+      min-height: auto;
+    }
+    .article-contact section .title-contact {
+      min-height: 600px;
+    }
+    .article-contact section .title-contact::after {
+      background-attachment: unset;
+      background-position: 60% 50%;
+    }
+    .form-contact section {
+      flex-direction: column;
+      align-items: center;
+      padding: 100px 0px;
+      min-height: auto;
+    }
+    .form-contact section .text {
+      width: 90%;
+      align-items: center;
+    }
+    .form-contact section .text h2,
+    .form-contact section .text p {
+      text-align: center;
+    }
+    .form-contact section .text div {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .form-contact section .form {
+      width: 90%;
+    }
+    .form-contact section .form form .input-group .input-label .buttons-submit {
+      justify-content: center;
+    }
+    /* CONTACT PAGE */
+
+    /* FOOTER */
+    footer .columns {
+      flex-direction: column;
+    }
+    footer .columns .footer-column {
+      width: 100%;
+    }
+    /* FOOTER */
+  }
 }
 
-@media (orientation: landscape){
-    @media(max-width: 1023px){
-        /* HOME PAGE */
-        .article-home section{
-            min-height: 200vh;
-        }
-        .article-home section::before{
-            width: 600px;
-            height: 600px;
-        }
-        .article-home section::after{
-            width: 500px;
-            height: 500px;
-        }
-        .article-home section img{
-            right: -5%;
-            width: 400px;
-            height: 350px;
-        }
-
-        .article-home section .content-home{
-            width: 100%;
-        }
-
-        /** ABOUT HOME **/
-        .about-home section .content{
-            flex-direction: column-reverse;
-            align-items: center;
-        }
-        .about-home section .content .img,
-        .about-home section .content .text{
-            width: 90%;
-        }
-
-        /** CEO WHO'S? **/
-        .know-directors section .content{
-            flex-direction: column;
-        }
-
-        /** SERVICES HOME **/
-        .services-home section .content .service,
-        .services-home section .service-expanded .expanded{
-            width: 90%;
-        }
-        
-        /** FEEDBACKS HOME **/
-        .feedbacks-home section .content .container .feedbacks-wrapper .feedback{
-            min-width: 400px;
-            min-height: 350px;
-        }
-
-        /** FAQ HOME **/
-        .FAQ-home section .content .FAQ,
-        .FAQ-home section .content .FAQ .question{
-            width: 100%;
-        }
-
-        /** BLOG HOME **/
-        .blog-home section .content .container{
-            flex-direction: column;
-        }
-        .blog-home section .content .container .item{
-            width: 90%;
-        }
-
-        /** CONTACT PAGE **/
-        .contact-home section .container{
-            flex-direction: column;
-            align-items: center;
-            justify-content: start;
-        }
-        .contact-home section .container .forms{
-            width: 100%;
-            justify-content: center;
-        }
-        .contact-home section .container .content{
-            width: 100%;
-            justify-content: center;
-            align-items: center;
-        }
-        .contact-home section .container .content div .icons-contact,
-        .contact-home section .container .content div .social-contact{
-            justify-content: center;
-            align-items: center;
-        }
-        .contact-home section .container .content h3{
-            max-width: 350px;
-        }
-        /* HOME PAGE */
-
-        /* ABOUT PAGE */
-        .article-about section .title-about::after,
-        .howHelp-about section::after{
-            background-attachment: unset;
-        }
-        .missions-about section .container .item{
-            width: 30%;
-            min-height: 350px;
-        }
-        /* ABOUT PAGE */
-
-        /* BLOG PAGE */
-        .article-blog section .title-blog::after{
-            background-attachment: unset;
-        }
-        .content-blog section{
-            width: 90%;
-            padding: 100px 0px;
-        }
-
-        /** POST **/
-        .article-post section .title-post .text{
-            width: 80%;
-        }
-        .content-post{
-            padding: 100px 0px;
-            width: 95%;
-        }
-        .content-post .text-post .contact-post a{
-            width: 100%;
-        }
-        .content-post .text-post .contact-post a img{
-            object-position: unset;
-        }
-        /* BLOG PAGE */
-
-        /* CONTACT PAGE */
-        .article-contact section .title-contact::after{
-            background-attachment: unset;
-            background-position: 60% 50%;
-        }
-        .form-contact section{
-            flex-direction: column;
-            align-items: center;
-            padding: 100px 0px;
-        }
-        .form-contact section .text{
-            width: 90%;
-            align-items: center;
-        }
-        .form-contact section .text h2,
-        .form-contact section .text p{
-            text-align: center;
-        }
-        .form-contact section .text div{
-            width: 100%;
-            max-width: 400px;
-        }
-
-        .form-contact section .form{
-            width: 90%;
-        }
-        .form-contact section .form form .input-group .input-label .buttons-submit{
-            justify-content: center;    
-        }
-        /* CONTACT PAGE */
-
-
-        /* FOOTER */
-        footer .columns{
-            flex-direction: column;
-        }
-        footer .columns .footer-column{
-            width: 100%;
-        }
-        /* FOOTER */
+@media (orientation: landscape) {
+  @media (max-width: 1023px) {
+    /* HOME PAGE */
+    .article-home section {
+      min-height: 200vh;
     }
-    @media(min-width: 1560px){
-        /* PAGE HOME */
-        .article-home section::before{
-            width: 800px;
-            height: 800px;
-        }
-        .article-home section::after{
-            width: 700px;
-            height: 700px;
-        }
-        .article-home section img{
-            right: -5%;
-            width: 700px;
-            height: 550px;
-        }
-
-        .article-home section .content-home h1{
-            font-size: 3rem;
-        }
-        .article-home section .content-home h2{
-            font-size: 2.2rem;
-        }
-        .article-home section .content-home h3{
-            font-size: 1.9rem;
-        }
-        .article-home section .content-home div a{
-            font-size: 1.4rem;
-        }
-
-        /** about home **/
-        .about-home section .content .text h2{
-            font-size: 2.5rem;
-        }
-        .about-home section .content .text p{
-            font-size: 1.15rem;
-        }
-        .about-home section .content .text a{
-            font-size: 1.15rem;
-        }
-        .about-home section .content .text span{
-            font-size: 1.05rem;
-        }
-
-        /** directors home **/
-        .know-directors{
-            padding: 25px 0px;
-        }
-        .know-directors section .title-directors h2{
-            font-size: 2.5rem;
-        }
-        .know-directors section .content .director .text{
-            font-size: 1.05rem;
-        }
-        /** services home **/
-        .services-home{
-            padding: 25px 0px;
-        }
-        .services-home section .title-services h2{
-            font-size: 2.5rem;
-        }
-        .services-home section .content .service .text h3{
-            font-size: 1.25rem;
-        }
-        .services-home section .service-expanded .expanded .text h3{
-            font-size: 2rem;
-            width: 90%;
-        }
-        .services-home section .service-expanded .expanded .text p,
-        .services-home section .service-expanded .expanded .text ul,
-        .services-home section .service-expanded .expanded .text .btn-link a{   
-            font-size: 1.15rem;
-        }
-        /** feedbacks home **/
-        .feedbacks-home section{
-            padding: 25px 0px;
-        }
-        .feedbacks-home section .title-feedbacks h2{
-            font-size: 2.5rem;
-        }
-        .feedbacks-home section .content .container .feedbacks-wrapper .feedback .text i{
-            font-size: 3rem;
-        }
-        .feedbacks-home section .content .container .feedbacks-wrapper .feedback .text p{
-            font-size: 1.2rem;
-        }
-        .feedbacks-home section .content .container .feedbacks-wrapper .feedback{
-            min-height: 275px;
-        }
-        .feedbacks-home section .content .container .feedbacks-wrapper .feedback .client p{
-            font-size: 1.15rem;
-        }
-        /** FAQ home **/
-        .FAQ-home section .title-FAQ h2{
-            font-size: 2.5rem;
-        }
-        .FAQ-home section .content .FAQ .question .title h3{
-            font-size: 1.5rem;
-        }
-        .FAQ-home section .content .FAQ .question .text p{
-            font-size: 1.15rem;
-        }
-        /** Blog home **/
-        .blog-home section .title-blog h2{
-            font-size: 2.5rem;
-        }   
-        .blog-home section .content .container .item .blog-title .author div p{
-            font-size: 0.95rem;
-        } 
-        .blog-home section .content .container .item .blog-title h3{
-            font-size: 1.4rem;
-        }
-        .blog-home section .content .container .item .blog-text p{
-            font-size: 1.15rem;
-        }
-        /** CONTACT home **/
-        .contact-home section .contact-title h2{
-            font-size: 2.5rem;
-        }
-        .contact-home section .container .forms form .input-group input::placeholder{
-            font-size: 1.1rem;
-        }
-        .contact-home section .container .forms form .input-check label,
-        .contact-home section .container .forms form .input-group button{
-            font-size: 1rem;
-        }
-        /* PAGE HOME */
-
-        /* PAGE ABOUT */
-        .article-about section .title-about .text h1{
-            font-size: 3rem;
-        }
-
-        .missions-about section .container{
-            max-width: 1640px;
-        }
-        .need-us-about section{
-            max-width: 1560px;
-        }
-
-        .missions-about section .missions-title h2,
-        .need-us-about section .content h2,
-        .howHelp-about section .howHelp-title h2,
-        .contact-about section .contact-title h2{
-            font-size: 2.5rem;
-        }
-        .missions-about section .container .item .text-item p,
-        .howHelp-about section .howHelp-title span,
-        .howHelp-about section .howHelp-title p,
-        .howHelp-about section .howHelp-container .item .text h3,
-        .contact-about section .container a,
-        .need-us-about section .content div p,
-        .need-us-about section .content div ul,
-        .need-us-about section .content a{
-            font-size: 1.05rem;
-        }
-        
-        .need-us-about section .image .container-img img{
-            object-position: 50% 30%
-        }
-        /* PAGE ABOUT */
-        
+    .article-home section::before {
+      width: 600px;
+      height: 600px;
     }
-    @media(min-width: 1920px){
-        /*HEADER */
-        header nav .menu-desktop .nav-list .list .nav-link a{
-            font-size: 1.15rem;
-        }
-        /*HEADER */
-        /* PAGE HOME */
-        .article-home section::before{
-            width: 900px;
-            height: 900px;
-        }
-        .article-home section::after{
-            width: 800px;
-            height: 800px;
-        }
-        .article-home section img{
-            right: -5%;
-            width: 850px;
-            height: 700px;
-        }
-
-        .article-home section .content-home h1{
-            font-size: 3.5rem;
-        }
-        .article-home section .content-home h2{
-            font-size: 2.5rem;
-        }
-        .article-home section .content-home h3{
-            font-size: 2rem;
-        }
-        .article-home section .content-home div a{
-            font-size: 1.5rem;
-        }
-
-        /** about home **/
-        .about-home section .content .text h2{
-            font-size: 3rem;
-        }
-        .about-home section .content .text p{
-            font-size: 1.2rem;
-        }
-        .about-home section .content .text a{
-            font-size: 1.2rem;
-        }
-        .about-home section .content .text span{
-            font-size: 1.1rem;
-        }
-
-        /** directors home **/
-        .know-directors section .title-directors h2{
-            font-size: 3rem;
-        }
-        .know-directors section .title-directors span{
-            font-size: 1.45rem;
-        }
-        .know-directors section .content .director .text{
-            font-size: 1.1rem;
-        }
-        /** services home **/
-        .services-home section .title-services h2{
-            font-size: 3rem;
-        }
-        .services-home section .title-services span{
-            font-size: 1.45rem;
-        }
-        /** feedbacks home **/
-        .feedbacks-home section .title-feedbacks h2{
-            font-size: 3rem;
-        }
-        .feedbacks-home section .title-feedbacks span{
-            font-size: 1.45rem;
-        }
-        /** FAQ home **/
-        .FAQ-home section .title-FAQ h2{
-            font-size: 3rem;
-        }
-        .FAQ-home section .title-FAQ span{
-            font-size: 1.45rem;
-        }
-        .FAQ-home section .content .FAQ .question .text p{
-            font-size: 1.2rem;
-        }
-        /** Blog home **/
-        .blog-home section .title-blog h2{
-            font-size: 3rem;
-        }   
-        .blog-home section .title-blog span{
-            font-size: 1.45rem;
-        }
-        .blog-home section .content .container .item .blog-title .author div p{
-            font-size: 1.05rem;
-        } 
-        .blog-home section .content .container .item .blog-title h3{
-            font-size: 1.5rem;
-        }
-        /** CONTACT home **/
-        .contact-home section .contact-title h2{
-            font-size: 3rem;
-        }
-        .contact-home section .contact-title span{
-            font-size: 1.45rem;
-        }
-        .contact-home section .container .content div .icons-contact a span,
-        .contact-home section .container .content div .social-contact a span{
-            font-size: 1.15rem;
-        }
-        /* PAGE HOME */
-
-        /* PAGE ABOUT */
-        .article-about section .title-about .text h1{
-            font-size: 3.5rem;
-        }
-
-        .need-us-about section{
-            max-width: 1920px;
-        }
-
-        .missions-about section .missions-title h2,
-        .need-us-about section .content h2,
-        .howHelp-about section .howHelp-title h2,
-        .contact-about section .contact-title h2{
-            font-size: 3rem;
-        }
-        .missions-about section .container .item .text-item p,
-        .howHelp-about section .howHelp-title span,
-        .howHelp-about section .howHelp-title p,
-        .howHelp-about section .howHelp-container .item .text h3,
-        .contact-about section .container a,
-        .need-us-about section .content div p,
-        .need-us-about section .content div ul,
-        .need-us-about section .content a{
-            font-size: 1.25rem;
-        }
-        
-        .need-us-about section .image .container-img{
-            height: 800px;
-        }
-        .need-us-about section .image .container-img img{
-            object-position: 50% 20%
-        }
-        /* PAGE ABOUT */
+    .article-home section::after {
+      width: 500px;
+      height: 500px;
+    }
+    .article-home section img {
+      right: -5%;
+      width: 400px;
+      height: 350px;
     }
 
+    .article-home section .content-home {
+      width: 100%;
+    }
+
+    /** ABOUT HOME **/
+    .about-home section .content {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .about-home section .content .img,
+    .about-home section .content .text {
+      width: 90%;
+    }
+
+    /** CEO WHO'S? **/
+    .know-directors section .content {
+      flex-direction: column;
+    }
+
+    /** SERVICES HOME **/
+    .services-home section .content .service,
+    .services-home section .service-expanded .expanded {
+      width: 90%;
+    }
+
+    /** FEEDBACKS HOME **/
+    .feedbacks-home section .content .container .feedbacks-wrapper .feedback {
+      min-width: 400px;
+      min-height: 350px;
+    }
+
+    /** FAQ HOME **/
+    .FAQ-home section .content .FAQ,
+    .FAQ-home section .content .FAQ .question {
+      width: 100%;
+    }
+
+    /** BLOG HOME **/
+    .blog-home section .content .container {
+      flex-direction: column;
+    }
+    .blog-home section .content .container .item {
+      width: 90%;
+    }
+
+    /** CONTACT PAGE **/
+    .contact-home section .container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+    }
+    .contact-home section .container .forms {
+      width: 100%;
+      justify-content: center;
+    }
+    .contact-home section .container .content {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .contact-home section .container .content div .icons-contact,
+    .contact-home section .container .content div .social-contact {
+      justify-content: center;
+      align-items: center;
+    }
+    .contact-home section .container .content h3 {
+      max-width: 350px;
+    }
+    /* HOME PAGE */
+
+    /* ABOUT PAGE */
+    .article-about section .title-about::after,
+    .howHelp-about section::after {
+      background-attachment: unset;
+    }
+    .missions-about section .container .item {
+      width: 30%;
+      min-height: 350px;
+    }
+    /* ABOUT PAGE */
+
+    /* BLOG PAGE */
+    .article-blog section .title-blog::after {
+      background-attachment: unset;
+    }
+    .content-blog section {
+      width: 90%;
+      padding: 100px 0px;
+    }
+
+    /** POST **/
+    .article-post section .title-post .text {
+      width: 80%;
+    }
+    .content-post {
+      padding: 100px 0px;
+      width: 95%;
+    }
+    .content-post .text-post .contact-post a {
+      width: 100%;
+    }
+    .content-post .text-post .contact-post a img {
+      object-position: unset;
+    }
+    /* BLOG PAGE */
+
+    /* CONTACT PAGE */
+    .article-contact section .title-contact::after {
+      background-attachment: unset;
+      background-position: 60% 50%;
+    }
+    .form-contact section {
+      flex-direction: column;
+      align-items: center;
+      padding: 100px 0px;
+    }
+    .form-contact section .text {
+      width: 90%;
+      align-items: center;
+    }
+    .form-contact section .text h2,
+    .form-contact section .text p {
+      text-align: center;
+    }
+    .form-contact section .text div {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .form-contact section .form {
+      width: 90%;
+    }
+    .form-contact section .form form .input-group .input-label .buttons-submit {
+      justify-content: center;
+    }
+    /* CONTACT PAGE */
+
+    /* FOOTER */
+    footer .columns {
+      flex-direction: column;
+    }
+    footer .columns .footer-column {
+      width: 100%;
+    }
+    /* FOOTER */
+  }
+  @media (min-width: 1560px) {
+    /* PAGE HOME */
+    .article-home section::before {
+      width: 800px;
+      height: 800px;
+    }
+    .article-home section::after {
+      width: 700px;
+      height: 700px;
+    }
+    .article-home section img {
+      right: -5%;
+      width: 700px;
+      height: 550px;
+    }
+
+    .article-home section .content-home h1 {
+      font-size: 3rem;
+    }
+    .article-home section .content-home h2 {
+      font-size: 2.2rem;
+    }
+    .article-home section .content-home h3 {
+      font-size: 1.9rem;
+    }
+    .article-home section .content-home div a {
+      font-size: 1.4rem;
+    }
+
+    /** about home **/
+    .about-home section .content .text h2 {
+      font-size: 2.5rem;
+    }
+    .about-home section .content .text p {
+      font-size: 1.15rem;
+    }
+    .about-home section .content .text a {
+      font-size: 1.15rem;
+    }
+    .about-home section .content .text span {
+      font-size: 1.05rem;
+    }
+
+    /** directors home **/
+    .know-directors {
+      padding: 25px 0px;
+    }
+    .know-directors section .title-directors h2 {
+      font-size: 2.5rem;
+    }
+    .know-directors section .content .director .text {
+      font-size: 1.05rem;
+    }
+    /** services home **/
+    .services-home {
+      padding: 25px 0px;
+    }
+    .services-home section .title-services h2 {
+      font-size: 2.5rem;
+    }
+    .services-home section .content .service .text h3 {
+      font-size: 1.25rem;
+    }
+    .services-home section .service-expanded .expanded .text h3 {
+      font-size: 2rem;
+      width: 90%;
+    }
+    .services-home section .service-expanded .expanded .text p,
+    .services-home section .service-expanded .expanded .text ul,
+    .services-home section .service-expanded .expanded .text .btn-link a {
+      font-size: 1.15rem;
+    }
+    /** feedbacks home **/
+    .feedbacks-home section {
+      padding: 25px 0px;
+    }
+    .feedbacks-home section .title-feedbacks h2 {
+      font-size: 2.5rem;
+    }
+    .feedbacks-home
+      section
+      .content
+      .container
+      .feedbacks-wrapper
+      .feedback
+      .text
+      i {
+      font-size: 3rem;
+    }
+    .feedbacks-home
+      section
+      .content
+      .container
+      .feedbacks-wrapper
+      .feedback
+      .text
+      p {
+      font-size: 1.2rem;
+    }
+    .feedbacks-home section .content .container .feedbacks-wrapper .feedback {
+      min-height: 275px;
+    }
+    .feedbacks-home
+      section
+      .content
+      .container
+      .feedbacks-wrapper
+      .feedback
+      .client
+      p {
+      font-size: 1.15rem;
+    }
+    /** FAQ home **/
+    .FAQ-home section .title-FAQ h2 {
+      font-size: 2.5rem;
+    }
+    .FAQ-home section .content .FAQ .question .title h3 {
+      font-size: 1.5rem;
+    }
+    .FAQ-home section .content .FAQ .question .text p {
+      font-size: 1.15rem;
+    }
+    /** Blog home **/
+    .blog-home section .title-blog h2 {
+      font-size: 2.5rem;
+    }
+    .blog-home section .content .container .item .blog-title .author div p {
+      font-size: 0.95rem;
+    }
+    .blog-home section .content .container .item .blog-title h3 {
+      font-size: 1.4rem;
+    }
+    .blog-home section .content .container .item .blog-text p {
+      font-size: 1.15rem;
+    }
+    /** CONTACT home **/
+    .contact-home section .contact-title h2 {
+      font-size: 2.5rem;
+    }
+    .contact-home
+      section
+      .container
+      .forms
+      form
+      .input-group
+      input::placeholder {
+      font-size: 1.1rem;
+    }
+    .contact-home section .container .forms form .input-check label,
+    .contact-home section .container .forms form .input-group button {
+      font-size: 1rem;
+    }
+    /* PAGE HOME */
+
+    /* PAGE ABOUT */
+    .article-about section .title-about .text h1 {
+      font-size: 3rem;
+    }
+
+    .missions-about section .container {
+      max-width: 1640px;
+    }
+    .need-us-about section {
+      max-width: 1560px;
+    }
+
+    .missions-about section .missions-title h2,
+    .need-us-about section .content h2,
+    .howHelp-about section .howHelp-title h2,
+    .contact-about section .contact-title h2 {
+      font-size: 2.5rem;
+    }
+    .missions-about section .container .item .text-item p,
+    .howHelp-about section .howHelp-title span,
+    .howHelp-about section .howHelp-title p,
+    .howHelp-about section .howHelp-container .item .text h3,
+    .contact-about section .container a,
+    .need-us-about section .content div p,
+    .need-us-about section .content div ul,
+    .need-us-about section .content a {
+      font-size: 1.05rem;
+    }
+
+    .need-us-about section .image .container-img img {
+      object-position: 50% 30%;
+    }
+    /* PAGE ABOUT */
+  }
+  @media (min-width: 1920px) {
+    /*HEADER */
+    header nav .menu-desktop .nav-list .list .nav-link a {
+      font-size: 1.15rem;
+    }
+    /*HEADER */
+    /* PAGE HOME */
+    .article-home section::before {
+      width: 900px;
+      height: 900px;
+    }
+    .article-home section::after {
+      width: 800px;
+      height: 800px;
+    }
+    .article-home section img {
+      right: -5%;
+      width: 850px;
+      height: 700px;
+    }
+
+    .article-home section .content-home h1 {
+      font-size: 3.5rem;
+    }
+    .article-home section .content-home h2 {
+      font-size: 2.5rem;
+    }
+    .article-home section .content-home h3 {
+      font-size: 2rem;
+    }
+    .article-home section .content-home div a {
+      font-size: 1.5rem;
+    }
+
+    /** about home **/
+    .about-home section .content .text h2 {
+      font-size: 3rem;
+    }
+    .about-home section .content .text p {
+      font-size: 1.2rem;
+    }
+    .about-home section .content .text a {
+      font-size: 1.2rem;
+    }
+    .about-home section .content .text span {
+      font-size: 1.1rem;
+    }
+
+    /** directors home **/
+    .know-directors section .title-directors h2 {
+      font-size: 3rem;
+    }
+    .know-directors section .title-directors span {
+      font-size: 1.45rem;
+    }
+    .know-directors section .content .director .text {
+      font-size: 1.1rem;
+    }
+    /** services home **/
+    .services-home section .title-services h2 {
+      font-size: 3rem;
+    }
+    .services-home section .title-services span {
+      font-size: 1.45rem;
+    }
+    /** feedbacks home **/
+    .feedbacks-home section .title-feedbacks h2 {
+      font-size: 3rem;
+    }
+    .feedbacks-home section .title-feedbacks span {
+      font-size: 1.45rem;
+    }
+    /** FAQ home **/
+    .FAQ-home section .title-FAQ h2 {
+      font-size: 3rem;
+    }
+    .FAQ-home section .title-FAQ span {
+      font-size: 1.45rem;
+    }
+    .FAQ-home section .content .FAQ .question .text p {
+      font-size: 1.2rem;
+    }
+    /** Blog home **/
+    .blog-home section .title-blog h2 {
+      font-size: 3rem;
+    }
+    .blog-home section .title-blog span {
+      font-size: 1.45rem;
+    }
+    .blog-home section .content .container .item .blog-title .author div p {
+      font-size: 1.05rem;
+    }
+    .blog-home section .content .container .item .blog-title h3 {
+      font-size: 1.5rem;
+    }
+    /** CONTACT home **/
+    .contact-home section .contact-title h2 {
+      font-size: 3rem;
+    }
+    .contact-home section .contact-title span {
+      font-size: 1.45rem;
+    }
+    .contact-home section .container .content div .icons-contact a span,
+    .contact-home section .container .content div .social-contact a span {
+      font-size: 1.15rem;
+    }
+    /* PAGE HOME */
+
+    /* PAGE ABOUT */
+    .article-about section .title-about .text h1 {
+      font-size: 3.5rem;
+    }
+
+    .need-us-about section {
+      max-width: 1920px;
+    }
+
+    .missions-about section .missions-title h2,
+    .need-us-about section .content h2,
+    .howHelp-about section .howHelp-title h2,
+    .contact-about section .contact-title h2 {
+      font-size: 3rem;
+    }
+    .missions-about section .container .item .text-item p,
+    .howHelp-about section .howHelp-title span,
+    .howHelp-about section .howHelp-title p,
+    .howHelp-about section .howHelp-container .item .text h3,
+    .contact-about section .container a,
+    .need-us-about section .content div p,
+    .need-us-about section .content div ul,
+    .need-us-about section .content a {
+      font-size: 1.25rem;
+    }
+
+    .need-us-about section .image .container-img {
+      height: 800px;
+    }
+    .need-us-about section .image .container-img img {
+      object-position: 50% 20%;
+    }
+    /* PAGE ABOUT */
+  }
 }
