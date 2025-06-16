@@ -537,6 +537,18 @@
 
         sliderAbertura.appendChild(itemFeedback);
       });
+
+      sliderAbertura.addEventListener("mouseover", () => {
+        sliderAbertura.style.animationPlayState = "paused";
+      });
+      sliderAbertura.addEventListener("mouseleave", () => {
+        sliderAbertura.style.animationPlayState = "running";
+      });
+      sliderAbertura.addEventListener("click", () => {
+        const currentState = sliderAbertura.style.animationPlayState;
+        sliderAbertura.style.animationPlayState =
+          currentState === "paused" ? "running" : "paused";
+      });
       containerSlider.appendChild(sliderAbertura);
 
       // Perguntas FAQ

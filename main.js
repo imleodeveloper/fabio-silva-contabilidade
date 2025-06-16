@@ -293,6 +293,18 @@ document.addEventListener("DOMContentLoaded", () => {
     feedbackWrapper.appendChild(feedback);
   });
 
+  feedbackWrapper.addEventListener("mouseover", () => {
+    feedbackWrapper.style.animationPlayState = "paused";
+  });
+  feedbackWrapper.addEventListener("mouseleave", () => {
+    feedbackWrapper.style.animationPlayState = "running";
+  });
+  feedbackWrapper.addEventListener("click", () => {
+    const currentState = feedbackWrapper.style.animationPlayState;
+    feedbackWrapper.style.animationPlayState =
+      currentState === "paused" ? "running" : "paused";
+  });
+
   feedbackContainer.innerHTML = "";
   feedbackContainer.appendChild(feedbackWrapper);
 
