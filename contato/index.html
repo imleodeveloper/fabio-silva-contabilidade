@@ -404,6 +404,47 @@
       </div>
     </footer>
 
+    <!--EMAIL JS-->
+    <script type="module">
+      import emailjs from "https://cdn.emailjs.com/dist/email.min.js";
+
+      emailjs.init("YOUR_PUBLIC_KEY");
+
+      const formContact = document.querySelector("form");
+
+      let contatoPreferido = "";
+
+      // Ativar os botões e capturar valor
+      const buttons = formContact.querySelectorAll(".buttons-submit button");
+      buttons.forEach((btn) => {
+        btn.disabled = false; // Ativa os botões
+        btn.addEventListener("click", async (e) => {
+          e.preventDefault();
+          contatoPreferido = btn.textContent.trim(); // WhatsApp ou Telefone
+
+          const templateParams = {
+            name: document.getElementById("name-contact").value,
+            phone: document.getElementById("phone-contact").value,
+            email: document.getElementById("email-contact").value,
+            city: document.getElementById("city-contact").value,
+            profession: document.getElementById("profession-contact").value,
+            contato_preferido: contatoPreferido,
+          };
+
+          try {
+            await emailjs.send(
+              "YOUR_SERVICE_ID",
+              "YOUR_TEMPLATE_ID",
+              templateParams
+            );
+            alert("Mensagem enviada com sucesso!");
+            formContact.reset();
+          } catch (error) {
+            alert("Erro ao enviar: " + error.message);
+          }
+        });
+      });
+    </script>
     <script src="/bannerPrivacy.js"></script>
     <script type="module" src="/main.js?v=1"></script>
     <script src="/header.js?v=1"></script>
