@@ -1,0 +1,3364 @@
+@media (orientation: portrait) {
+  @media (max-width: 768px) {
+    /* HOME PAGE - SECTION HERO */
+    .article-home section {
+      min-height: 1000px;
+    }
+    .article-home section::after {
+      width: 500px;
+      height: 500px;
+    }
+    .article-home section::before {
+      width: 600px;
+      height: 600px;
+    }
+    .article-home section img {
+      width: 450px;
+      height: 300px;
+      right: 0%;
+    }
+    .article-home section .content-home {
+      width: 100%;
+    }
+    /* HOME PAGE - SECTION HERO */
+    /* HOME PAGE - SECTION ABOUT */
+    .about-home section {
+      min-height: auto;
+    }
+    .about-home section .content {
+      flex-direction: column;
+      align-items: center;
+    }
+    .about-home section .content .img {
+      width: 90%;
+    }
+    .about-home section .content .text {
+      width: 90%;
+    }
+    /* HOME PAGE - SECTION ABOUT */
+    /* HOME PAGE - SECTION DIRECTORS */
+    .know-directors section {
+      min-height: auto;
+    }
+    .know-directors section .content {
+      flex-direction: column;
+    }
+    .know-directors section .content .director {
+      width: 90%;
+      max-width: 640px;
+    }
+    /* HOME PAGE - SECTION DIRECTORS */
+    /* HOME PAGE - SECTION SERVICES */
+    .services-home section {
+      min-height: auto;
+    }
+    .services-home section .content {
+      flex-direction: column;
+    }
+    .services-home section .content .service {
+      width: 90%;
+      max-width: 640px;
+    }
+
+    .services-home section .service-expanded .expanded {
+      width: 90%;
+    }
+    /* HOME PAGE - SECTION SERVICES */
+    /* HOME PAGE - SECTION FEEDBACKS */
+    .feedbacks-home section {
+      min-height: auto;
+      background-attachment: unset;
+    }
+    .feedbacks-home section .content .container .feedbacks-wrapper .feedback {
+      min-width: 350px;
+      min-height: 400px;
+    }
+    .feedbacks-home
+      section
+      .content
+      .container
+      .feedbacks-wrapper
+      .feedback
+      .client {
+      bottom: -100px;
+    }
+    .feedbacks-home
+      section
+      .content
+      .container
+      .feedbacks-wrapper
+      .feedback
+      .client
+      img {
+      width: 70px;
+      height: 70px;
+    }
+    /* HOME PAGE - SECTION FEEDBACKS */
+    /* HOME PAGE - FAQ */
+    .FAQ-home section {
+      min-height: auto;
+    }
+    .FAQ-home section .content {
+      padding: 0px;
+    }
+    .FAQ-home section .content .FAQ {
+      width: 90%;
+      max-width: 640px;
+    }
+    /* HOME PAGE - FAQ */
+    /* HOME PAGE - BLOG */
+    .blog-home section {
+      min-height: auto;
+    }
+    .blog-home section .content .container {
+      flex-direction: column;
+      width: 90%;
+    }
+    .blog-home section .content .container .item {
+      width: 100%;
+      max-width: 450px;
+    }
+    /* HOME PAGE - BLOG */
+    /* HOME PAGE - CONTACT */
+    .contact-home section {
+      min-height: auto;
+    }
+    .contact-home section .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .contact-home section .container .forms {
+      width: 90%;
+      justify-content: center;
+    }
+    .contact-home section .container .forms form {
+      width: 100%;
+    }
+
+    .contact-home section .container .content {
+      width: 90%;
+      align-items: center;
+    }
+    .contact-home section .container .content h3 {
+      text-align: center;
+    }
+    .contact-home section .container .content div {
+      flex-direction: column;
+      width: 90%;
+      align-items: center;
+    }
+    .contact-home section .container .content div .icons-contact,
+    .contact-home section .container .content div .social-contact {
+      width: 90%;
+    }
+    /* HOME PAGE - CONTACT */
+
+    /* ABOUT PAGE - HERO SECTION */
+    .article-about section {
+      min-height: auto;
+    }
+    .article-about section .title-about {
+      min-height: 500px;
+    }
+    .article-about section .title-about::after {
+      background-attachment: unset;
+    }
+    .article-about section .title-about .text {
+      width: 100%;
+    }
+    .article-about section .others-options {
+      min-height: auto;
+      flex-direction: column;
+      padding: 10px 0px;
+    }
+    .article-about section .others-options .item {
+      width: 90%;
+    }
+    /* ABOUT PAGE - HERO SECTION */
+    /* ABOUT PAGE - NEED US SECTION */
+    .need-us-about section {
+      min-height: auto;
+      flex-direction: column;
+      align-items: center;
+      max-width: 640px;
+    }
+    .need-us-about section .content {
+      padding: 0px;
+      width: 90%;
+    }
+    .need-us-about section .image {
+      width: 90%;
+    }
+    .need-us-about section .image .container-img {
+      width: 100%;
+    }
+    /* ABOUT PAGE - NEED US SECTION */
+    /* ABOUT PAGE - MISSIONS SECTION */
+    .missions-about section {
+      min-height: auto;
+    }
+    .missions-about section .container {
+      flex-direction: column;
+    }
+    .missions-about section .container .item {
+      width: 90%;
+      max-width: 640px;
+    }
+    /* ABOUT PAGE - MISSIONS SECTION */
+    /* ABOUT PAGE - HOW HELP SECTION */
+    .howHelp-about section {
+      min-height: auto;
+    }
+    .howHelp-about section::after {
+      background-attachment: unset;
+    }
+    .howHelp-about section .howHelp-container .item {
+      width: 90%;
+      max-width: 500px;
+    }
+    /* ABOUT PAGE - HOW HELP SECTION */
+    /* ABOUT PAGE - CONTACT SECTION */
+    .contact-about section {
+      min-height: auto;
+    }
+    .contact-about section .contact-title span {
+      width: 90%;
+    }
+    /* ABOUT PAGE - CONTACT SECTION */
+
+    /*BLOG PAGE - HERO SECTION */
+    .article-blog section {
+      min-height: auto;
+    }
+    .article-blog section .title-blog {
+      min-height: 500px;
+    }
+    .article-blog section .title-blog::after {
+      background-attachment: unset;
+    }
+    .article-blog section .title-blog .text {
+      width: 100%;
+    }
+
+    .content-blog section {
+      flex-direction: column;
+      align-items: center;
+    }
+    .content-blog section .posts {
+      width: 90%;
+      max-width: 640px;
+    }
+
+    .content-blog section aside {
+      width: 90%;
+      max-width: 640px;
+    }
+    /*BLOG PAGE - HERO SECTION */
+
+    /* POST BLOG PAGE - HERO SECTION */
+    .article-post section {
+      min-height: auto;
+    }
+    .article-post section .title-post {
+      min-height: 500px;
+    }
+    .article-post section .title-post .text {
+      width: 100%;
+    }
+    .content-post {
+      min-height: auto;
+      padding: 100px 0px;
+      flex-direction: column;
+      align-items: center;
+    }
+    .content-post .see-its-post {
+      width: 90%;
+      max-width: 500px;
+    }
+    .content-post .see-its-post .container-fixed {
+      max-width: unset;
+    }
+    .content-post .text-post,
+    .content-post .text-post .contact-post a {
+      width: 90%;
+      max-width: 640px;
+    }
+    .content-post .text-post .contact-post a img {
+      object-position: -100px;
+    }
+    .content-post .buttons-post {
+      width: 90%;
+      max-width: 640px;
+    }
+    .content-post .buttons-post .container-fixed {
+      flex-direction: row;
+      max-width: unset;
+    }
+    /* POST BLOG PAGE - HERO SECTION */
+    /* CATEGORIES BLOG */
+    .article-category h1 {
+      text-align: center;
+    }
+    .article-category section {
+      min-height: auto;
+      flex-direction: column;
+      align-items: center;
+      max-width: 640px;
+    }
+    .article-category section .posts {
+      width: 90%;
+    }
+    .article-category section .posts .post {
+      width: 100%;
+    }
+
+    .article-category section aside {
+      width: 90%;
+    }
+    /* CATEGORIES BLOG */
+
+    /* SERVICES PAGE */
+    /* MEI PAGE */
+    .article-service section {
+      min-height: auto;
+    }
+    .article-service section .title-service {
+      min-height: auto;
+      justify-content: center;
+    }
+    .article-service section .title-service .container {
+      flex-direction: column;
+      padding-top: 50px;
+      gap: 100px;
+    }
+
+    .article-service section .title-service .container .text {
+      width: 100%;
+      max-width: 640px;
+    }
+    .article-service section .title-service .container .text h1 {
+      font-size: 2rem;
+    }
+    .article-service section .title-service .container .image {
+      width: 100%;
+      height: auto;
+    }
+    .article-service section .title-service .container .image::after {
+      width: 350px;
+      height: 350px;
+    }
+    .article-service section .title-service .container .image img {
+      width: 350px;
+      height: 350px;
+      right: 0px;
+      left: 0px;
+      margin: 0 auto;
+    }
+    .article-service section .title-service .banner {
+      width: 90%;
+      gap: 30px;
+      padding: 20px;
+      max-width: 640px;
+    }
+    .article-service section .title-service .banner .item {
+      flex-direction: column;
+    }
+    .article-service section .title-service .banner .item span {
+      align-items: center;
+      text-align: center;
+    }
+    .article-service section .title-service .banner .item span h3 {
+      font-size: 1rem;
+    }
+    .article-service section .title-service .banner .item span p {
+      display: none;
+    }
+
+    .section-mei section {
+      padding: 150px 0px 0px 0px;
+      max-width: 640px;
+    }
+    .section-mei section .mei-subtitle h2 {
+      font-size: 1.5rem;
+      width: 90%;
+    }
+    .section-mei section .mei-subtitle h3 {
+      width: 90%;
+    }
+    .section-mei section .mei-container .content {
+      flex-direction: column;
+      width: 90%;
+      max-width: 640px;
+    }
+    .section-mei section .mei-container .content .item {
+      flex-direction: row;
+      align-items: start;
+      justify-content: center;
+      width: 100%;
+    }
+    .section-mei section .mei-container .content .item div {
+      width: 90%;
+    }
+
+    .section-mei section .mei-container .content span .hr-item-1 {
+      height: 75px;
+      width: 2px;
+      top: -300%;
+      left: 50%;
+    }
+    .section-mei section .mei-container .content span .hr-item-2 {
+      height: 75px;
+      width: 2px;
+      left: 50%;
+      top: 150%;
+    }
+
+    .section-mei section .mei-container .three-steps {
+      width: 90%;
+      max-width: 640px;
+    }
+    .section-mei section .mei-container .three-steps .item span .hr-item-1 {
+      height: 50px;
+      top: -250%;
+    }
+    .section-mei section .mei-container .three-steps .item span .hr-item-2 {
+      bottom: unset;
+      height: 50px;
+      top: 175%;
+    }
+
+    .FAQ-service section {
+      min-height: auto;
+      max-width: 640px;
+    }
+    .FAQ-service section .title-FAQ h2 {
+      font-size: 1.5rem;
+    }
+    .FAQ-service section .content {
+      padding: 0px;
+    }
+    .FAQ-service section .content .FAQ {
+      width: 100%;
+    }
+
+    .blog-services section {
+      min-height: auto;
+      max-width: 450px;
+    }
+    .blog-services section .title-blog h2 {
+      font-size: 1.5rem;
+      width: 95%;
+    }
+    .blog-services section .title-blog span {
+      width: 95%;
+    }
+    .blog-services section .content .blog-wrapper {
+      width: 90%;
+      flex-direction: column;
+    }
+    .blog-services section .content .blog-wrapper .item {
+      width: 100%;
+      min-height: auto;
+    }
+    /* MEI PAGE */
+    /* ABERTURA DE EMPRESA PAGE */
+    .section-abertura section {
+      min-height: auto;
+      padding: 100px 0px;
+      max-width: 640px;
+    }
+    .section-abertura section .abertura-subtitle h2 {
+      font-size: 1.5rem;
+    }
+    .section-abertura section .abertura-container .content {
+      flex-wrap: wrap;
+    }
+
+    .section-abertura section .abertura-container .tips {
+      width: 90%;
+      height: auto;
+      flex-direction: column;
+    }
+    .section-abertura section .abertura-container .tips .text {
+      width: 100%;
+      padding-bottom: 10px;
+    }
+    .section-abertura section .abertura-container .tips .image {
+      width: 100%;
+    }
+    .section-abertura section .abertura-container .tips .image img {
+      width: 300px;
+      height: 300px;
+    }
+
+    .section-abertura section .abertura-container .slider-abertura .feedback {
+      min-width: 400px;
+      min-height: 320px;
+    }
+
+    .contact-service section {
+      height: auto;
+      flex-wrap: wrap;
+      width: 90%;
+      gap: 100px;
+      padding-bottom: 50px;
+      max-width: 640px;
+    }
+    .contact-service section .title-contact {
+      width: 100%;
+    }
+    .contact-service section .title-contact h2 {
+      font-size: 1.5rem;
+    }
+    .contact-service section .img-contact {
+      width: 100%;
+    }
+    /* ABERTURA DE EMPRESA PAGE */
+
+    /* IRPF PAGE */
+    .title-irpf section {
+      height: auto;
+      flex-direction: column;
+      border-radius: unset;
+      overflow: visible;
+    }
+    .title-irpf section .text {
+      height: auto;
+      padding-top: 50px;
+      width: 100%;
+    }
+    .title-irpf section .text h1 {
+      font-size: 2rem;
+    }
+    .title-irpf section .image {
+      width: 100%;
+      justify-content: center;
+    }
+    .title-irpf section .image::after {
+      width: 500px;
+      height: 500px;
+      left: 0px;
+      margin: 0 auto;
+    }
+    .title-irpf section .image img {
+      height: 450px;
+      width: 450px;
+    }
+
+    .content-irpf section {
+      min-height: auto;
+      padding: 100px 0px;
+      max-width: 640px;
+    }
+    .content-irpf section .subtitle h2 {
+      font-size: 1.5rem;
+      width: 95%;
+    }
+    .content-irpf section .subtitle h3 {
+      width: 95%;
+    }
+    .content-irpf section .content .container {
+      flex-direction: column;
+    }
+    .content-irpf section .content .container .image {
+      width: 90%;
+    }
+    .content-irpf section .content .container .image img {
+      width: 60%;
+    }
+    .content-irpf section .content .container .text {
+      width: 90%;
+    }
+    .content-irpf section .content .container .text .item .line-hr {
+      height: 50px;
+      top: 150%;
+    }
+
+    .section-irpf section {
+      min-height: auto;
+      max-width: 640px;
+    }
+    .section-irpf section .subtitle h2 {
+      font-size: 1.5rem;
+    }
+    .section-irpf section .container .content {
+      flex-direction: column;
+    }
+    .section-irpf section .container .content .tips {
+      width: 90%;
+      height: auto;
+      flex-direction: column;
+    }
+    .section-irpf section .container .content .tips .text {
+      width: 100%;
+      padding-right: 10px;
+    }
+    .section-irpf section .container .content .tips .image {
+      width: 100%;
+    }
+    /* IRPF PAGE */
+    /* CONTABILIDADE FISCAL PAGE */
+    .section-contabilidade-fiscal section {
+      min-height: auto;
+      padding-top: 150px;
+      max-width: 640px;
+    }
+    .section-contabilidade-fiscal section .subtitle h2 {
+      font-size: 1.5rem;
+      width: 95%;
+    }
+    .section-contabilidade-fiscal section .subtitle h3 {
+      width: 95%;
+    }
+    .section-contabilidade-fiscal section .container .content {
+      flex-direction: column;
+    }
+
+    .section-contabilidade-fiscal section .container .content.benefits .item {
+      width: 90%;
+    }
+    /* CONTABILIDADE FISCAL PAGE */
+    /* DOMESTIC PAGE */
+    .title-domestic section {
+      height: auto;
+      flex-direction: column;
+      border-radius: unset;
+      overflow: visible;
+    }
+    .title-domestic section .text {
+      width: 100%;
+      padding-top: 50px;
+    }
+    .title-domestic section .text h1 {
+      font-size: 2rem;
+    }
+    .title-domestic section .image {
+      width: 100%;
+      justify-content: center;
+    }
+    .title-domestic section .image::after {
+      width: 450px;
+      height: 450px;
+      left: 0px;
+      margin: 0 auto;
+    }
+    .title-domestic section .image img {
+      width: 400px;
+      height: 400px;
+    }
+    /* DOMESTIC PAGE */
+    /* SERVICES PAGE */
+
+    /* CONTACT PAGE */
+    .article-contact section {
+      min-height: auto;
+    }
+    .article-contact section .title-contact {
+      min-height: 500px;
+    }
+    .article-contact section .title-contact::after {
+      background-attachment: unset;
+      background-position: 60%;
+    }
+    .article-contact section .title-contact .text {
+      width: 100%;
+    }
+    .form-contact section {
+      min-height: auto;
+      padding: 100px 0px;
+      flex-direction: column;
+      align-items: center;
+      max-width: 640px;
+    }
+    .form-contact section .text {
+      width: 90%;
+    }
+    .form-contact section .text h2 {
+      font-size: 1.8rem;
+    }
+    .form-contact section .text div {
+      width: 90%;
+    }
+    .form-contact section .form {
+      width: 90%;
+    }
+    /* CONTACT PAGE */
+
+    /* PRIVACY PAGE*/
+    .policy-article section {
+      width: 90%;
+    }
+    .policy-article section h1 {
+      font-size: 1.8rem;
+    }
+
+    .banner-policy {
+      left: 0px;
+      right: 0px;
+      max-width: 400px;
+      z-index: 9999;
+      width: 90%;
+      margin: 0 auto;
+    }
+    /* PRIVACY PAGE*/
+
+    /* FOOTER */
+    footer .columns {
+      flex-direction: column;
+      padding: 20px 20px;
+      gap: 50px;
+    }
+    footer .columns .footer-column {
+      width: 90%;
+      min-height: auto;
+    }
+    /* FOOTER */
+  }
+  @media (min-width: 769px) {
+    /* HOME PAGE - SECTION HERO */
+    .article-home section {
+      min-height: 850px;
+    }
+    .article-home section::after {
+      width: 550px;
+      height: 550px;
+    }
+    .article-home section::before {
+      width: 650px;
+      height: 650px;
+    }
+    .article-home section img {
+      width: 550px;
+      height: 400px;
+      right: 0%;
+    }
+    .article-home section .content-home {
+      width: 100%;
+    }
+    /* HOME PAGE - SECTION HERO */
+    /* HOME PAGE - SECTION ABOUT */
+    .about-home section {
+      min-height: auto;
+    }
+    .about-home section .content {
+      flex-direction: row;
+      align-items: center;
+    }
+    .about-home section .content .img {
+      width: 50%;
+    }
+    .about-home section .content .text {
+      width: 50%;
+    }
+    /* HOME PAGE - SECTION ABOUT */
+    /* HOME PAGE - SECTION DIRECTORS */
+    .know-directors section {
+      min-height: auto;
+    }
+    .know-directors section .content {
+      flex-direction: row;
+    }
+    .know-directors section .content .director {
+      width: 35%;
+      max-width: 640px;
+    }
+    /* HOME PAGE - SECTION DIRECTORS */
+    /* HOME PAGE - SECTION SERVICES */
+    .services-home section {
+      min-height: auto;
+    }
+    .services-home section .content {
+      flex-direction: unset;
+      flex-wrap: wrap;
+    }
+    .services-home section .content .service {
+      width: 45%;
+      max-width: 640px;
+    }
+
+    .services-home section .service-expanded .expanded {
+      width: 90%;
+    }
+    /* HOME PAGE - SECTION SERVICES */
+    /* HOME PAGE - SECTION FEEDBACKS */
+    .feedbacks-home section {
+      min-height: auto;
+      background-attachment: unset;
+    }
+    .feedbacks-home section .content .container .feedbacks-wrapper .feedback {
+      min-width: 550px;
+      min-height: 300px;
+    }
+    .feedbacks-home
+      section
+      .content
+      .container
+      .feedbacks-wrapper
+      .feedback
+      .client {
+      bottom: -100px;
+    }
+    .feedbacks-home
+      section
+      .content
+      .container
+      .feedbacks-wrapper
+      .feedback
+      .client
+      img {
+      width: 70px;
+      height: 70px;
+    }
+    /* HOME PAGE - SECTION FEEDBACKS */
+    /* HOME PAGE - FAQ */
+    .FAQ-home section {
+      min-height: auto;
+    }
+    .FAQ-home section .content {
+      padding: 0px;
+    }
+    .FAQ-home section .content .FAQ {
+      width: 90%;
+      max-width: 640px;
+    }
+    /* HOME PAGE - FAQ */
+    /* HOME PAGE - BLOG */
+    .blog-home section {
+      min-height: auto;
+    }
+    .blog-home section .content .container {
+      flex-wrap: wrap;
+      width: 90%;
+    }
+    .blog-home section .content .container .item {
+      width: 30%;
+      max-width: 640px;
+    }
+    /* HOME PAGE - BLOG */
+    /* HOME PAGE - CONTACT */
+    .contact-home section {
+      min-height: auto;
+    }
+    .contact-home section .container {
+      flex-direction: column;
+      align-items: center;
+      max-width: 640px;
+    }
+    .contact-home section .container .forms {
+      width: 90%;
+      justify-content: center;
+    }
+    .contact-home section .container .forms form {
+      width: 100%;
+    }
+
+    .contact-home section .container .content {
+      width: 90%;
+      align-items: center;
+    }
+    .contact-home section .container .content h3 {
+      text-align: center;
+    }
+    .contact-home section .container .content div {
+      flex-direction: column;
+      width: 90%;
+      align-items: center;
+    }
+    .contact-home section .container .content div .icons-contact,
+    .contact-home section .container .content div .social-contact {
+      width: 90%;
+    }
+    /* HOME PAGE - CONTACT */
+
+    /* ABOUT PAGE - HERO SECTION */
+    .article-about section {
+      min-height: auto;
+    }
+    .article-about section .title-about {
+      min-height: 500px;
+    }
+    .article-about section .title-about::after {
+      background-attachment: unset;
+    }
+    .article-about section .title-about .text {
+      width: 100%;
+    }
+    .article-about section .others-options {
+      min-height: auto;
+      padding: 10px 0px;
+    }
+    .article-about section .others-options .item {
+      width: 30%;
+    }
+    /* ABOUT PAGE - HERO SECTION */
+    /* ABOUT PAGE - NEED US SECTION */
+    .need-us-about section {
+      min-height: auto;
+      align-items: center;
+      max-width: 640px;
+    }
+    .need-us-about section .content {
+      padding: 0px;
+      width: 50%;
+    }
+    .need-us-about section .image {
+      width: 50%;
+    }
+    .need-us-about section .image .container-img {
+      width: 100%;
+    }
+    /* ABOUT PAGE - NEED US SECTION */
+    /* ABOUT PAGE - MISSIONS SECTION */
+    .missions-about section {
+      min-height: auto;
+    }
+    .missions-about section .container {
+      flex-direction: column;
+    }
+    .missions-about section .container .item {
+      max-width: 640px;
+      width: 50%;
+    }
+    /* ABOUT PAGE - MISSIONS SECTION */
+    /* ABOUT PAGE - HOW HELP SECTION */
+    .howHelp-about section {
+      min-height: auto;
+    }
+    .howHelp-about section::after {
+      background-attachment: unset;
+    }
+    .howHelp-about section .howHelp-container .item {
+      width: 30%;
+      max-width: 500px;
+    }
+    /* ABOUT PAGE - HOW HELP SECTION */
+    /* ABOUT PAGE - CONTACT SECTION */
+    .contact-about section {
+      min-height: auto;
+    }
+    .contact-about section .contact-title span {
+      width: 70%;
+    }
+    /* ABOUT PAGE - CONTACT SECTION */
+
+    /*BLOG PAGE - HERO SECTION */
+    .article-blog section {
+      min-height: auto;
+    }
+    .article-blog section .title-blog {
+      min-height: 500px;
+    }
+    .article-blog section .title-blog::after {
+      background-attachment: unset;
+    }
+    .article-blog section .title-blog .text {
+      width: 100%;
+    }
+
+    .content-blog section {
+      align-items: start;
+    }
+    .content-blog section .posts {
+      width: 45%;
+      max-width: 640px;
+    }
+
+    .content-blog section aside {
+      width: 45%;
+      max-width: 640px;
+    }
+    /*BLOG PAGE - HERO SECTION */
+
+    /* POST BLOG PAGE - HERO SECTION */
+    .article-post section {
+      min-height: auto;
+    }
+    .article-post section .title-post {
+      min-height: 500px;
+    }
+    .article-post section .title-post .text {
+      width: 80%;
+    }
+    .content-post {
+      min-height: auto;
+      padding: 100px 0px;
+      align-items: start;
+    }
+    .content-post .see-its-post {
+      width: 15%;
+      max-width: 500px;
+      padding-left: 10px;
+    }
+    .content-post .see-its-post .container-fixed {
+      max-width: unset;
+    }
+    .content-post .text-post,
+    .content-post .text-post .contact-post a {
+      width: 70%;
+      max-width: 640px;
+    }
+    .content-post .text-post .contact-post a img {
+      object-position: -100px;
+    }
+    .content-post .buttons-post {
+      width: 15%;
+      max-width: 640px;
+      padding-right: 10px;
+    }
+    .content-post .buttons-post .container-fixed {
+      flex-direction: column;
+      max-width: unset;
+    }
+    /* POST BLOG PAGE - HERO SECTION */
+    /* CATEGORIES BLOG */
+    .article-category h1 {
+      text-align: center;
+    }
+    .article-category section {
+      min-height: auto;
+      align-items: start;
+    }
+    .article-category section .posts {
+      width: 65%;
+      max-width: 640px;
+    }
+    .article-category section .posts .post {
+      width: 100%;
+    }
+
+    .article-category section aside {
+      width: 35%;
+      max-width: 640px;
+    }
+    /* CATEGORIES BLOG */
+
+    /* SERVICES PAGE */
+    /* MEI PAGE */
+    .article-service section {
+      min-height: auto;
+    }
+    .article-service section .title-service {
+      min-height: auto;
+      justify-content: center;
+    }
+    .article-service section .title-service .container {
+      flex-direction: column;
+      padding-top: 50px;
+      gap: 100px;
+    }
+
+    .article-service section .title-service .container .text {
+      width: 100%;
+      max-width: 640px;
+    }
+    .article-service section .title-service .container .image {
+      width: 100%;
+      height: auto;
+    }
+    .article-service section .title-service .container .image::after {
+      width: 350px;
+      height: 350px;
+    }
+    .article-service section .title-service .container .image img {
+      width: 350px;
+      height: 350px;
+      right: 0px;
+      left: 0px;
+      margin: 0 auto;
+    }
+    .article-service section .title-service .banner {
+      width: 90%;
+      gap: 30px;
+      padding: 20px;
+      max-width: 640px;
+    }
+    .article-service section .title-service .banner .item {
+      flex-direction: column;
+    }
+    .article-service section .title-service .banner .item span {
+      align-items: center;
+      text-align: center;
+    }
+    .article-service section .title-service .banner .item span h3 {
+      font-size: 1rem;
+    }
+    .article-service section .title-service .banner .item span p {
+      display: none;
+    }
+
+    .section-mei section {
+      padding: 150px 0px 0px 0px;
+      max-width: 640px;
+    }
+    .section-mei section .mei-subtitle h2 {
+      font-size: 2rem;
+      width: 90%;
+    }
+    .section-mei section .mei-subtitle h3 {
+      width: 90%;
+    }
+    .section-mei section .mei-container .content {
+      flex-direction: column;
+      width: 90%;
+      max-width: 640px;
+    }
+    .section-mei section .mei-container .content .item {
+      flex-direction: row;
+      align-items: start;
+      justify-content: center;
+      width: 100%;
+    }
+    .section-mei section .mei-container .content .item div {
+      width: 90%;
+    }
+
+    .section-mei section .mei-container .content span .hr-item-1 {
+      height: 50px;
+      width: 2px;
+      top: -200%;
+      left: 50%;
+    }
+    .section-mei section .mei-container .content span .hr-item-2 {
+      height: 50px;
+      width: 2px;
+      left: 50%;
+      top: 150%;
+    }
+
+    .section-mei section .mei-container .three-steps {
+      width: 90%;
+      max-width: 640px;
+    }
+    .section-mei section .mei-container .three-steps .item span .hr-item-1 {
+      height: 50px;
+      top: -200%;
+    }
+    .section-mei section .mei-container .three-steps .item span .hr-item-2 {
+      bottom: unset;
+      height: 50px;
+      top: 150%;
+    }
+
+    .FAQ-service section {
+      min-height: auto;
+      max-width: 640px;
+    }
+    .FAQ-service section .title-FAQ h2 {
+      font-size: 2rem;
+    }
+    .FAQ-service section .content {
+      padding: 0px;
+    }
+    .FAQ-service section .content .FAQ {
+      width: 100%;
+    }
+
+    .blog-services section {
+      min-height: auto;
+      max-width: 450px;
+    }
+    .blog-services section .title-blog h2 {
+      font-size: 2rem;
+      width: 95%;
+    }
+    .blog-services section .title-blog span {
+      width: 95%;
+    }
+    .blog-services section .content .blog-wrapper {
+      width: 90%;
+      flex-direction: column;
+    }
+    .blog-services section .content .blog-wrapper .item {
+      width: 100%;
+      min-height: auto;
+    }
+    /* MEI PAGE */
+    /* ABERTURA DE EMPRESA PAGE */
+    .article-service section .title-service.abertura {
+      min-height: auto;
+    }
+    .section-abertura section {
+      min-height: auto;
+      padding: 100px 0px;
+      max-width: 640px;
+    }
+    .section-abertura section .abertura-subtitle h2 {
+      font-size: 2rem;
+    }
+    .section-abertura section .abertura-container .content {
+      flex-wrap: wrap;
+    }
+
+    .section-abertura section .abertura-container .tips {
+      width: 90%;
+      height: auto;
+      flex-direction: column;
+    }
+    .section-abertura section .abertura-container .tips .text {
+      width: 100%;
+      padding-bottom: 10px;
+    }
+    .section-abertura section .abertura-container .tips .image {
+      width: 100%;
+    }
+    .section-abertura section .abertura-container .tips .image img {
+      width: 300px;
+      height: 300px;
+    }
+
+    .section-abertura section .abertura-container .slider-abertura .feedback {
+      min-width: 400px;
+      min-height: 320px;
+    }
+
+    .contact-service section {
+      height: auto;
+      flex-wrap: wrap;
+      width: 90%;
+      gap: 100px;
+      padding-bottom: 50px;
+      max-width: 640px;
+    }
+    .contact-service section .title-contact {
+      width: 100%;
+    }
+    .contact-service section .title-contact h2 {
+      font-size: 2rem;
+    }
+    .contact-service section .img-contact {
+      width: 100%;
+    }
+    /* ABERTURA DE EMPRESA PAGE */
+
+    /* IRPF PAGE */
+    .title-irpf section {
+      height: auto;
+      flex-direction: column;
+      border-radius: unset;
+      overflow: visible;
+    }
+    .title-irpf section .text {
+      height: auto;
+      padding-top: 50px;
+      width: 100%;
+    }
+    .title-irpf section .text h1 {
+      font-size: 2.5rem;
+    }
+    .title-irpf section .image {
+      width: 100%;
+      justify-content: center;
+    }
+    .title-irpf section .image::after {
+      width: 500px;
+      height: 500px;
+      left: 0px;
+      margin: 0 auto;
+    }
+    .title-irpf section .image img {
+      height: 450px;
+      width: 450px;
+    }
+
+    .content-irpf section {
+      min-height: auto;
+      padding: 100px 0px;
+      max-width: 640px;
+    }
+    .content-irpf section .subtitle h2 {
+      font-size: 2rem;
+      width: 95%;
+    }
+    .content-irpf section .subtitle h3 {
+      width: 95%;
+    }
+    .content-irpf section .content .container {
+      flex-direction: column;
+    }
+    .content-irpf section .content .container .image {
+      width: 90%;
+    }
+    .content-irpf section .content .container .image img {
+      width: 60%;
+    }
+    .content-irpf section .content .container .text {
+      width: 90%;
+    }
+    .content-irpf section .content .container .text .item .line-hr {
+      height: 25px;
+      top: 150%;
+    }
+
+    .section-irpf section {
+      min-height: auto;
+      max-width: 640px;
+    }
+    .section-irpf section .subtitle h2 {
+      font-size: 2rem;
+    }
+    .section-irpf section .container .content {
+      flex-direction: column;
+    }
+    .section-irpf section .container .content .tips {
+      width: 90%;
+      height: auto;
+      flex-direction: column;
+    }
+    .section-irpf section .container .content .tips .text {
+      width: 100%;
+      padding-right: 10px;
+    }
+    .section-irpf section .container .content .tips .image {
+      width: 100%;
+    }
+    /* IRPF PAGE */
+    /* CONTABILIDADE FISCAL PAGE */
+    .section-contabilidade-fiscal section {
+      min-height: auto;
+      padding-top: 150px;
+      max-width: 640px;
+    }
+    .section-contabilidade-fiscal section .subtitle h2 {
+      font-size: 2rem;
+      width: 95%;
+    }
+    .section-contabilidade-fiscal section .subtitle h3 {
+      width: 95%;
+    }
+    .section-contabilidade-fiscal section .container .content {
+      flex-wrap: wrap;
+    }
+
+    .section-contabilidade-fiscal section .container .content.benefits .item {
+      width: 90%;
+    }
+    /* CONTABILIDADE FISCAL PAGE */
+    /* DOMESTIC PAGE */
+    .title-domestic section {
+      height: auto;
+      flex-direction: column;
+      border-radius: unset;
+      overflow: visible;
+    }
+    .title-domestic section .text {
+      width: 100%;
+      padding-top: 50px;
+    }
+    .title-domestic section .text h1 {
+      font-size: 2.5rem;
+    }
+    .title-domestic section .image {
+      width: 100%;
+      justify-content: center;
+    }
+    .title-domestic section .image::after {
+      width: 450px;
+      height: 450px;
+      left: 0px;
+      margin: 0 auto;
+    }
+    .title-domestic section .image img {
+      width: 400px;
+      height: 400px;
+    }
+    /* DOMESTIC PAGE */
+    /* SERVICES PAGE */
+
+    /* CONTACT PAGE */
+    .article-contact section {
+      min-height: auto;
+    }
+    .article-contact section .title-contact {
+      min-height: 500px;
+    }
+    .article-contact section .title-contact::after {
+      background-attachment: unset;
+      background-position: 60%;
+    }
+    .article-contact section .title-contact .text {
+      width: 100%;
+    }
+    .form-contact section {
+      min-height: auto;
+      padding: 100px 0px;
+      flex-direction: column;
+      align-items: center;
+      max-width: 640px;
+    }
+    .form-contact section .text {
+      width: 90%;
+    }
+    .form-contact section .text h2 {
+      font-size: 2rem;
+    }
+    .form-contact section .text div {
+      width: 90%;
+    }
+    .form-contact section .form {
+      width: 90%;
+    }
+    /* CONTACT PAGE */
+
+    /* PRIVACY PAGE*/
+    .policy-article section {
+      width: 90%;
+    }
+    .policy-article section h1 {
+      font-size: 1.8rem;
+    }
+
+    .banner-policy {
+      left: 0px;
+      right: 0px;
+      max-width: 400px;
+      z-index: 9999;
+      width: 90%;
+      margin: 0 auto;
+    }
+    /* PRIVACY PAGE*/
+
+    /* FOOTER */
+    footer .columns {
+      flex-direction: column;
+      padding: 20px 20px;
+      gap: 50px;
+    }
+    footer .columns .footer-column {
+      width: 90%;
+      min-height: auto;
+    }
+    /* FOOTER */
+  }
+  @media (min-width: 1024px) {
+    /* HOME PAGE - SECTION HERO */
+    .article-home section {
+      min-height: 700px;
+    }
+    .article-home section::after {
+      width: 600px;
+      height: 600px;
+    }
+    .article-home section::before {
+      width: 700px;
+      height: 700px;
+    }
+    .article-home section img {
+      width: 600px;
+      height: 450px;
+    }
+    .article-home section .content-home {
+      width: 55%;
+    }
+    /* HOME PAGE - SECTION HERO */
+    /* HOME PAGE - SECTION ABOUT */
+    .about-home section .content {
+      max-width: 1080px;
+    }
+    .about-home section .content .img {
+      width: 50%;
+    }
+    .about-home section .content .text {
+      width: 50%;
+    }
+    /* HOME PAGE - SECTION ABOUT */
+    /* HOME PAGE - SECTION DIRECTORS */
+    .know-directors section .content {
+      max-width: 1080px;
+    }
+    /* HOME PAGE - SECTION DIRECTORS */
+    /* HOME PAGE - SECTION SERVICES */
+    .services-home section .content .service {
+      width: 30%;
+      max-width: 300px;
+    }
+    /* HOME PAGE - SECTION SERVICES */
+
+    /* HOME PAGE - FAQ */
+    .FAQ-home section {
+      min-height: auto;
+    }
+    .FAQ-home section .content {
+      padding: 0px;
+    }
+    .FAQ-home section .content .FAQ {
+      width: 90%;
+      max-width: 640px;
+    }
+    /* HOME PAGE - FAQ */
+    /* HOME PAGE - BLOG */
+    .blog-home section .content .container {
+      flex-wrap: wrap;
+      max-width: 1080px;
+    }
+    .blog-home section .content .container .item {
+      max-height: 500px;
+    }
+    /* HOME PAGE - BLOG */
+    /* HOME PAGE - CONTACT */
+    .contact-home section .container {
+      flex-direction: row;
+      max-width: 1080px;
+      align-items: start;
+    }
+    .contact-home section .container .forms {
+      width: 50%;
+      justify-content: end;
+    }
+    .contact-home section .container .forms form {
+      width: 80%;
+    }
+
+    .contact-home section .container .content {
+      width: 50%;
+      align-items: start;
+    }
+    .contact-home section .container .content h3 {
+      text-align: start;
+    }
+    .contact-home section .container .content div {
+      flex-direction: row;
+      width: 80%;
+      align-items: start;
+    }
+    .contact-home section .container .content div .icons-contact,
+    .contact-home section .container .content div .social-contact {
+      width: 90%;
+    }
+    /* HOME PAGE - CONTACT */
+
+    /* ABOUT PAGE - HERO SECTION */
+    .article-about section {
+      min-height: auto;
+    }
+    .article-about section .title-about {
+      min-height: 500px;
+    }
+    .article-about section .title-about::after {
+      background-attachment: unset;
+    }
+    .article-about section .title-about .text {
+      width: 100%;
+    }
+    .article-about section .others-options {
+      min-height: auto;
+      padding: 10px 0px;
+      max-width: 1080px;
+    }
+    .article-about section .others-options .item {
+      width: 30%;
+    }
+    /* ABOUT PAGE - HERO SECTION */
+    /* ABOUT PAGE - NEED US SECTION */
+    .need-us-about section {
+      min-height: auto;
+      align-items: center;
+      max-width: 1080px;
+      padding: 100px 20px;
+    }
+    /* ABOUT PAGE - NEED US SECTION */
+    /* ABOUT PAGE - MISSIONS SECTION */
+    .missions-about section {
+      min-height: auto;
+    }
+    .missions-about section .container {
+      flex-direction: row;
+      max-width: 1080px;
+    }
+    .missions-about section .container .item {
+      width: 30%;
+    }
+    /* ABOUT PAGE - MISSIONS SECTION */
+    /* ABOUT PAGE - HOW HELP SECTION */
+    .howHelp-about section .howHelp-container {
+      max-width: 1080px;
+    }
+    /* ABOUT PAGE - HOW HELP SECTION */
+
+    /*BLOG PAGE - HERO SECTION */
+
+    .content-blog section {
+      align-items: start;
+      max-width: 1080px;
+    }
+    /*BLOG PAGE - HERO SECTION */
+
+    /* POST BLOG PAGE - HERO SECTION */
+    .content-post .text-post,
+    .content-post .text-post .contact-post a {
+      width: 70%;
+      max-width: 800px;
+    }
+    .content-post .text-post .contact-post a img {
+      object-position: 0px;
+    }
+
+    /* POST BLOG PAGE - HERO SECTION */
+    /* CATEGORIES BLOG */
+    .article-category section {
+      max-width: 1080px;
+    }
+    /* CATEGORIES BLOG */
+
+    /* SERVICES PAGE */
+    /* MEI PAGE */
+    .article-service section .title-service {
+      justify-content: end;
+    }
+    .article-service section .title-service .container {
+      flex-direction: row;
+      padding-top: unset;
+      gap: unset;
+    }
+
+    .article-service section .title-service .container .text {
+      width: 50%;
+      max-width: unset;
+    }
+    .article-service section .title-service .container .image {
+      width: 50%;
+      height: auto;
+    }
+    .article-service section .title-service .container .image::after {
+      width: 400px;
+      height: 400px;
+    }
+    .article-service section .title-service .container .image img {
+      width: 500px;
+      height: 500px;
+      right: -50px;
+      left: unset;
+      margin: unset;
+    }
+    .article-service section .title-service .banner {
+      width: 80%;
+      gap: unset;
+      bottom: -120px;
+      max-width: unset;
+    }
+    .article-service section .title-service .banner .item {
+      flex-direction: row;
+    }
+    .article-service section .title-service .banner .item span {
+      align-items: start;
+      text-align: start;
+    }
+    .article-service section .title-service .banner .item span p {
+      display: unset;
+    }
+
+    .section-mei section {
+      max-width: 1080px;
+    }
+    .section-mei section .mei-container .content {
+      flex-direction: row;
+      width: 90%;
+      max-width: 1080px;
+    }
+    .section-mei section .mei-container .content .item {
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+    }
+    .section-mei section .mei-container .content .item div {
+      width: 90%;
+    }
+
+    .section-mei section .mei-container .content span .hr-item-1 {
+      height: 2px;
+      width: 200px;
+      top: 50%;
+      left: 150%;
+    }
+    .section-mei section .mei-container .content span .hr-item-2 {
+      height: 2px;
+      width: 200px;
+      left: unset;
+      right: 150%;
+      top: 50%;
+    }
+
+    .section-mei section .mei-container .three-steps {
+      width: 80%;
+      max-width: 1080px;
+    }
+    .section-mei section .mei-container .three-steps .item span .hr-item-1 {
+      height: 25px;
+      top: 150%;
+    }
+    .section-mei section .mei-container .three-steps .item span .hr-item-2 {
+      bottom: unset;
+      height: 25px;
+      top: unset;
+      bottom: 150%;
+    }
+
+    .blog-services section {
+      min-height: auto;
+      max-width: 1080px;
+    }
+    .blog-services section .content .blog-wrapper {
+      width: 95%;
+      flex-direction: row;
+    }
+    .blog-services section .content .blog-wrapper .item {
+      width: 33%;
+      min-height: 440px;
+    }
+    /* MEI PAGE */
+    /* ABERTURA DE EMPRESA PAGE */
+    .section-abertura section {
+      max-width: 1080px;
+    }
+
+    .section-abertura section .abertura-container .tips {
+      width: 45%;
+      height: 600px;
+      flex-direction: row;
+      align-items: start;
+    }
+    .section-abertura section .abertura-container .tips .text {
+      width: 50%;
+    }
+    .section-abertura section .abertura-container .tips .image {
+      width: 50%;
+    }
+
+    .section-abertura section .abertura-container .slider-abertura .feedback {
+      min-width: 550px;
+      min-height: 250px;
+    }
+
+    .contact-service section {
+      gap: 0px;
+      max-width: 1080px;
+      align-items: start;
+    }
+    .contact-service section .title-contact {
+      width: 60%;
+    }
+    .contact-service section .img-contact {
+      width: 40%;
+    }
+    /* ABERTURA DE EMPRESA PAGE */
+
+    /* IRPF PAGE */
+    .title-irpf section {
+      min-height: auto;
+      flex-direction: row;
+      overflow: hidden;
+      border-end-end-radius: 40%;
+    }
+    .title-irpf section .text {
+      width: 50%;
+    }
+    .title-irpf section .text h1 {
+      font-size: 2.5rem;
+    }
+    .title-irpf section .image {
+      width: 50%;
+      justify-content: end;
+    }
+    .title-irpf section .image::after {
+      width: 600px;
+      height: 600px;
+      top: -20px;
+      right: -40px;
+    }
+    .title-irpf section .image img {
+      height: 400px;
+      width: 400px;
+    }
+
+    .content-irpf section {
+      max-width: 1080px;
+    }
+
+    .content-irpf section .content .container {
+      flex-direction: row;
+    }
+    .content-irpf section .content .container .image {
+      width: 30%;
+    }
+    .content-irpf section .content .container .image img {
+      width: 100%;
+    }
+    .content-irpf section .content .container .text {
+      width: 70%;
+    }
+
+    .section-irpf section {
+      max-width: 1080px;
+    }
+    .section-irpf section .container .content {
+      flex-direction: row;
+    }
+    .section-irpf section .container .content .tips {
+      width: 600px;
+      height: 450px;
+      flex-direction: row;
+      align-items: start;
+    }
+    .section-irpf section .container .content .tips .text {
+      width: 50%;
+    }
+    .section-irpf section .container .content .tips .image {
+      width: 50%;
+    }
+    /* IRPF PAGE */
+    /* CONTABILIDADE FISCAL PAGE */
+    .section-contabilidade-fiscal section {
+      min-height: auto;
+      padding-top: 150px;
+      max-width: 1080px;
+    }
+
+    .section-contabilidade-fiscal section .container .content {
+      flex-wrap: wrap;
+    }
+
+    .section-contabilidade-fiscal section .container .content.benefits .item {
+      width: 450px;
+    }
+    /* CONTABILIDADE FISCAL PAGE */
+    /* DOMESTIC PAGE */
+    .title-domestic section {
+      min-height: auto;
+      flex-direction: row;
+      border-end-end-radius: 40%;
+      overflow: hidden;
+    }
+    .title-domestic section .text {
+      width: 50%;
+    }
+    .title-domestic section .image {
+      width: 50%;
+    }
+    .title-domestic section .image::after {
+      width: 600px;
+      height: 600px;
+      left: 0px;
+      margin: 0 auto;
+    }
+    .title-domestic section .image img {
+      width: 400px;
+      height: 400px;
+    }
+    /* DOMESTIC PAGE */
+    /* SERVICES PAGE */
+
+    /* CONTACT PAGE */
+    .form-contact section {
+      min-height: auto;
+      padding: 100px 30px;
+      flex-direction: row;
+      align-items: start;
+      max-width: 1080px;
+    }
+    .form-contact section .text {
+      width: 50%;
+    }
+    .form-contact section .text h2 {
+      font-size: 2.5rem;
+    }
+    .form-contact section .form {
+      width: 50%;
+    }
+    /* CONTACT PAGE */
+
+    /* FOOTER */
+    footer .columns {
+      flex-direction: row;
+      padding: 20px 10px;
+      align-items: start;
+      gap: 30px;
+    }
+    footer .columns .footer-column {
+      width: 25%;
+    }
+    /* FOOTER */
+  }
+}
+
+@media (orientation: landscape) {
+  @media (max-width: 1023px) {
+    header nav .menu-desktop .nav-list.active .list {
+      flex-direction: row;
+    }
+    /* HOME PAGE */
+    .article-home section {
+      min-height: 1000px;
+    }
+    .article-home section .content-home {
+      width: 90%;
+    }
+
+    .know-directors section .content {
+      flex-direction: column;
+    }
+
+    .services-home section .content .service {
+      width: 45%;
+    }
+
+    .feedbacks-home section {
+      background-attachment: unset;
+    }
+
+    .contact-home section {
+      background-attachment: unset;
+    }
+    .contact-home section .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .contact-home section .container .forms {
+      width: 90%;
+      justify-content: center;
+    }
+    .contact-home section .container .content {
+      width: 90%;
+      align-items: center;
+    }
+    .contact-home section .container .content div {
+      width: 70%;
+    }
+    /* HOME PAGE */
+
+    /* ABOUT PAGE */
+    .article-about section .title-about::after {
+      background-attachment: unset;
+    }
+    .article-about section .others-options .item {
+      width: 30%;
+    }
+    .missions-about section .container .item {
+      width: 30%;
+      min-height: 340px;
+    }
+    /* ABOUT PAGE */
+
+    /* SERVICES PAGES */
+    /* MEI */
+    .article-service section {
+      min-height: auto;
+    }
+    .article-service section .title-service {
+      min-height: auto;
+    }
+    .article-service section .title-service .container {
+      flex-direction: column;
+      gap: 100px;
+    }
+    .article-service section .title-service .container .text {
+      width: 100%;
+      padding-top: 50px;
+    }
+    .article-service section .title-service .container .image {
+      width: 100%;
+    }
+    .article-service section .title-service .container .image img {
+      left: 0px;
+      margin: 0 auto;
+    }
+    .article-service section .title-service .banner .item {
+      flex-direction: column;
+      text-align: center;
+    }
+    .article-service section .title-service .banner .item span p {
+      display: none;
+    }
+
+    .section-mei section {
+      padding: 150px 0px 100px 0px;
+    }
+    .section-mei section .mei-container .content span .hr-item-1,
+    .section-mei section .mei-container .content span .hr-item-2 {
+      width: 100px;
+    }
+
+    .blog-services section .content .blog-wrapper {
+      flex-wrap: wrap;
+    }
+    .blog-services section .content .blog-wrapper .item {
+      width: 45%;
+      min-height: 470px;
+    }
+
+    /* MEI */
+    /* ABERTURA DE EMPRESA */
+    .section-abertura section {
+      padding: 100px 0px;
+    }
+    .section-abertura section .abertura-container .content {
+      flex-wrap: wrap;
+    }
+    /* ABERTURA DE EMPRESA */
+
+    /* IRPF */
+    .title-irpf section {
+      height: auto;
+    }
+    .title-irpf section .text {
+      width: 60%;
+    }
+    .title-irpf section .image {
+      width: 40%;
+    }
+    .title-irpf section .image::after {
+      width: 375px;
+      height: 375px;
+    }
+    .title-irpf section .image img {
+      width: 325px;
+      height: 325px;
+    }
+
+    .content-irpf section {
+      padding: 100px 0px;
+    }
+    .section-irpf section .container .content {
+      flex-direction: column;
+    }
+    /* IRPF */
+    /* FISCAL */
+    .section-contabilidade-fiscal section {
+      padding: 150px 0px 100px 0px;
+    }
+    .section-contabilidade-fiscal section .container .content {
+      flex-wrap: wrap;
+    }
+    /* FISCAL */
+    /* DOMÉSTICA */
+    .title-domestic section {
+      height: auto;
+    }
+    .title-domestic section .text {
+      width: 60%;
+    }
+    .title-domestic section .image {
+      width: 40%;
+    }
+    .title-domestic section .image::after {
+      width: 350px;
+      height: 350px;
+    }
+    .title-domestic section .image img {
+      width: 300px;
+      height: 300px;
+    }
+    /* DOMÉSTICA */
+
+    .contact-service {
+      padding: 0px 20px;
+    }
+    /* SERVICES PAGES */
+
+    /* FOOTER */
+    footer .columns {
+      flex-wrap: wrap;
+      padding: 20px 20px;
+      gap: 50px;
+    }
+    footer .columns .footer-column {
+      width: 45%;
+      min-height: auto;
+    }
+    /* FOOTER */
+  }
+  @media (min-width: 1024px) {
+    /* HOME PAGE */
+    .article-home section {
+      min-height: 100vh;
+    }
+    .article-home section .content-home {
+      width: 55%;
+    }
+
+    .know-directors section .content {
+      flex-direction: row;
+    }
+
+    .services-home section .content .service {
+      width: 25%;
+    }
+
+    .feedbacks-home section {
+      background-attachment: fixed;
+    }
+
+    .contact-home section {
+      background-attachment: fixed;
+    }
+    .contact-home section .container {
+      flex-direction: row;
+      align-items: start;
+    }
+    .contact-home section .container .forms {
+      width: 50%;
+      justify-content: end;
+    }
+    .contact-home section .container .content {
+      width: 50%;
+      align-items: start;
+    }
+    .contact-home section .container .content div {
+      width: 80%;
+    }
+    /* HOME PAGE */
+
+    /* ABOUT PAGE */
+    .article-about section .title-about::after {
+      background-attachment: fixed;
+    }
+    .article-about section .others-options .item {
+      width: 25%;
+    }
+    .missions-about section .container .item {
+      width: 25%;
+      min-height: 300px;
+    }
+    /* ABOUT PAGE */
+
+    /* SERVICES PAGES */
+    /* MEI */
+    .article-service section {
+      min-height: 80vh;
+    }
+    .article-service section .title-service {
+      min-height: 48vh;
+    }
+    .article-service section .title-service .container {
+      flex-direction: row;
+      gap: 0px;
+    }
+    .article-service section .title-service .container .text {
+      width: 50%;
+      padding-top: 0px;
+    }
+    .article-service section .title-service .container .image {
+      width: 50%;
+    }
+    .article-service section .title-service .banner {
+      bottom: -120px;
+    }
+    .article-service section .title-service .banner .item {
+      flex-direction: column;
+    }
+    .article-service section .title-service .banner .item span {
+      justify-content: center;
+      align-items: center;
+    }
+    .article-service section .title-service .banner .item span p {
+      display: none;
+    }
+
+    .section-mei section {
+      padding: 100px 0px;
+    }
+    .section-mei section .mei-container .content span .hr-item-1,
+    .section-mei section .mei-container .content span .hr-item-2 {
+      width: 150px;
+    }
+
+    .blog-services section .content .blog-wrapper {
+      flex-wrap: nowrap;
+    }
+    .blog-services section .content .blog-wrapper .item {
+      width: 30%;
+      min-height: 500px;
+    }
+
+    /* MEI */
+    /* ABERTURA DE EMPRESA */
+    .section-abertura section {
+      padding: 100px 0px;
+    }
+    .section-abertura section .abertura-container .content {
+      flex-wrap: wrap;
+    }
+    /* ABERTURA DE EMPRESA */
+
+    /* IRPF */
+    .title-irpf section {
+      height: 60vh;
+    }
+    .title-irpf section .image::after {
+      width: 450px;
+      height: 450px;
+    }
+    .title-irpf section .image img {
+      width: 400px;
+      height: 400px;
+    }
+
+    .content-irpf section {
+      padding: 100px 0px;
+    }
+    .section-irpf section .container .content {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    /* IRPF */
+    /* FISCAL */
+    .section-contabilidade-fiscal section {
+      padding: 0px;
+    }
+    .section-contabilidade-fiscal section .container .content {
+      flex-wrap: wrap;
+    }
+    /* FISCAL */
+    /* DOMÉSTICA */
+    .title-domestic section {
+      height: 60vh;
+    }
+    .title-domestic section .image::after {
+      width: 450px;
+      height: 450px;
+    }
+    .title-domestic section .image img {
+      width: 400px;
+      height: 400px;
+    }
+    /* DOMÉSTICA */
+    /* SERVICES PAGES */
+    /* FOOTER */
+    footer .columns {
+      flex-direction: column;
+      padding: 20px 20px;
+      gap: 50px;
+    }
+    footer .columns .footer-column {
+      width: 90%;
+      min-height: auto;
+    }
+    /* FOOTER */
+  }
+  @media (min-width: 1280px) {
+    /* HOME PAGE */
+    .article-home section {
+      min-height: 80vh;
+    }
+    /* HOME PAGE */
+
+    /* SERVICES PAGES */
+    /* MEI */
+
+    .article-service section .title-service .banner {
+      bottom: -120px;
+      padding: 20px;
+    }
+    .article-service section .title-service .banner .item {
+      flex-direction: row;
+    }
+    .article-service section .title-service .banner .item span {
+      justify-content: start;
+      align-items: start;
+    }
+    .article-service section .title-service .banner .item span p {
+      display: unset;
+    }
+
+    .section-mei section .mei-container .content span .hr-item-1,
+    .section-mei section .mei-container .content span .hr-item-2 {
+      width: 200px;
+    }
+
+    .blog-services section .content .blog-wrapper .item {
+      width: 30%;
+      min-height: 430px;
+    }
+
+    /* MEI */
+    /* ABERTURA DE EMPRESA */
+    .section-abertura section {
+      padding: 0px;
+    }
+    /* ABERTURA DE EMPRESA */
+
+    /* IRPF */
+    .title-irpf section .image::after {
+      width: 700px;
+      height: 700px;
+    }
+    .title-irpf section .image img {
+      width: 600px;
+      height: 600px;
+    }
+
+    .content-irpf section {
+      padding: 0px;
+    }
+    /* IRPF */
+
+    /* DOMÉSTICA */
+    .title-domestic section .image::after {
+      width: 700px;
+      height: 700px;
+    }
+    .title-domestic section .image img {
+      width: 600px;
+      height: 600px;
+    }
+    /* DOMÉSTICA */
+    /* SERVICES PAGES */
+    /* FOOTER */
+    footer .columns {
+      flex-direction: row;
+      padding: 20px 10px;
+      align-items: start;
+      gap: 30px;
+    }
+    footer .columns .footer-column {
+      width: 25%;
+    }
+    /* FOOTER */
+  }
+  @media (min-width: 1360px) {
+    /* MEI */
+    .article-service section .title-service .banner {
+      bottom: -90px;
+      padding: 30px;
+    }
+    /* MEI */
+  }
+  @media (min-width: 1440px) {
+    /* MEI */
+    .article-service section .title-service .banner {
+      bottom: -60px;
+      padding: 30px;
+    }
+    /* MEI */
+  }
+  @media (min-width: 1560px) {
+    /* HOME PAGE */
+    .article-home section {
+      min-height: 800px;
+    }
+    .article-home section .content-home h1 {
+      font-size: 3rem;
+    }
+    .article-home section .content-home h2 {
+      font-size: 2rem;
+    }
+    .article-home section .content-home h3 {
+      font-size: 1.6rem;
+    }
+    .article-home section .content-home div a {
+      font-size: 1.1rem;
+    }
+
+    .about-home section {
+      min-height: auto;
+      padding: 150px 0px;
+    }
+    .about-home section .content .text h2 {
+      font-size: 2.5rem;
+    }
+    .about-home section .content .text p,
+    .about-home section .content .text a {
+      font-size: 1.1rem;
+    }
+    .about-home section .content .text span {
+      font-size: 1rem;
+    }
+
+    .know-directors section {
+      min-height: auto;
+    }
+    .know-directors section .title-directors h2 {
+      font-size: 2.5rem;
+    }
+    .know-directors section .title-directors span {
+      font-size: 1.4rem;
+    }
+    .know-directors section .content .director .socials a {
+      font-size: 2.5rem;
+    }
+    .know-directors section .content .director .name h3 {
+      font-size: 2.5rem;
+    }
+    .know-directors section .content .director .text {
+      font-size: 1.1rem;
+    }
+
+    .services-home section {
+      min-height: auto;
+      padding: 150px 0px;
+    }
+    .services-home section .title-services h2 {
+      font-size: 2.5rem;
+    }
+    .services-home section .title-services span {
+      font-size: 1.4rem;
+    }
+    .services-home section .service-expanded .expanded .text p {
+      font-size: 1.1rem;
+    }
+
+    .feedbacks-home section {
+      min-height: auto;
+    }
+    .feedbacks-home section .title-feedbacks h2 {
+      font-size: 2.5rem;
+    }
+    .feedbacks-home section .title-feedbacks span {
+      font-size: 1.4rem;
+    }
+
+    .FAQ-home section {
+      min-height: auto;
+    }
+    .FAQ-home section .title-FAQ h2 {
+      font-size: 2.5rem;
+    }
+    .FAQ-home section .title-FAQ span {
+      font-size: 1.4rem;
+    }
+    .blog-home section {
+      min-height: auto;
+    }
+    .blog-home section .title-blog h2 {
+      font-size: 2.5rem;
+    }
+    .blog-home section .title-blog span {
+      font-size: 1.4rem;
+    }
+    .blog-home section .content .container .item .blog-title .author div i {
+      font-size: 1.25rem;
+    }
+    .blog-home section .content .container .item .blog-title .author div p {
+      font-size: 0.95rem;
+    }
+    .blog-home section .content .container .item .blog-text p {
+      font-size: 1.05rem;
+    }
+
+    .contact-home section {
+      min-height: auto;
+    }
+    .contact-home section .contact-title span {
+      font-size: 1.4rem;
+    }
+    .contact-home section .contact-title h2 {
+      font-size: 2.5rem;
+    }
+    .contact-home section .container .forms form .error {
+      font-size: 1.1rem;
+    }
+    .contact-home
+      section
+      .container
+      .forms
+      form
+      .input-group
+      .input-label
+      label {
+      font-size: 1.1rem;
+    }
+    .contact-home
+      section
+      .container
+      .forms
+      form
+      .input-group
+      input::placeholder,
+    .contact-home
+      section
+      .container
+      .forms
+      form
+      .input-group
+      textarea::placeholder {
+      font-size: 1rem;
+    }
+    .contact-home section .container .content h3 {
+      font-size: 1.8rem;
+    }
+    .contact-home section .container .content div .icons-contact a span,
+    .contact-home section .container .content div .social-contact a span {
+      font-size: 1.1rem;
+    }
+    .contact-home
+      section
+      .container
+      .forms
+      form
+      .input-group
+      .input-label
+      .buttons-submit
+      button {
+      font-size: 1rem;
+    }
+
+    /* HOME PAGE */
+
+    /* ABOUT PAGE */
+    .article-about section {
+      height: auto;
+    }
+    .article-about section .title-about {
+      min-height: 700px;
+    }
+    .article-about section .title-about .text h1 {
+      font-size: 3rem;
+    }
+    .article-about section .title-about .text div,
+    .article-about section .others-options .item .text span {
+      font-size: 1.15rem;
+    }
+
+    .article-about section .others-options .item .text p {
+      font-size: 1.7rem;
+    }
+
+    .need-us-about section {
+      min-height: auto;
+    }
+    .need-us-about section .content h2 {
+      font-size: 2.5rem;
+    }
+    .need-us-about section .content div p,
+    .need-us-about section .content a,
+    .need-us-about section .content div ul {
+      font-size: 1.1rem;
+    }
+
+    .missions-about section {
+      min-height: auto;
+      padding: 200px 0px;
+    }
+    .missions-about section .missions-title h2 {
+      font-size: 2.5rem;
+    }
+    .missions-about section .container .item .text-item h3 {
+      font-size: 1.8rem;
+    }
+    .missions-about section .container .item .text-item p {
+      font-size: 1.05rem;
+    }
+
+    .howHelp-about section {
+      min-height: auto;
+    }
+    .howHelp-about section .howHelp-title span {
+      font-size: 1.4rem;
+    }
+    .howHelp-about section .howHelp-title h2 {
+      font-size: 2.5rem;
+    }
+    .howHelp-about section .howHelp-title p {
+      font-size: 1.2rem;
+    }
+
+    .howHelp-about section .howHelp-container .item .icon i {
+      color: #fff;
+      font-size: 2.5rem;
+    }
+    .howHelp-about section .howHelp-container .item .text h3 {
+      font-size: 1.1rem;
+    }
+    /* ABOUT PAGE */
+
+    /* BLOG PAGE */
+    .article-blog section {
+      min-height: 700px;
+    }
+
+    .article-blog section .title-blog .text h1 {
+      font-size: 3rem;
+    }
+    .article-blog section .title-blog .text div {
+      font-size: 1.15rem;
+    }
+    .content-blog section .posts .post .text .date-author div i {
+      font-size: 1.5rem;
+    }
+    .content-blog section .posts .post .text .date-author div p {
+      font-size: 1.05rem;
+    }
+
+    .content-blog section .posts .post .text h2 {
+      font-size: 2rem;
+    }
+    .content-blog section .posts .post .text p {
+      font-size: 1.15rem;
+    }
+
+    .content-blog section aside .input-search input,
+    .article-category section aside .input-search input,
+    .content-blog section aside .input-search input::placeholder,
+    .article-category section aside .input-search input::placeholder {
+      font-size: 1.1rem;
+    }
+    .content-blog section aside h2,
+    .article-category section aside h2 {
+      font-size: 2rem;
+    }
+    .content-blog section aside .tags-categories ul li,
+    .article-category section aside .tags-categories ul li {
+      font-size: 1.1rem;
+    }
+
+    .content-blog
+      section
+      aside
+      .recents-posts
+      .posts-wrapper
+      .post-recent
+      .title-recent
+      .author-recent
+      div {
+      font-size: 1rem;
+    }
+    .content-blog
+      section
+      aside
+      .recents-posts
+      .posts-wrapper
+      .post-recent
+      .title-recent
+      .author-recent
+      div
+      i {
+      font-size: 1.1rem;
+    }
+    .content-blog
+      section
+      aside
+      .recents-posts
+      .posts-wrapper
+      .post-recent
+      .title-recent
+      h3 {
+      font-size: 1.5rem;
+    }
+    .content-blog
+      section
+      aside
+      .recents-posts
+      .posts-wrapper
+      .post-recent
+      .text-recent {
+      font-size: 1rem;
+    }
+
+    .article-post section {
+      min-height: auto;
+    }
+    .article-post section .title-post {
+      min-height: 700px;
+    }
+    .article-post section .title-post .text h1 {
+      font-size: 3rem;
+    }
+    .article-post section .title-post .text div {
+      font-size: 1.15rem;
+    }
+    .article-post section .title-post .socials div a i {
+      font-size: 1.7rem;
+    }
+
+    .content-post {
+      min-height: auto;
+      padding: 100px 0px;
+    }
+    .content-post .see-its-post .container-fixed h2 {
+      font-size: 1.15rem;
+    }
+    .content-post .see-its-post .container-fixed .sections a h3 {
+      font-size: 1rem;
+    }
+
+    .content-post .text-post h2 {
+      font-size: 2.5rem;
+    }
+    .content-post .text-post .section-post {
+      font-size: 1.15rem;
+    }
+    .content-post .text-post .section-post h3 {
+      font-size: 1.5rem;
+    }
+    .content-post .text-post .contact-post a h3 {
+      font-size: 1.7rem;
+      width: 70%;
+    }
+    .content-post .text-post .contact-post a button,
+    .content-post .buttons-post .container-fixed a button {
+      font-size: 1.1rem;
+    }
+    .content-post .buttons-post .container-fixed a h2 {
+      font-size: 1.4rem;
+    }
+
+    .article-category h1 {
+      font-size: 3rem;
+    }
+    .article-category section {
+      min-height: auto;
+    }
+
+    .article-category section .posts .post .text .date-author div i {
+      font-size: 1.3rem;
+    }
+    .article-category section .posts .post .text h2 {
+      font-size: 1.8rem;
+    }
+    .article-category section .posts .post .text p {
+      font-size: 1.1rem;
+    }
+    .article-category section aside .recents-posts .posts .item .text h3 {
+      font-size: 1.5rem;
+    }
+    .article-category section aside .recents-posts .posts .item .text p {
+      font-size: 1.05rem;
+    }
+    /* BLOG PAGE */
+
+    /* SERVICES PAGE */
+    /* MEI PAGE */
+    .article-service section {
+      min-height: auto;
+    }
+    .article-service section .title-service {
+      min-height: auto;
+    }
+    .article-service section .title-service .container .text h1 {
+      font-size: 3rem;
+    }
+    .article-service section .title-service .container .text h2,
+    .article-service section .title-service .container .text div a {
+      font-size: 1.15rem;
+    }
+
+    .article-service section .title-service .container .image {
+      min-height: 350px;
+    }
+    .article-service section .title-service .container .image img {
+      width: 600px;
+      height: 600px;
+      object-position: 50% -100%;
+      top: unset;
+    }
+    .article-service section .title-service .container .image::after {
+      width: 625px;
+      height: 625px;
+    }
+
+    .article-service section .title-service .banner {
+      bottom: -110px;
+    }
+    .article-service section .title-service .banner .item i {
+      font-size: 2.5rem;
+    }
+    .article-service section .title-service .banner .item span h3 {
+      font-size: 1.5rem;
+    }
+    .article-service section .title-service .banner .item span p {
+      font-size: 1.15rem;
+    }
+
+    .section-mei section {
+      padding: 150px 0px 100px 0px;
+    }
+    .section-mei section .mei-subtitle h2 {
+      font-size: 2.5rem;
+    }
+    .section-mei section .mei-subtitle h3 {
+      font-size: 1.5rem;
+    }
+
+    .section-mei section .mei-container .content .item span,
+    .section-mei section .mei-container .three-steps .item span {
+      font-size: 1.7rem;
+      width: 40px;
+      height: 40px;
+    }
+    .section-mei section .mei-container .content .item div h4,
+    .section-mei section .mei-container .three-steps .item div h4 {
+      font-size: 1.5rem;
+    }
+    .section-mei section .mei-container .content .item div p,
+    .section-mei section .mei-container .links a,
+    .section-mei section .mei-container .three-steps .item div p {
+      font-size: 1.1rem;
+    }
+
+    .FAQ-service section {
+      min-height: auto;
+    }
+    .FAQ-service section .title-FAQ h2 {
+      font-size: 2.5rem;
+    }
+    .FAQ-service section .title-FAQ span {
+      font-size: 1.5rem;
+    }
+    .FAQ-service section .content .FAQ .question .title h3 {
+      font-size: 1.3rem;
+    }
+    .FAQ-service section .content .FAQ .question .text {
+      font-size: 1.1rem;
+    }
+
+    .blog-services section {
+      min-height: auto;
+    }
+    .blog-services section .title-blog h2 {
+      font-size: 2.5rem;
+    }
+    .blog-services section .title-blog span {
+      font-size: 1.5rem;
+    }
+    .blog-services section .content a {
+      font-size: 1.1rem;
+    }
+    .blog-services section .content .blog-wrapper {
+      max-width: 1280px;
+    }
+    .blog-services section .content .blog-wrapper .item {
+      min-height: 490px;
+    }
+    .blog-services section .content .blog-wrapper .item .image {
+      height: 160px;
+    }
+    .blog-services section .content .blog-wrapper .item .title .author i {
+      font-size: 1.5rem;
+    }
+    .blog-services section .content .blog-wrapper .item .title .author p {
+      font-size: 1.1rem;
+    }
+    .blog-services section .content .blog-wrapper .item .title h3 {
+      font-size: 1.3rem;
+    }
+    .blog-services section .content .blog-wrapper .item .text p {
+      font-size: 1.15rem;
+    }
+    /* MEI PAGE */
+    /* ABERTURA PAGE */
+    .article-service section .title-service.abertura {
+      min-height: auto;
+    }
+    .article-service section .title-service.abertura .container .image img {
+      width: 600px;
+      height: 600px;
+    }
+    .section-abertura section {
+      min-height: auto;
+      padding: 100px 0px;
+    }
+    .section-abertura section .abertura-subtitle h2 {
+      font-size: 2.5rem;
+    }
+    .section-abertura section .abertura-subtitle h3 {
+      font-size: 1.5rem;
+    }
+    .section-abertura section .abertura-container .content .item h4 {
+      font-size: 1.7rem;
+    }
+    .section-abertura section .abertura-container .content .item p,
+    .section-abertura section .abertura-container .links a {
+      font-size: 1.1rem;
+    }
+
+    .section-abertura section .abertura-container .tips {
+      height: 420px;
+    }
+    .section-abertura section .abertura-container .tips .text h3 {
+      font-size: 2rem;
+    }
+    .section-abertura section .abertura-container .tips .text ul li {
+      font-size: 1.1rem;
+    }
+
+    .section-abertura
+      section
+      .abertura-container
+      .slider-abertura
+      .feedback
+      .text
+      p {
+      font-size: 1.15rem;
+    }
+
+    .contact-service section .title-contact h2 {
+      font-size: 2.5rem;
+    }
+    .contact-service section .title-contact h3 {
+      font-size: 1.2rem;
+    }
+    .contact-service section .title-contact a {
+      font-size: 1.1rem;
+    }
+    /* ABERTURA PAGE */
+    /* IRPF PAGE */
+    .title-irpf section {
+      min-height: auto;
+    }
+    .title-irpf section .text h1 {
+      font-size: 3rem;
+    }
+    .title-irpf section .text h2,
+    .title-irpf section .text a {
+      font-size: 1.15rem;
+    }
+
+    .content-irpf section {
+      min-height: auto;
+      padding: 100px 0px;
+    }
+    .content-irpf section .subtitle h2 {
+      font-size: 2.5rem;
+    }
+    .content-irpf section .subtitle h3 {
+      font-size: 1.5rem;
+    }
+    .content-irpf section .content .advantages h4,
+    .content-irpf section .content .advantages h3 {
+      font-size: 1.4rem;
+    }
+    .content-irpf section .content .container .text .item .advantage h5,
+    .content-irpf section .content .container .text .item .advantage h4 {
+      font-size: 1.4rem;
+    }
+    .content-irpf section .content .container .text .item .advantage p,
+    .content-irpf section .content .container .text p {
+      font-size: 1.15rem;
+    }
+
+    .section-irpf section {
+      min-height: auto;
+      padding: 100px 0px;
+    }
+    .section-irpf section .subtitle h2 {
+      font-size: 2.5rem;
+    }
+    .section-irpf section .container .content .tips {
+      height: 450px;
+    }
+    .section-irpf section .container .content .tips .text ul li,
+    .section-irpf section .container .links a {
+      font-size: 1.15rem;
+    }
+    /* IRPF PAGE */
+    /* FISCAL PAGE */
+
+    .article-service.fiscal section .title-service .banner {
+      bottom: -120px;
+    }
+
+    .section-contabilidade-fiscal section {
+      min-height: auto;
+      padding: 170px 0px 100px 0px;
+    }
+    .section-contabilidade-fiscal section .subtitle h2 {
+      font-size: 2.5rem;
+    }
+    .section-contabilidade-fiscal section .subtitle h3 {
+      font-size: 1.5rem;
+    }
+
+    .section-contabilidade-fiscal section .container .content .item {
+      min-height: 440px;
+    }
+    .section-contabilidade-fiscal section .container .content .item p,
+    .section-contabilidade-fiscal section .container .links a {
+      font-size: 1.1rem;
+    }
+
+    .section-contabilidade-fiscal
+      section
+      .container
+      .content.benefits
+      .item
+      h3 {
+      font-size: 1.5rem;
+    }
+    .section-contabilidade-fiscal section .container .content.benefits .item ul,
+    .section-contabilidade-fiscal
+      section
+      .container
+      .content.benefits
+      .item
+      ol {
+      font-size: 1.15rem;
+    }
+    /* FISCAL PAGE */
+    /* DOMESTIC PAGE */
+    .title-domestic section {
+      min-height: auto;
+    }
+    .title-domestic section .text h1 {
+      font-size: 3rem;
+    }
+    .title-domestic section .text h2,
+    .title-domestic section .text a {
+      font-size: 1.15rem;
+    }
+    /* DOMESTIC PAGE */
+    /* DEPARTAMENTO PAGE */
+    .article-service.dp section .title-service .banner {
+      bottom: -150px;
+    }
+    .section-mei section {
+      padding: 200px 0px 100px 0px;
+    }
+    /* DEPARTAMENTO PAGE */
+    /* SERVICES PAGE */
+
+    /* CONTACT PAGE */
+    .article-contact section {
+      min-height: auto;
+    }
+    .article-contact section .title-contact {
+      min-height: 700px;
+    }
+
+    .article-contact section .title-contact .text h1 {
+      font-size: 3rem;
+    }
+    .article-contact section .title-contact .text div {
+      font-size: 1.15rem;
+    }
+    .form-contact section {
+      min-height: auto;
+      padding: 100px 0px;
+      max-width: 1440px;
+    }
+    .form-contact section .text h2 {
+      font-size: 2.2rem;
+    }
+    .form-contact section .text p {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+
+    .form-contact section .form form .input-group .input-label label {
+      font-size: 1.1rem;
+    }
+    .form-contact section .form form .input-group .input-label input,
+    .form-contact section .form form .input-group .input-label textarea {
+      font-size: 1.05rem;
+    }
+    /* CONTACT PAGE */
+  }
+  @media (min-width: 1920px) {
+    /*HEADER*/
+    header nav .menu-desktop .nav-list .list .nav-link a {
+      font-size: 1.15rem;
+    }
+    header nav .menu-desktop .search-header input,
+    header nav .menu-desktop .search-header input::placeholder {
+      font-size: 1.15rem;
+    }
+    /*HEADER*/
+    /* HOME PAGE */
+    .article-home section {
+      min-height: 800px;
+    }
+    .article-home section .content-home h1 {
+      font-size: 3.5rem;
+    }
+    .article-home section .content-home h2 {
+      font-size: 2.5rem;
+    }
+    .article-home section .content-home h3 {
+      font-size: 1.8rem;
+    }
+    .article-home section .content-home div a {
+      font-size: 1.25rem;
+    }
+    .article-home section::after {
+      width: 700px;
+      height: 700px;
+    }
+    .article-home section::before {
+      width: 800px;
+      height: 800px;
+    }
+    .article-home section img {
+      width: 700px;
+      height: 550px;
+    }
+
+    .about-home section .content .text h2 {
+      font-size: 3rem;
+    }
+    .about-home section .content .text p,
+    .about-home section .content .text a {
+      font-size: 1.15rem;
+    }
+    .about-home section .content .text span {
+      font-size: 1.05rem;
+    }
+
+    .know-directors section .title-directors h2 {
+      font-size: 3rem;
+    }
+    .know-directors section .title-directors span {
+      font-size: 1.5rem;
+    }
+    .know-directors section .content .director .socials a {
+      font-size: 3rem;
+    }
+
+    .services-home section .title-services h2 {
+      font-size: 3rem;
+    }
+    .services-home section .title-services span {
+      font-size: 1.5rem;
+    }
+    .services-home section .service-expanded .expanded .text ul li {
+      font-size: 1.1rem;
+    }
+
+    .feedbacks-home section .title-feedbacks h2 {
+      font-size: 2.5rem;
+    }
+    .feedbacks-home section .title-feedbacks span {
+      font-size: 1.4rem;
+    }
+
+    .FAQ-home section .title-FAQ h2 {
+      font-size: 3rem;
+    }
+    .FAQ-home section .title-FAQ span {
+      font-size: 1.5rem;
+    }
+
+    .blog-home section .title-blog h2 {
+      font-size: 3rem;
+    }
+    .blog-home section .title-blog span {
+      font-size: 1.5rem;
+    }
+    .blog-home section .content .container .item .blog-title .author div i {
+      font-size: 1.3rem;
+    }
+    .blog-home section .content .container .item .blog-title .author div p {
+      font-size: 1rem;
+    }
+    .blog-home section .content .container .item .blog-text p {
+      font-size: 1.1rem;
+    }
+
+    .contact-home section .contact-title span {
+      font-size: 1.5rem;
+    }
+    .contact-home section .contact-title h2 {
+      font-size: 3rem;
+    }
+
+    /* HOME PAGE */
+
+    /* ABOUT PAGE */
+
+    .article-about section .title-about .text h1 {
+      font-size: 3.5rem;
+    }
+
+    .need-us-about section .content h2 {
+      font-size: 3rem;
+    }
+    .need-us-about section .content div p,
+    .need-us-about section .content a,
+    .need-us-about section .content div ul {
+      font-size: 1.15rem;
+    }
+
+    .missions-about section .missions-title h2 {
+      font-size: 3rem;
+    }
+    .missions-about section .container .item .text-item h3 {
+      font-size: 1.8rem;
+    }
+    .missions-about section .container .item .text-item p {
+      font-size: 1.1rem;
+    }
+
+    .howHelp-about section {
+      min-height: auto;
+    }
+    .howHelp-about section .howHelp-title span {
+      font-size: 1.5rem;
+    }
+    .howHelp-about section .howHelp-title h2 {
+      font-size: 3rem;
+    }
+    .howHelp-about section .howHelp-title p {
+      font-size: 1.3rem;
+    }
+
+    .howHelp-about section .howHelp-container .item .icon i {
+      color: #fff;
+      font-size: 3rem;
+    }
+    .howHelp-about section .howHelp-container .item .text h3 {
+      font-size: 1.15rem;
+    }
+    /* ABOUT PAGE */
+
+    /* BLOG PAGE */
+    .article-blog section .title-blog .text h1 {
+      font-size: 3.5rem;
+    }
+    .article-blog section .title-blog .text div {
+      font-size: 1.2rem;
+    }
+    .content-blog section .posts .post .text .date-author div p {
+      font-size: 1.1rem;
+    }
+
+    .content-blog section .posts .post .text h2 {
+      font-size: 2.2rem;
+    }
+
+    .content-blog section aside .input-search input,
+    .article-category section aside .input-search input,
+    .content-blog section aside .input-search input::placeholder,
+    .article-category section aside .input-search input::placeholder {
+      font-size: 1.15rem;
+    }
+    .content-blog section aside h2,
+    .article-category section aside h2 {
+      font-size: 2.2rem;
+    }
+    .content-blog section aside .tags-categories ul li,
+    .article-category section aside .tags-categories ul li {
+      font-size: 1.15rem;
+    }
+
+    .content-blog
+      section
+      aside
+      .recents-posts
+      .posts-wrapper
+      .post-recent
+      .title-recent
+      .author-recent
+      div {
+      font-size: 1.05rem;
+    }
+    .content-blog
+      section
+      aside
+      .recents-posts
+      .posts-wrapper
+      .post-recent
+      .title-recent
+      .author-recent
+      div
+      i {
+      font-size: 1.15rem;
+    }
+    .content-blog
+      section
+      aside
+      .recents-posts
+      .posts-wrapper
+      .post-recent
+      .title-recent
+      h3 {
+      font-size: 1.5rem;
+    }
+    .content-blog
+      section
+      aside
+      .recents-posts
+      .posts-wrapper
+      .post-recent
+      .text-recent {
+      font-size: 1.1rem;
+    }
+
+    .article-post section .title-post .text h1 {
+      font-size: 3.5rem;
+    }
+    .article-post section .title-post .text div {
+      font-size: 1.2rem;
+    }
+
+    .content-post .see-its-post .container-fixed h2 {
+      font-size: 1.25rem;
+    }
+    .content-post .see-its-post .container-fixed .sections a h3 {
+      font-size: 1.05rem;
+    }
+
+    .content-post .text-post h2 {
+      font-size: 3rem;
+    }
+    .content-post .text-post .section-post h3 {
+      font-size: 1.7rem;
+    }
+
+    .article-category section .posts .post .text .date-author div i {
+      font-size: 1.4rem;
+    }
+    .article-category section .posts .post .text h2 {
+      font-size: 1.8rem;
+    }
+    .article-category section .posts .post .text p {
+      font-size: 1.15rem;
+    }
+    .article-category section aside .recents-posts .posts .item .text h3 {
+      font-size: 1.6rem;
+    }
+    .article-category section aside .recents-posts .posts .item .text p {
+      font-size: 1.1rem;
+    }
+    /* BLOG PAGE */
+
+    /* SERVICES PAGE */
+    /* MEI PAGE */
+    .article-service section .title-service .container .image::after {
+      width: 650px;
+      height: 650px;
+    }
+
+    .article-service section .title-service .banner {
+      bottom: -120px;
+    }
+
+    /* MEI PAGE */
+    /* ABERTURA PAGE */
+    .article-service section .title-service.abertura .container .image img,
+    .article-service
+      section
+      .title-service.abertura
+      .container
+      .image.encerramento
+      img {
+      width: 600px;
+      height: 600px;
+      right: 0px;
+      top: unset;
+    }
+    /* ABERTURA PAGE */
+
+    /* FISCAL PAGE */
+    .article-service.fiscal section .title-service .banner {
+      bottom: -140px;
+    }
+
+    .section-contabilidade-fiscal section {
+      padding: 200px 0px 100px 0px;
+    }
+
+    /* FISCAL PAGE */
+    /* SERVICES PAGE */
+
+    /* FOOTER */
+    footer .columns .footer-column .text p {
+      font-size: 1.1rem;
+    }
+    footer .columns .footer-column h2 {
+      font-size: 1.7rem;
+    }
+    footer .columns .footer-column h3 {
+      font-size: 1.5rem;
+    }
+    footer .columns .footer-column ul li a {
+      font-size: 1.1rem;
+    }
+    /* FOOTER */
+  }
+}

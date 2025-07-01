@@ -3,12 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta description="Fábio Silva Contabilidade em Minas Gerais" />
+    <meta name="theme-color" content="#2f4f66" />
+    <meta
+      name="description"
+      content="Entre em contato com Fábio Silva Contabilidade em Juiz de Fora MG. Atendimento especializado via WhatsApp, telefone ou formulário. Orçamento gratuito para abertura de empresa, MEI, IRPF. Resposta em até 2 horas."
+    />
+    <meta
+      name="keywords"
+      content="contato contador juiz de fora, orçamento contabilidade, whatsapp contador, telefone fábio silva, formulário contato, atendimento rápido"
+    />
+    <meta name="author" content="Fábio Silva Contabilidade" />
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="canonical"
+      href="https://fabiosilvacontabilidade.com.br/contato/index.html"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://fabiosilvacontabilidade.com.br/contato/index.html"
+    />
+    <meta
+      property="og:title"
+      content="Contato - Fábio Silva Contabilidade | Atendimento Especializado"
+    />
+    <meta
+      property="og:description"
+      content="Fale com nossos especialistas! Atendimento via WhatsApp, telefone ou formulário. Orçamento gratuito e resposta rápida em Juiz de Fora MG."
+    />
+    <meta
+      property="og:image"
+      content="https://fabiosilvacontabilidade.com.br/images/image-contact.jpg"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://fabiosilvacontabilidade.com.br/contato/index.html"
+    />
+    <meta
+      property="twitter:title"
+      content="Contato - Fábio Silva Contabilidade | Atendimento Especializado"
+    />
+    <meta
+      property="twitter:description"
+      content="Fale com nossos especialistas! Atendimento via WhatsApp, telefone ou formulário. Orçamento gratuito e resposta rápida em Juiz de Fora MG."
+    />
+    <meta
+      property="twitter:image"
+      content="https://fabiosilvacontabilidade.com.br/images/image-contact.jpg"
+    />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <title>Fábio Silva Contabilidade</title>
+    <title>
+      Contato - Fábio Silva Contabilidade | Orçamento Juiz de Fora MG
+    </title>
 
     <link rel="stylesheet" href="/style.css?v=1" />
-    <link rel="stylesheet" href="/media.css?v=1" />
+    <link rel="stylesheet" href="/mediav2.css?v=1" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
@@ -123,10 +177,16 @@
                 <a href="/contato/index.html">Contato</a>
               </li>
             </ul>
+            <div class="search-header">
+              <input class="search" placeholder="Digite sua busca..." />
+              <button aria-label="Botão de busca no site">
+                <i class="mdi mdi-search-web"></i>
+              </button>
+            </div>
           </div>
           <div class="search-header">
             <input class="search" placeholder="Digite sua busca..." />
-            <button>
+            <button aria-label="Botão de busca no site">
               <i class="mdi mdi-search-web"></i>
             </button>
           </div>
@@ -163,16 +223,15 @@
             </p>
             <div>
               <img
-                src="/images/image-contact.jpg"
-                alt=""
-                title=""
+                src="/images/image-contact.webp"
+                alt="Equipe do consultorio de contabilidade com inteligência artifical"
                 loading="lazy"
               />
               <span></span>
             </div>
           </div>
           <div class="form">
-            <form>
+            <form id="contact-form">
               <div class="input-group">
                 <div class="input-label">
                   <label for="name-contact">Nome</label>
@@ -180,7 +239,7 @@
                     type="text"
                     placeholder="Nome completo"
                     required
-                    id="name-contact"
+                    id="name"
                     name="name"
                   />
                 </div>
@@ -190,7 +249,7 @@
                     type="tel"
                     placeholder="(DDD) 91234-5678"
                     required
-                    id="phone-contact"
+                    id="phone"
                     name="cellphone"
                   />
                 </div>
@@ -202,7 +261,7 @@
                     type="email"
                     required
                     name="email"
-                    id="email-contact"
+                    id="email"
                     placeholder="email@mail.com.br"
                   />
                 </div>
@@ -216,7 +275,7 @@
                     type="text"
                     required
                     name="city"
-                    id="city-contact"
+                    id="city"
                     placeholder="Ex.: Minas Gerais"
                   />
                 </div>
@@ -228,22 +287,63 @@
                     type="text"
                     required
                     name="profession"
-                    id="profession-contact"
+                    id="profession"
                     placeholder="Ex.: desenvolvedor, gestor de tráfego"
                   />
                 </div>
               </div>
               <div class="input-group">
                 <div class="input-label">
+                  <label for="profession-contact">Mande uma mensagem</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Ex.: Gostaria de uma cotação para..."
+                  ></textarea>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="input-label">
+                  <span class="error"></span>
                   <label>Como deseja que entremos em contato com você?</label>
                   <div class="buttons-submit">
-                    <button type="submit" disabled>
+                    <button
+                      type="button"
+                      name="prefere-whatsapp"
+                      id="prefere-whatsapp"
+                      class="btn-whatsapp"
+                    >
                       <i class="mdi mdi-whatsapp"></i>WhatsApp
                     </button>
-                    <button type="submit" disabled>
+                    <button
+                      type="button"
+                      name="prefere-telefone"
+                      id="prefere-telefone"
+                      class="btn-phone"
+                    >
                       <i class="mdi mdi-phone-in-talk"></i>Telefone
                     </button>
                   </div>
+                  <input
+                    type="hidden"
+                    name="contact-preference"
+                    id="contact-preference"
+                    required
+                  />
+                  <span class="link-privacy"
+                    >Ao escolher a opção, você concorda com nossa
+                    <a href="/politica-de-privacidade/index.html"
+                      >Política de Privacidade</a
+                    >.</span
+                  >
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="input-label">
+                  <div
+                    class="g-recaptcha"
+                    data-sitekey="6LdZrm4rAAAAANdGR1TM9MQVSeBhdJIuY9KuS8ZY"
+                  ></div>
                 </div>
               </div>
             </form>
@@ -404,51 +504,14 @@
       </div>
     </footer>
 
-    <!--EMAIL JS-->
-    <script type="module">
-      import emailjs from "https://cdn.emailjs.com/dist/email.min.js";
-
-      emailjs.init("YOUR_PUBLIC_KEY");
-
-      const formContact = document.querySelector("form");
-
-      let contatoPreferido = "";
-
-      // Ativar os botões e capturar valor
-      const buttons = formContact.querySelectorAll(".buttons-submit button");
-      buttons.forEach((btn) => {
-        btn.disabled = false; // Ativa os botões
-        btn.addEventListener("click", async (e) => {
-          e.preventDefault();
-          contatoPreferido = btn.textContent.trim(); // WhatsApp ou Telefone
-
-          const templateParams = {
-            name: document.getElementById("name-contact").value,
-            phone: document.getElementById("phone-contact").value,
-            email: document.getElementById("email-contact").value,
-            city: document.getElementById("city-contact").value,
-            profession: document.getElementById("profession-contact").value,
-            contato_preferido: contatoPreferido,
-          };
-
-          try {
-            await emailjs.send(
-              "YOUR_SERVICE_ID",
-              "YOUR_TEMPLATE_ID",
-              templateParams
-            );
-            alert("Mensagem enviada com sucesso!");
-            formContact.reset();
-          } catch (error) {
-            alert("Erro ao enviar: " + error.message);
-          }
-        });
-      });
-    </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="/bannerPrivacy.js"></script>
-    <script type="module" src="/main.js?v=1"></script>
     <script src="/header.js?v=1"></script>
     <script src="/whatsapp.js?v=1"></script>
     <script src="/scrollToTop.js?v=1"></script>
+    <script src="/lib/searchBlog.js?=v1" type="module"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="/emailHome.js?v=1" type="module"></script>
   </body>
 </html>

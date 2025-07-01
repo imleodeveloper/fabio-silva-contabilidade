@@ -1,14 +1,13 @@
 import { posts } from "./lib/posts.js";
 document.addEventListener("DOMContentLoaded", () => {
-
-    //Renderiza os posts
-    const containerPosts = document.querySelector(".content-blog section .posts");
-    containerPosts.innerHTML = "";
-    posts.forEach((post) => {
-        const divPost = document.createElement("a");
-        divPost.classList.add("post");
-        divPost.setAttribute("href", `${post.link}`);
-        divPost.innerHTML = `
+  //Renderiza os posts
+  const containerPosts = document.querySelector(".content-blog section .posts");
+  containerPosts.innerHTML = "";
+  posts.forEach((post) => {
+    const divPost = document.createElement("a");
+    divPost.classList.add("post");
+    divPost.setAttribute("href", `${post.link}`);
+    divPost.innerHTML = `
             <div class="image">
                 <img src="${post.img}" alt="${post.alt}" title="${post.titleImg}" loading="lazy">
             </div>
@@ -32,25 +31,25 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
         `;
 
-        containerPosts.appendChild(divPost);
-    });
+    containerPosts.appendChild(divPost);
+  });
 
-    // ASIDE POST RECENTS
-    const postWrapper = document.querySelector(".posts-wrapper");
-    const btnPrev = document.querySelector("#btn-prev");
-    const btnNext = document.querySelector("#btn-next");
-    let currentIndex = 0;
+  // ASIDE POST RECENTS
+  const postWrapper = document.querySelector(".posts-wrapper");
+  const btnPrev = document.querySelector("#btn-prev");
+  const btnNext = document.querySelector("#btn-next");
+  let currentIndex = 0;
 
-    const recentPosts = posts.slice(-4);
+  const recentPosts = posts.slice(-4);
 
-    const renderPost = (index) => {
-        postWrapper.innerHTML = "";
+  const renderPost = (index) => {
+    postWrapper.innerHTML = "";
 
-        const post = recentPosts[index];
-        const postRecent = document.createElement("a");
-        postRecent.classList.add("post-recent");
-        postRecent.setAttribute("href", `${post.link}`);
-        postRecent.innerHTML = `
+    const post = recentPosts[index];
+    const postRecent = document.createElement("a");
+    postRecent.classList.add("post-recent");
+    postRecent.setAttribute("href", `${post.link}`);
+    postRecent.innerHTML = `
             <div class="img-recent">
                 <img src="${post.img}" alt="${post.alt}" title="${post.titleImg}">
             </div>
@@ -72,24 +71,20 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>  
                      
         `;
-        
-        postWrapper.appendChild(postRecent);
-        
-    };
 
+    postWrapper.appendChild(postRecent);
+  };
 
-    btnPrev.addEventListener("click", () => {
-        currentIndex--;
-        if( currentIndex < 0 ) currentIndex = recentPosts.length - 1;
-        renderPost(currentIndex);
-    });
-    btnNext.addEventListener("click", () => {
-        currentIndex++;
-        if( currentIndex >= recentPosts.length ) currentIndex = 0; //Limite de 3 itens
-        renderPost(currentIndex);
-    });
-    
+  btnPrev.addEventListener("click", () => {
+    currentIndex--;
+    if (currentIndex < 0) currentIndex = recentPosts.length - 1;
     renderPost(currentIndex);
-    
+  });
+  btnNext.addEventListener("click", () => {
+    currentIndex++;
+    if (currentIndex >= recentPosts.length) currentIndex = 0; //Limite de 3 itens
+    renderPost(currentIndex);
+  });
 
+  renderPost(currentIndex);
 });

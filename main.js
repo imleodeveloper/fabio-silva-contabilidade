@@ -1,4 +1,3 @@
-import emailjs from "https://cdn.emailjs.com/dist/email.min.js";
 import { posts } from "./lib/posts.js";
 import { feedbacks } from "./lib/feedbacks.js";
 
@@ -423,34 +422,5 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
         `;
     containerBlogHome.appendChild(itemDiv);
-  });
-
-  //EMAIL JS
-
-  emailjs.init("YOUR_PUBLIC_KEY");
-
-  const formHome = document.querySelector(".forms form");
-
-  formHome.addEventListener("submit", async (e) => {
-    e.preventDefault();
-
-    const templateParams = {
-      name: document.getElementById("name-home").value,
-      phone: document.getElementById("phone-home").value,
-      email: document.getElementById("email-home").value,
-      service: document.getElementById("services-home").value,
-      message: formHome.querySelector("textarea").value,
-      checkbox: document.getElementById("checkbox-home").checked
-        ? "Sim"
-        : "Não",
-    };
-
-    try {
-      await emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams);
-      alert("Mensagem enviada com sucesso!");
-      formHome.reset();
-    } catch (error) {
-      alert("Erro ao enviar: " + error.message);
-    }
   });
 });

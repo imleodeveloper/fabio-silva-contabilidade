@@ -223,7 +223,8 @@
 
     /* MEI E DP */
     .article-service section {
-      min-height: 1000px;
+      min-height: auto;
+      padding-bottom: 50px;
     }
     .article-service section .title-service {
       min-height: auto;
@@ -290,8 +291,12 @@
       display: none;
     }
 
+    .section-mei section {
+      padding: 50px 0px;
+    }
     .section-mei section .mei-subtitle {
       width: 90%;
+      padding-top: 50px;
     }
     .section-mei section .mei-subtitle h2 {
       width: 90%;
@@ -315,19 +320,19 @@
       min-height: 30px;
     }
 
-    .section-mei section .mei-container .content .hr-item-1,
-    .section-mei section .mei-container .content .hr-item-1.dp {
+    .section-mei section .mei-container .content span .hr-item-1,
+    .section-mei section .mei-container .content span .hr-item-1.dp {
       width: 2px;
-      height: 75px;
-      left: 6.5%;
-      top: 12%;
+      height: 30px;
+      left: 50%;
+      top: 175%;
     }
-    .section-mei section .mei-container .content .hr-item-2,
-    .section-mei section .mei-container .content .hr-item-2.dp {
-      height: 75px;
+    .section-mei section .mei-container .content span .hr-item-2,
+    .section-mei section .mei-container .content span .hr-item-2.dp {
+      height: 30px;
       width: 2px;
-      left: 6.5%;
-      top: 50%;
+      left: 50%;
+      top: -225%;
     }
 
     .section-mei section .mei-container .three-steps .hr-item-1 {
@@ -351,6 +356,7 @@
 
     .FAQ-service section {
       min-height: auto;
+      padding: 0px;
     }
     .FAQ-service section .title-FAQ h2 {
       font-size: 1.5rem;
@@ -365,6 +371,7 @@
 
     .blog-services section {
       min-height: auto;
+      padding: 25px 0px;
     }
     .blog-services section .title-blog {
       width: 90%;
@@ -386,13 +393,13 @@
     /* MEI */
 
     /* ABERTURA DE EMPRESA */
-    .section-abertura {
-      padding: 50px 0px;
-    }
     .section-abertura section {
       height: auto;
     }
 
+    .section-abertura section .abertura-subtitle {
+      padding-top: 75px;
+    }
     .section-abertura section .abertura-subtitle h2 {
       width: 95%;
       font-size: 1.5rem;
@@ -459,6 +466,9 @@
     .section-contabilidade-fiscal section {
       height: auto;
       padding: 50px 0px;
+    }
+    .section-contabilidade-fiscal section .subtitle {
+      padding-top: 50px;
     }
     .section-contabilidade-fiscal section .subtitle h2 {
       width: 95%;
@@ -547,13 +557,15 @@
     .content-irpf section .content .container .image {
       width: 100%;
     }
+    .content-irpf section .content .container .image img {
+      width: 300px;
+    }
     .content-irpf section .content .container .text {
       width: 100%;
       gap: 50px;
     }
     .content-irpf section .content .container .text .item .line-hr {
       height: 50px;
-      top: 60px;
     }
 
     .section-irpf section .subtitle h2 {
@@ -896,6 +908,389 @@
     }
     /* BLOG PAGE */
 
+    /* SERVICES PAGE */
+
+    /* MEI E DP */
+    .article-service section {
+      min-height: auto;
+      padding-bottom: 50px;
+    }
+    .article-service section .title-service,
+    .article-service section .title-service.abertura {
+      min-height: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+    }
+    .article-service section .title-service .container {
+      flex-direction: column;
+      min-height: auto;
+      gap: 100px;
+      overflow: visible;
+    }
+    .article-service section .title-service .container .text {
+      width: 90%;
+      align-items: center;
+      justify-content: center;
+      padding-top: 20px;
+    }
+    .article-service section .title-service .container .text h1 {
+      font-size: 1.5rem;
+    }
+    .article-service section .title-service .container .image {
+      width: 90%;
+    }
+    .article-service section .title-service .container .image::after {
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      right: 30%;
+      margin: 0 auto;
+      z-index: -3;
+    }
+    .article-service section .title-service .container .image img {
+      width: 350px;
+      height: 350px;
+      position: unset;
+      box-shadow: 3px 3px 5px #000;
+    }
+    .article-service section .title-service.abertura .container .image img {
+      box-shadow: unset;
+    }
+    .article-service section .title-service .banner {
+      z-index: 0;
+      width: 95%;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      max-width: 640px;
+    }
+
+    .article-service section .title-service .banner .item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: auto;
+    }
+    .article-service section .title-service .banner .item i {
+      font-size: 2.5rem;
+    }
+    .article-service section .title-service .banner .item span h3 {
+      font-size: 0.9rem;
+    }
+    .article-service section .title-service .banner .item span p {
+      display: none;
+    }
+
+    .section-mei section {
+      padding: 50px 0px;
+    }
+    .section-mei section .mei-subtitle {
+      width: 90%;
+      padding-top: 50px;
+    }
+    .section-mei section .mei-subtitle h2 {
+      width: 90%;
+      font-size: 1.5rem;
+    }
+    .section-mei section .mei-subtitle h3 {
+      width: 90%;
+      font-size: 0.95rem;
+    }
+    .section-mei section .mei-container .content {
+      flex-direction: column;
+    }
+    .section-mei section .mei-container .content .item {
+      flex-direction: row;
+      width: 95%;
+      align-items: start;
+      justify-content: start;
+    }
+    .section-mei section .mei-container .content .item span {
+      min-width: 30px;
+      min-height: 30px;
+    }
+
+    .section-mei section .mei-container .content span .hr-item-1,
+    .section-mei section .mei-container .content span .hr-item-1.dp {
+      width: 2px;
+      height: 30px;
+      left: 50%;
+      top: 175%;
+    }
+    .section-mei section .mei-container .content span .hr-item-2,
+    .section-mei section .mei-container .content span .hr-item-2.dp {
+      height: 30px;
+      width: 2px;
+      left: 50%;
+      top: -225%;
+    }
+
+    .section-mei section .mei-container .three-steps .hr-item-1 {
+      left: 15px;
+      top: 40px;
+      height: 30px;
+    }
+    .section-mei section .mei-container .three-steps .hr-item-1.dp {
+      height: 75px;
+      top: 11%;
+    }
+    .section-mei section .mei-container .three-steps .hr-item-2 {
+      height: 30px;
+      left: 15px;
+      bottom: 32.5%;
+    }
+    .section-mei section .mei-container .three-steps .hr-item-2.dp {
+      bottom: 30%;
+      height: 75px;
+    }
+
+    .FAQ-service section {
+      min-height: auto;
+      padding: 0px;
+    }
+    .FAQ-service section .title-FAQ h2 {
+      font-size: 1.5rem;
+    }
+
+    .FAQ-service section .content .FAQ {
+      width: 100%;
+    }
+    .FAQ-service section .content .FAQ .question {
+      width: 100%;
+      max-width: 540px;
+    }
+
+    .blog-services section {
+      min-height: auto;
+      padding: 25px 0px;
+    }
+    .blog-services section .title-blog {
+      width: 90%;
+    }
+    .blog-services section .title-blog h2 {
+      font-size: 1.5rem;
+    }
+    .blog-services section .title-blog span {
+      font-size: 1.05rem;
+    }
+
+    .blog-services section .content .blog-wrapper {
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 90%;
+    }
+    .blog-services section .content .blog-wrapper .item {
+      width: 40%;
+      min-height: 400px;
+    }
+    /* MEI */
+
+    /* ABERTURA DE EMPRESA */
+    .section-abertura section {
+      min-height: auto;
+      padding: 50px 0px 100px 0px;
+    }
+
+    .section-abertura section .abertura-subtitle {
+      padding-top: 75px;
+    }
+    .section-abertura section .abertura-subtitle h2 {
+      width: 95%;
+      font-size: 1.5rem;
+    }
+    .section-abertura section .abertura-subtitle h3 {
+      width: 95%;
+      font-size: 1.05rem;
+    }
+
+    .section-abertura section .abertura-container .content {
+      flex-wrap: wrap;
+    }
+    .section-abertura section .abertura-container .content .item {
+      width: 90%;
+      max-width: 300px;
+    }
+
+    .section-abertura section .abertura-container .content .tips {
+      width: 90%;
+      height: auto;
+      max-width: 540px;
+      flex-direction: row;
+      padding: 20px 0px 20px 20px;
+    }
+    .section-abertura section .abertura-container .content .tips .text {
+      width: 60%;
+      padding: 0px 10px;
+    }
+    .section-abertura section .abertura-container .content .tips .text h3 {
+      font-size: 1.4rem;
+    }
+    .section-abertura section .abertura-container .tips .image {
+      width: 40%;
+      height: 200px;
+    }
+    .section-abertura section .abertura-container .tips .image img {
+      width: 200px;
+      height: 100%;
+    }
+
+    .contact-service section {
+      flex-direction: column;
+      height: auto;
+      gap: 100px;
+      padding-bottom: 50px;
+    }
+    .contact-service section .title-contact {
+      width: 90%;
+    }
+    .contact-service section .title-contact h2 {
+      font-size: 1.5rem;
+    }
+    .contact-service section .img-contact {
+      width: 90%;
+    }
+
+    /* ABERTURA DE EMPRESA */
+
+    /* CONTABILIDADE FISCAL */
+    .section-contabilidade-fiscal section {
+      height: auto;
+      padding: 50px 0px;
+    }
+    .section-contabilidade-fiscal section .subtitle {
+      padding-top: 50px;
+    }
+    .section-contabilidade-fiscal section .subtitle h2 {
+      width: 95%;
+      font-size: 1.5rem;
+    }
+    .section-contabilidade-fiscal section .subtitle h3 {
+      font-size: 1.05rem;
+      width: 95%;
+    }
+    .section-contabilidade-fiscal section .container .content {
+      flex-direction: column;
+    }
+    .section-contabilidade-fiscal section .container .content.benefits .item {
+      width: 90%;
+    }
+    /* CONTABILIDADE FISCAL */
+
+    /* DOMÉSTICA */
+    .title-domestic section {
+      flex-direction: column;
+      height: auto;
+      border-radius: 0px;
+    }
+    .title-domestic section .text {
+      width: 100%;
+      padding-top: 50px;
+    }
+    .title-domestic section .text h1 {
+      font-size: 1.5rem;
+    }
+    .title-domestic section .image {
+      width: 100%;
+    }
+    .title-domestic section .image::after {
+      width: 350px;
+      height: 350px;
+    }
+
+    .title-domestic section .image img {
+      width: 300px;
+      height: 300px;
+    }
+    /* DOMÉSTICA */
+
+    /* IRPF */
+
+    .title-irpf section {
+      flex-direction: column;
+      height: auto;
+      padding-top: 50px;
+      border-radius: 0;
+    }
+
+    .title-irpf section .text {
+      width: 100%;
+    }
+    .title-irpf section .text h1 {
+      font-size: 1.5rem;
+    }
+    .title-irpf section .image {
+      width: 100%;
+    }
+    .title-irpf section .image::after {
+      width: 350px;
+      height: 350px;
+    }
+    .title-irpf section .image img {
+      width: 300px;
+      height: 300px;
+    }
+
+    .content-irpf section {
+      min-height: auto;
+      padding: 50px 0px;
+    }
+    .content-irpf section .subtitle h2 {
+      font-size: 1.5rem;
+      width: 95%;
+    }
+    .content-irpf section .subtitle h3 {
+      font-size: 1.05rem;
+      width: 95%;
+    }
+    .content-irpf section .content .container {
+      flex-direction: column;
+    }
+    .content-irpf section .content .container .image {
+      width: 100%;
+    }
+    .content-irpf section .content .container .image img {
+      width: 300px;
+    }
+    .content-irpf section .content .container .text {
+      width: 100%;
+      gap: 50px;
+    }
+    .content-irpf section .content .container .text .item .line-hr {
+      height: 25px;
+      top: 150%;
+    }
+
+    .section-irpf section {
+      min-height: auto;
+      padding: 50px 0px;
+    }
+    .section-irpf section .subtitle h2 {
+      font-size: 1.5rem;
+    }
+    .section-irpf section .container .content {
+      flex-direction: column;
+    }
+    .section-irpf section .container .content .tips {
+      width: 90%;
+      height: auto;
+      flex-direction: row;
+      max-width: 600px;
+    }
+    .section-irpf section .container .content .tips .text {
+      width: 60%;
+      padding: 0px 10px;
+    }
+    .section-irpf section .container .content .tips .text h3 {
+      font-size: 1.4rem;
+    }
+    .section-irpf section .container .content .tips .image {
+      width: 40%;
+    }
+    /* IRPF */
+
+    /* SERVICES PAGE */
+
     /* CONTACT PAGE */
     .article-contact section {
       min-height: auto;
@@ -942,6 +1337,30 @@
       width: 100%;
     }
     /* FOOTER */
+  }
+  @media (min-width: 912px) {
+    .article-service section .title-service {
+      align-items: end;
+    }
+    .article-service section .title-service .container {
+      flex-direction: row;
+      overflow: hidden;
+    }
+    .article-service section .title-service .container .text {
+      width: 60%;
+    }
+    .article-service section .title-service .container .text h1 {
+      font-size: 2.5rem;
+    }
+    .article-service section .title-service .container .image {
+      width: 40%;
+    }
+    .article-service section .title-service .container .image::after {
+      right: 0px;
+    }
+    .article-service section .title-service .banner {
+      bottom: -120px;
+    }
   }
 }
 

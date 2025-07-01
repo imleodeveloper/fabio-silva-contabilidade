@@ -6,27 +6,14 @@
     <meta name="theme-color" content="#2f4f66" />
     <meta
       name="description"
-      content="Blog Empresarial - Fábio Silva Contabilidade. Gestão empresarial, abertura de empresa, sociedades, contratos, governança corporativa. Conteúdo especializado para empresários em Juiz de Fora MG."
+      content="Resultados da pesquisa - Blog Fábio Silva Contabilidade"
     />
-    <meta
-      name="keywords"
-      content="blog empresarial, gestão empresarial, abertura empresa, sociedades, contratos empresariais, governança corporativa, contador empresarial"
-    />
-    <meta name="author" content="Fábio Silva Contabilidade" />
-    <meta name="robots" content="index, follow" />
-    <link
-      rel="canonical"
-      href="https://fabiosilvacontabilidade.com.br/blog/categorias/empresarial.html"
-    />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-
-    <title>
-      Blog Empresarial - Gestão e Estratégia | Fábio Silva Contabilidade Juiz de
-      Fora
-    </title>
+    <meta name="robots" content="noindex, follow" />
+    <title>Resultados da Pesquisa | Fábio Silva Contabilidade</title>
 
     <link rel="stylesheet" href="/style.css?v=1" />
-    <link rel="stylesheet" href="/mediav2.css?v=1" />
+    <link rel="stylesheet" href="/media.css?v=1" />
+    <link rel="stylesheet" href="/blog/searchs-blog.css?v=1" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
@@ -150,7 +137,7 @@
           </div>
           <div class="search-header">
             <input class="search" placeholder="Digite sua busca..." />
-            <button aria-label="Botão de busca no site">
+            <button>
               <i class="mdi mdi-search-web"></i>
             </button>
           </div>
@@ -162,17 +149,45 @@
         </div>
       </nav>
     </header>
+
     <main>
-      <article class="article-category">
-        <h1>Empresarial</h1>
+      <article class="article-search-results">
         <section>
-          <div class="posts">
-            <!-- IN JS -->
+          <div class="title-search-results">
+            <div class="text">
+              <h1>Resultados da Pesquisa</h1>
+              <div class="search-info">
+                <span id="results-count">0</span> resultados encontrados para
+                "<span id="search-term"></span>"
+              </div>
+              <div class="breadcrumb">
+                <a href="/">Home</a>
+                <span>/</span>
+                <a href="/explorar/blog.html">Blog</a>
+                <span>/</span>
+                <span>Pesquisa</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <article class="content-search-results">
+        <section>
+          <div class="search-posts" id="search-results">
+            <!-- Resultados serão inseridos aqui via JavaScript -->
           </div>
           <aside>
             <div class="input-search">
-              <input type="text" placeholder="Faça sua pesquisa..." />
-              <button aria-label="Botão de busca no blog">
+              <input
+                type="text"
+                id="search-input-results"
+                placeholder="Faça sua pesquisa..."
+              />
+              <button
+                id="search-button-results"
+                aria-label="Botão de busca no blog"
+              >
                 <i class="mdi mdi-search-web"></i>
               </button>
             </div>
@@ -194,60 +209,17 @@
                 <li><a href="/blog/categorias/contabil.html">Contábil</a></li>
               </ul>
             </div>
-            <div class="recents-posts">
-              <h2>Confira outros conteúdos</h2>
-              <div class="posts">
-                <a href="/explorar/sobre-nos.html" class="item">
-                  <div class="image">
-                    <img src="/images/title-about.jpg" alt="" loading="lazy" />
-                  </div>
-                  <div class="text">
-                    <h3>Sobre nós</h3>
-                    <p>
-                      Conheça nossa história, missão e os valores que nos movem.
-                    </p>
-                  </div>
-                </a>
-
-                <a href="/explorar/sobre-nos.html#section-service" class="item">
-                  <div class="image">
-                    <img
-                      src="/images/services-categories.webp"
-                      alt="Nossos serviços"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div class="text">
-                    <h3>Serviços</h3>
-                    <p>
-                      Explore as soluções que oferecemos para atender suas
-                      necessidades.
-                    </p>
-                  </div>
-                </a>
-
-                <a href="/index.html#feedback-section" class="item">
-                  <div class="image">
-                    <img
-                      src="/images/feedbacks-categories.webp"
-                      alt="Feedbacks de clientes"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div class="text">
-                    <h3>Feedbacks</h3>
-                    <p>
-                      Veja o que nossos clientes dizem sobre seus resultados
-                      conosco.
-                    </p>
-                  </div>
-                </a>
-              </div>
+            <div class="back-to-blog">
+              <a href="/explorar/blog.html">
+                <i class="mdi mdi-arrow-left"></i>
+                Voltar ao Blog
+              </a>
             </div>
           </aside>
         </section>
       </article>
     </main>
+
     <footer>
       <div class="columns">
         <div class="footer-column">
@@ -403,7 +375,6 @@
 
     <script src="/bannerPrivacy.js"></script>
     <script src="/header.js?=v1"></script>
-    <script src="/blog/categorias/categoryBlog.js?=v1" type="module"></script>
     <script src="/lib/searchBlog.js?=v1" type="module"></script>
     <script src="/whatsapp.js?v=1"></script>
     <script src="/scrollToTop.js?v=1"></script>

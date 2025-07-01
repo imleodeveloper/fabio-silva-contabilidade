@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #2f4f66 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+}
+
+.thank-you-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.thank-you-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #2f4f66, #8bc045);
+}
+
+.icon-container {
+  margin-bottom: 30px;
+}
+
+.fa-check-circle {
+  font-size: 4rem;
+  color: #28a745;
+  animation: fadeInScale 0.6s ease-out;
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.main-message {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.info-box {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 25px;
+  margin: 30px 0;
+  text-align: left;
+}
+
+.info-box h3 {
+  color: #2c3e50;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.info-box ul {
+  list-style: none;
+}
+
+.info-box li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.info-box li i {
+  color: #667eea;
+  margin-right: 12px;
+  width: 20px;
+  text-align: center;
+}
+
+.contact-info {
+  margin: 30px 0;
+  padding: 25px;
+  background: #fff;
+  border: 2px solid #e9ecef;
+  border-radius: 12px;
+}
+
+.contact-info h3 {
+  color: #2c3e50;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+  background: #e9ecef;
+  transform: translateY(-2px);
+}
+
+.contact-item i {
+  color: #667eea;
+  margin-right: 10px;
+  width: 20px;
+  text-align: center;
+}
+
+.contact-item a {
+  font-weight: 500;
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn i {
+  margin-right: 8px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #8bc045, #2f4f66);
+  color: white;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+.btn-secondary {
+  background: white;
+  color: #2f4f66;
+  border: 2px solid #2f4f66;
+}
+
+.btn-secondary:hover {
+  background: #2f4f66;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.footer-info {
+  text-align: center;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .thank-you-card {
+    padding: 30px 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .main-message {
+    font-size: 1rem;
+  }
+
+  .actions {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contact-methods {
+    gap: 8px;
+  }
+
+  .contact-item {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .thank-you-card {
+    padding: 25px 15px;
+  }
+
+  .fa-check-circle {
+    font-size: 3rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .info-box,
+  .contact-info {
+    padding: 20px;
+  }
+}

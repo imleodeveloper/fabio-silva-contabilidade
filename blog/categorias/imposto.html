@@ -3,13 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta description="Fábio Silva Contabilidade em Minas Gerais" />
+    <meta name="theme-color" content="#2f4f66" />
+    <meta
+      name="description"
+      content="Blog Imposto de Renda 2025 - Fábio Silva Contabilidade. Declaração IRPF, novidades 2025, deduções, restituição, obrigatoriedade. Dicas de contadores especialistas em Juiz de Fora MG para não errar na declaração."
+    />
+    <meta
+      name="keywords"
+      content="imposto de renda 2025, IRPF 2025, declaração imposto renda, deduções IRPF, restituição, contador imposto renda juiz de fora"
+    />
+    <meta name="author" content="Fábio Silva Contabilidade" />
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="canonical"
+      href="https://fabiosilvacontabilidade.com.br/blog/categorias/imposto.html"
+    />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
-    <title>Fábio Silva Contabilidade - Sobre nós</title>
+    <title>
+      Blog Imposto de Renda 2025 - Dicas IRPF | Fábio Silva Contabilidade Juiz
+      de Fora
+    </title>
 
     <link rel="stylesheet" href="/style.css?v=1" />
-    <link rel="stylesheet" href="/media.css?v=1" />
+    <link rel="stylesheet" href="/mediav2.css?v=1" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
@@ -124,10 +141,16 @@
                 <a href="/contato/index.html">Contato</a>
               </li>
             </ul>
+            <div class="search-header">
+              <input class="search" placeholder="Digite sua busca..." />
+              <button aria-label="Botão de busca no site">
+                <i class="mdi mdi-search-web"></i>
+              </button>
+            </div>
           </div>
           <div class="search-header">
             <input class="search" placeholder="Digite sua busca..." />
-            <button>
+            <button aria-label="Botão de busca no site">
               <i class="mdi mdi-search-web"></i>
             </button>
           </div>
@@ -149,7 +172,7 @@
           <aside>
             <div class="input-search">
               <input type="text" placeholder="Faça sua pesquisa..." />
-              <button>
+              <button aria-label="Botão de busca no blog">
                 <i class="mdi mdi-search-web"></i>
               </button>
             </div>
@@ -172,17 +195,53 @@
               </ul>
             </div>
             <div class="recents-posts">
-              <h2>Mais recentes</h2>
-              <div class="posts-wrapper">
-                <!-- IN JS -->
-              </div>
-              <div class="slider-controls">
-                <button id="btn-prev">
-                  <i class="mdi mdi-chevron-left"></i>
-                </button>
-                <button id="btn-next">
-                  <i class="mdi mdi-chevron-right"></i>
-                </button>
+              <h2>Confira outros conteúdos</h2>
+              <div class="posts">
+                <a href="/explorar/sobre-nos.html" class="item">
+                  <div class="image">
+                    <img src="/images/title-about.jpg" alt="" loading="lazy" />
+                  </div>
+                  <div class="text">
+                    <h3>Sobre nós</h3>
+                    <p>
+                      Conheça nossa história, missão e os valores que nos movem.
+                    </p>
+                  </div>
+                </a>
+
+                <a href="/explorar/sobre-nos.html#section-service" class="item">
+                  <div class="image">
+                    <img
+                      src="/images/services-categories.webp"
+                      alt="Nossos serviços"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="text">
+                    <h3>Serviços</h3>
+                    <p>
+                      Explore as soluções que oferecemos para atender suas
+                      necessidades.
+                    </p>
+                  </div>
+                </a>
+
+                <a href="/index.html#feedback-section" class="item">
+                  <div class="image">
+                    <img
+                      src="/images/feedbacks-categories.webp"
+                      alt="Feedbacks de clientes"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="text">
+                    <h3>Feedbacks</h3>
+                    <p>
+                      Veja o que nossos clientes dizem sobre seus resultados
+                      conosco.
+                    </p>
+                  </div>
+                </a>
               </div>
             </div>
           </aside>
@@ -345,6 +404,7 @@
     <script src="/bannerPrivacy.js"></script>
     <script src="/header.js?=v1"></script>
     <script src="/blog/categorias/categoryBlog.js?=v1" type="module"></script>
+    <script src="/lib/searchBlog.js?=v1" type="module"></script>
     <script src="/whatsapp.js?v=1"></script>
     <script src="/scrollToTop.js?v=1"></script>
   </body>
